@@ -1,0 +1,35 @@
+# docker run -d --name my-mongo -p 127.0.0.1:27017:27017 mongo:3.5
+
+# docker run -d --name my-elasticsearch -p 9200:9200 -e "http.host=0.0.0.0" -e "transport.host=127.0.0.1" docker.elastic.co/elasticsearch/elasticsearch:5.4.2
+
+# docker run -d --name my-fuseki -p 3030:3030 fuseki
+
+# docker run -d --name lov -p 3033:3033 bdo-lov
+
+version: '1'
+services:
+  mongodb:
+    image: "mongo:3.5"
+    ports:
+     - "127.0.0.1:27017:27017"
+    volumes:
+     - .:/todo
+  elasticsearch:
+    image: "docker.elastic.co/elasticsearch/elasticsearch:5.4.2"
+    ports:
+     - 9200:9200
+    args:
+     - http.host: 0.0.0.0
+     - transport.host: 127.0.0.1
+    volumes:
+     - .:/todo
+  fuseki:
+    build: "./fuseki"
+    ports:
+     - 3030:3030
+    volumes:
+     - .:/todo
+  lov:
+    build: "./lov"
+    ports:
+     - 3033:3033
