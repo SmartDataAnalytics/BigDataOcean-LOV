@@ -4,32 +4,33 @@
 
 # docker run -d --name my-fuseki -p 3030:3030 fuseki
 
-# docker run -d --name lov -p 3033:3033 bdo-lov
+# docker run -d --name lov -p 3033:3033 lov
 
-version: '1'
+version: '2'
 services:
   mongodb:
     image: "mongo:3.5"
     ports:
-     - "127.0.0.1:27017:27017"
+     - "27017:27017"
     volumes:
-     - .:/todo
+     - ./data/db:/data/db
   elasticsearch:
     image: "docker.elastic.co/elasticsearch/elasticsearch:5.4.2"
     ports:
      - 9200:9200
-    args:
-     - http.host: 0.0.0.0
-     - transport.host: 127.0.0.1
     volumes:
-     - .:/todo
+     - ./esdata:/usr/share/elasticsearch/data
   fuseki:
     build: "./fuseki"
     ports:
      - 3030:3030
     volumes:
-     - .:/todo
+     - ./data/fuseki:/fuseki
   lov:
     build: "./lov"
     ports:
      - 3033:3033
+    links:
+     - mongodb
+     - elasticsearch
+     - fuseki
