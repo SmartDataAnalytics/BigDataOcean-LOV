@@ -29,7 +29,7 @@ services:
   lov:
     build: "./lov"
     ports:
-     - 3033:3033
+     - 3333:3333
     links:
      - mongodb
      - elasticsearch
