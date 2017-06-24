@@ -19,7 +19,7 @@ services:
     ports:
      - 9200:9200
     volumes:
-     - ./esdata:/usr/share/elasticsearch/data
+     - esdata:/usr/share/elasticsearch/data
   fuseki:
     build: "./fuseki"
     ports:
@@ -34,3 +34,6 @@ services:
      - mongodb
      - elasticsearch
      - fuseki
+
+volumes:
+  esdata:
