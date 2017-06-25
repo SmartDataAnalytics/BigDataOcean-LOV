@@ -15,11 +15,7 @@ services:
     volumes:
      - ./data/db:/data/db
   elasticsearch:
-    image: "docker.elastic.co/elasticsearch/elasticsearch:5.4.2"
-    environment:
-     - http.host=0.0.0.0
-     - transport.host=127.0.0.1
-     - xpack.security.enabled=false
+    build: "./elasticsearch"
     ports:
      - 9200:9200
     volumes:
@@ -28,6 +24,8 @@ services:
     build: "./fuseki"
     ports:
      - 3030:3030
+    environment:
+     - ADMIN_PASSWORD=bd0
     volumes:
      - ./data/fuseki:/fuseki
   lov:

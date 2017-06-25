@@ -11,22 +11,21 @@ RUN apt-get install nodejs
 # Install lov
 WORKDIR /BDO
 RUN git clone https://github.com/EIS-Bonn/lov.git
-WORKDIR /BDO/lov/config
-COPY /files/configPath.js /BDO
+COPY configPath.js /BDO/lov/config/
 WORKDIR /BDO/lov/setup/
 RUN unzip versions.zip && mv versions/ /BDO/lov
 WORKDIR /BDO/lov/public/
-RUN unzip lov.zip
+RUN unzip bdo.zip
 WORKDIR /BDO/lov/
 RUN npm install
 
 # Install lovScripts
 WORKDIR /BDO
 RUN git clone https://github.com/EIS-Bonn/lovScripts.git
-COPY /files/log4j.properties /BDO/lovScripts/src/main/resources/
+COPY log4j.properties /BDO/lovScripts/src/main/resources/
 RUN mkdir -p /scripts/log && touch /scripts/log/server.log
-COPY /files/lov.config /BDO/lovScripts/
-COPY /files/configPath.java /BDO/lovScripts/src/main/java/org/lov/cli/
+COPY lov.config /BDO/lovScripts/
+COPY configPath.java /BDO/lovScripts/src/main/java/org/lov/cli/
 RUN cd lovScripts/ && mvn install
 
 # Install MongoDB
