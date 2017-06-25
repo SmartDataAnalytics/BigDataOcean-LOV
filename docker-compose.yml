@@ -12,22 +12,16 @@ services:
     image: "mongo:3.5"
     ports:
      - "27017:27017"
-    volumes:
-     - ./data/db:/data/db
   elasticsearch:
     build: "./elasticsearch"
     ports:
      - 9200:9200
-    volumes:
-     - esdata:/usr/share/elasticsearch/data
   fuseki:
     build: "./fuseki"
     ports:
      - 3030:3030
     environment:
      - ADMIN_PASSWORD=bd0
-    volumes:
-     - ./data/fuseki:/fuseki
   lov:
     build: "./lov"
     ports:
@@ -36,6 +30,3 @@ services:
      - mongodb
      - elasticsearch
      - fuseki
-
-volumes:
-  esdata:

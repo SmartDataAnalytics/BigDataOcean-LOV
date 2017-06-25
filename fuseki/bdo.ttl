@@ -8,7 +8,7 @@
 :service_tdb_all  a                   fuseki:Service ;
         rdfs:label                    "TDB bigdataocean" ;
         fuseki:dataset                :tdb_dataset_readwrite ;
-        fuseki:name                   "odfData" ;
+        fuseki:name                   "bigdataocean" ;
         fuseki:serviceQuery           "query" , "sparql" ;
         fuseki:serviceReadGraphStore  "get" ;
         fuseki:serviceReadWriteGraphStore
