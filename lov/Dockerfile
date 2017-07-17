@@ -1,7 +1,11 @@
 FROM java:8
 
 RUN apt-get update
-RUN apt-get install -y maven unzip build-essential
+RUN apt-get install -y maven unzip build-essential python-pip
+
+# Install flask and guepy
+RUN pip install Flask
+RUN pip install quepy
 
 # Install Node.js
 RUN apt-get install -y python-software-properties
@@ -11,7 +15,6 @@ RUN apt-get install nodejs
 # Install lov
 WORKDIR /BDO
 RUN git clone https://github.com/EIS-Bonn/lov.git
-COPY configPath.js /BDO/lov/config/
 WORKDIR /BDO/lov/setup/
 RUN unzip versions.zip && mv versions/ /BDO/lov
 WORKDIR /BDO/lov/public/
@@ -22,11 +25,12 @@ RUN npm install
 # Install lovScripts
 WORKDIR /BDO
 RUN git clone https://github.com/EIS-Bonn/lovScripts.git
-COPY log4j.properties /BDO/lovScripts/src/main/resources/
 RUN mkdir -p /scripts/log && touch /scripts/log/server.log
-COPY lov.config /BDO/lovScripts/
-COPY configPath.java /BDO/lovScripts/src/main/java/org/lov/cli/
 RUN cd lovScripts/ && mvn install
+
+# Install QA4LOV
+WORKDIR /BDO
+RUN git clone https://github.com/EIS-Bonn/QA4LOV.git
 
 # Install MongoDB
 RUN apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6

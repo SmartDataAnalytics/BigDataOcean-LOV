@@ -8,7 +8,8 @@ docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/setup/BDO_setup;
     mongoimport -h mongodb -d bdo -c users --file users.json;
     mongoimport -h mongodb -d bdo -c agents --file agents.json;
     mongoimport -h mongodb -d bdo -c languages --file languages.json;
-    mongoimport -h mongodb -d bdo -c vocabularies --file vocabularies.json'
+    mongoimport -h mongodb -d bdo -c vocabularies --file vocabularies.json;
+    mongoimport -h mongodb -d bdo -c pilots --file pilots.json'
 
 # Update BDO fuseki graphs
 docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/public;
