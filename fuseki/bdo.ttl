@@ -9,7 +9,8 @@
         rdfs:label                    "TDB bigdataocean" ;
         fuseki:dataset                :tdb_dataset_readwrite ;
         fuseki:name                   "bigdataocean" ;
-        fuseki:serviceQuery           "query" , "sparql" ;
+        fuseki:serviceQuery           "query" ;
+        fuseki:serviceQuery           "sparql" ;
         fuseki:serviceReadGraphStore  "get" ;
         fuseki:serviceReadWriteGraphStore
                 "data" ;
