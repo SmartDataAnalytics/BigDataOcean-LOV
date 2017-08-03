@@ -40,9 +40,9 @@ RUN apt-get update && apt-get install -y mongodb-org
 # Install fuseki
 RUN apt-get install -y ruby-full
 WORKDIR /
-RUN wget http://www.gutscheine.org/mirror/apache/jena/binaries/apache-jena-fuseki-2.6.0.zip
-RUN unzip apache-jena-fuseki-2.6.0.zip && rm apache-jena-fuseki-2.6.0.zip
-RUN chmod +x apache-jena-fuseki-2.6.0/bin/s-*
+RUN wget http://www.gutscheine.org/mirror/apache/jena/binaries/apache-jena-fuseki-3.4.0.zip
+RUN unzip apache-jena-fuseki-3.4.0.zip && rm apache-jena-fuseki-3.4.0.zip
+RUN chmod +x apache-jena-fuseki-3.4.0/bin/s-*
 
 WORKDIR /BDO/lov/
 CMD npm start
