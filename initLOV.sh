@@ -12,9 +12,9 @@ docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/setup/BDO_setup;
     mongoimport -h mongodb -d bdo -c pilots --file pilots.json'
 
 # Update BDO fuseki graphs
-docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/public;
-    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default lov.n3;
-    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default lov.nq'
+docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/;
+    apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default lov/public/lov.n3;
+    apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default lov/public/lov.nq'
 
 # Update elasticsearch index
 # It runs every day (86400 seconds) to update the bdo.n3 and bdo .nq and the elasticsearch index
