@@ -17,7 +17,8 @@ docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/public;
     /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default lov.nq'
 
 # Update elasticsearch index
+# It runs every day (86400 seconds) to update the bdo.n3 and bdo .nq and the elasticsearch index
 docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lovScripts/target/lovscripts-cli/lovscripts/bin/;
-    ./create-index; ./index-lov'
+    while true; do ./mongo2rdf && ./create-index && ./index-lov; sleep 86400; done'
 
 
