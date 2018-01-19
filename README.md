@@ -9,3 +9,8 @@ $ docker-compose up
 ```sh 
 $ ./initLOV
 ```
+### Note:
+Do not forget to initialize LOV, the bash contains a repeat cycle that permits to update the system every day.
+
+
+Then visit http://localhost:3333/
