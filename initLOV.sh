@@ -13,8 +13,14 @@ docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/setup/BDO_setup;
 
 # Update elasticsearch index
 # It runs every day (86400 seconds) to update the bdo.n3 and bdo.nq and the elasticsearch index and last the endpoint data is updated
+# docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lovScripts/target/lovscripts-cli/lovscripts/bin/;
+#    while true; do ./mongo2rdf && ./create-index && ./index-lov; 
+#    cd /BDO/; cd ..; 
+#    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3;
+#    sleep 86400; done'
+
 docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lovScripts/target/lovscripts-cli/lovscripts/bin/;
-    while true; do ./mongo2rdf && ./create-index && ./index-lov; 
+    ./mongo2rdf && ./create-index && ./index-lov; 
     cd /BDO/; cd ..; 
-    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3;
-    sleep 86400; done'
+    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3'
+
