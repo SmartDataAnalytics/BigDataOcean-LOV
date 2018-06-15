@@ -1,14 +1,15 @@
 FROM java:8
 
-RUN apt-get update
-RUN apt-get install -y maven unzip build-essential python-pip
+RUN apt-get update \
+  && apt-get install -y maven unzip build-essential python-pip
 
 # Install flask and guepy
 RUN pip install Flask
 RUN pip install quepy
 
 # Install Node.js
-RUN apt-get install -y python-software-properties
+RUN apt-get update \
+  && apt-get install -y python-software-properties
 RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
 RUN apt-get install nodejs
 
