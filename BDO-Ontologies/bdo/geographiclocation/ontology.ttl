@@ -1,23 +1,24 @@
-@prefix : <http://bigdataocean.eu/bdo/geographiclocation#> .
+@prefix : <http://purl.org/bdo/geographiclocation#> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
-@base <http://bigdataocean.eu/bdo/geographiclocation#> .
+@base <http://purl.org/bdo/geographiclocation#> .
 
-<http://bigdataocean.eu/bdo/geographiclocation#> rdf:type owl:Ontology ;
-                                                  <http://creativecommons.org/ns#licence> <https://creativecommons.org/licenses/by/3.0/> ;
-                                                  <http://purl.org/dc/terms/creator> "Ana-Cristina Trillos-Ujueta"^^xsd:string ,
-                                                                                     "Jaime-Manuel Trillos-Ujueta"^^xsd:string ;
-                                                  <http://purl.org/dc/terms/description> "A vocabulary which represents the geographic location standards used in Big Data Ocean."@en ;
-                                                  <http://purl.org/dc/terms/issued> "2018-08-15T13:00:00"^^xsd:dateTime ;
-                                                  <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by-nc-sa/3.0/> ;
-                                                  <http://purl.org/dc/terms/title> "Geographic Location Standards for Big Data Ocean"@en ;
-                                                  <http://purl.org/vocab/vann/preferredNamespacePrefix> "geolocbdo"^^xsd:string ;
-                                                  <http://purl.org/vocab/vann/preferredNamespaceUri> "http://bigdataocean.eu/bdo/geographiclocation#"^^xsd:string ;
-                                                  rdfs:comment "Version 1: Vocabulary creation"@en ;
-                                                  owl:versionInfo 1.0 .
+<http://purl.org/bdo/geographiclocation#> rdf:type owl:Ontology ;
+                                           <http://creativecommons.org/ns#licence> <https://creativecommons.org/licenses/by/3.0/> ;
+                                           <http://purl.org/dc/terms/creator> "Ana-Cristina Trillos-Ujueta"^^xsd:string ,
+                                                                              "Jaime-Manuel Trillos-Ujueta"^^xsd:string ;
+                                           <http://purl.org/dc/terms/description> "A vocabulary which represents the geographic location standards used in Big Data Ocean."@en ;
+                                           <http://purl.org/dc/terms/issued> "2018-08-15T13:00:00"^^xsd:dateTime ;
+                                           <http://purl.org/dc/terms/publisher> <http://dbpedia.org/resource/University_of_Bonn> ;
+                                           <http://purl.org/dc/terms/rights> <http://creativecommons.org/licenses/by-nc-sa/3.0/> ;
+                                           <http://purl.org/dc/terms/title> "Geographic Location Standards for Big Data Ocean"@en ;
+                                           <http://purl.org/vocab/vann/preferredNamespacePrefix> "geolocbdo"^^xsd:string ;
+                                           <http://purl.org/vocab/vann/preferredNamespaceUri> "http://purl.org/bdo/geographiclocation#"^^xsd:string ;
+                                           rdfs:comment "Version 1: Vocabulary creation"@en ;
+                                           owl:versionInfo 1.0 .
 
 #################################################################
 #    Annotation properties
@@ -33,6 +34,10 @@
 
 ###  http://purl.org/dc/terms/issued
 <http://purl.org/dc/terms/issued> rdf:type owl:AnnotationProperty .
+
+
+###  http://purl.org/dc/terms/publisher
+<http://purl.org/dc/terms/publisher> rdf:type owl:AnnotationProperty .
 
 
 ###  http://purl.org/dc/terms/rights
@@ -63,9 +68,9 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Classes
 #################################################################
 
-###  http://bigdataocean.eu/bdo/geographiclocation#GeoStandard
-<http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> rdf:type owl:Class ;
-                                                            rdfs:label "Geographic Location Standard"@en .
+###  http://purl.org/bdo/geographiclocation#GeoStandard
+<http://purl.org/bdo/geographiclocation#GeoStandard> rdf:type owl:Class ;
+                                                     rdfs:label "Geographic Location Standard"@en .
 
 
 ###  http://purl.org/vocommons/voaf#Vocabulary
@@ -76,911 +81,911 @@ owl:sameAs rdf:type owl:AnnotationProperty .
 #    Individuals
 #################################################################
 
-###  http://bigdataocean.eu/bdo/geographiclocation#
-<http://bigdataocean.eu/bdo/geographiclocation#> rdf:type owl:NamedIndividual ,
-                                                          <http://purl.org/vocommons/voaf#Vocabulary> .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1904
-<http://bigdataocean.eu/bdo/geographiclocation#1904> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1904> ;
-                                                     rdfs:label "Indian Ocean"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1905
-<http://bigdataocean.eu/bdo/geographiclocation#1905> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1905> ;
-                                                     rdfs:label "Mediterranean Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1906
-<http://bigdataocean.eu/bdo/geographiclocation#1906> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1906> ;
-                                                     rdfs:label "Arctic Ocean"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1908
-<http://bigdataocean.eu/bdo/geographiclocation#1908> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1908> ;
-                                                     rdfs:label "North Pacific Ocean"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1910
-<http://bigdataocean.eu/bdo/geographiclocation#1910> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1910> ;
-                                                     rdfs:label "South Pacific Ocean"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1912
-<http://bigdataocean.eu/bdo/geographiclocation#1912> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1912> ;
-                                                     rdfs:label "North Atlantic Ocean"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#1914
-<http://bigdataocean.eu/bdo/geographiclocation#1914> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/1914> ;
-                                                     rdfs:label "South Atlantic Ocean"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2350
-<http://bigdataocean.eu/bdo/geographiclocation#2350> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2350> ;
-                                                     rdfs:label "North Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2351
-<http://bigdataocean.eu/bdo/geographiclocation#2351> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2351> ;
-                                                     rdfs:label "Celtic Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2353
-<http://bigdataocean.eu/bdo/geographiclocation#2353> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2353> ;
-                                                     rdfs:label "Norwegian Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2356
-<http://bigdataocean.eu/bdo/geographiclocation#2356> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2356> ;
-                                                     rdfs:label "Greenland Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2357
-<http://bigdataocean.eu/bdo/geographiclocation#2357> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2357> ;
-                                                     rdfs:label "Irish Sea and St. George's Channel"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2359
-<http://bigdataocean.eu/bdo/geographiclocation#2359> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2359> ;
-                                                     rdfs:label "Bay of Biscay"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2374
-<http://bigdataocean.eu/bdo/geographiclocation#2374> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2374> ;
-                                                     rdfs:label "Kattegat"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2379
-<http://bigdataocean.eu/bdo/geographiclocation#2379> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2379> ;
-                                                     rdfs:label "Skagerrak"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2389
-<http://bigdataocean.eu/bdo/geographiclocation#2389> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2389> ;
-                                                     rdfs:label "English Channel"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2401
-<http://bigdataocean.eu/bdo/geographiclocation#2401> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2401> ;
-                                                     rdfs:label "Baltic Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2402
-<http://bigdataocean.eu/bdo/geographiclocation#2402> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2402> ;
-                                                     rdfs:label "Gulf of Bothnia"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2407
-<http://bigdataocean.eu/bdo/geographiclocation#2407> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2407> ;
-                                                     rdfs:label "Gulf of Finland"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#2409
-<http://bigdataocean.eu/bdo/geographiclocation#2409> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/2409> ;
-                                                     rdfs:label "Gulf of Riga"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3141
-<http://bigdataocean.eu/bdo/geographiclocation#3141> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3141> ;
-                                                     rdfs:label "Bristol Channel"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3314
-<http://bigdataocean.eu/bdo/geographiclocation#3314> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3314> ;
-                                                     rdfs:label "Adriatic Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3315
-<http://bigdataocean.eu/bdo/geographiclocation#3315> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3315> ;
-                                                     rdfs:label "Aegean Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3319
-<http://bigdataocean.eu/bdo/geographiclocation#3319> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3319> ;
-                                                     rdfs:label "Black Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3320
-<http://bigdataocean.eu/bdo/geographiclocation#3320> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3320> ;
-                                                     rdfs:label "Sea of Azov"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3322
-<http://bigdataocean.eu/bdo/geographiclocation#3322> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3322> ;
-                                                     rdfs:label "Balearic Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3324
-<http://bigdataocean.eu/bdo/geographiclocation#3324> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3324> ;
-                                                     rdfs:label "Alboran Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3346
-<http://bigdataocean.eu/bdo/geographiclocation#3346> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3346> ;
-                                                     rdfs:label "Strait of Gibraltar"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3351
-<http://bigdataocean.eu/bdo/geographiclocation#3351> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3351> ;
-                                                     rdfs:label "Ionian Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3363
-<http://bigdataocean.eu/bdo/geographiclocation#3363> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3363> ;
-                                                     rdfs:label "Ligurian Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3369
-<http://bigdataocean.eu/bdo/geographiclocation#3369> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3369> ;
-                                                     rdfs:label "Sea of Marmara"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#3386
-<http://bigdataocean.eu/bdo/geographiclocation#3386> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/3386> ;
-                                                     rdfs:label "Tyrrhenian Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4244
-<http://bigdataocean.eu/bdo/geographiclocation#4244> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4244> ;
-                                                     rdfs:label "East Siberian Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4245
-<http://bigdataocean.eu/bdo/geographiclocation#4245> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4245> ;
-                                                     rdfs:label "Laptev Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4246
-<http://bigdataocean.eu/bdo/geographiclocation#4246> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4246> ;
-                                                     rdfs:label "Kara Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4247
-<http://bigdataocean.eu/bdo/geographiclocation#4247> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4247> ;
-                                                     rdfs:label "Barentsz Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4248
-<http://bigdataocean.eu/bdo/geographiclocation#4248> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4248> ;
-                                                     rdfs:label "White Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4250
-<http://bigdataocean.eu/bdo/geographiclocation#4250> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4250> ;
-                                                     rdfs:label "Davis Strait"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4251
-<http://bigdataocean.eu/bdo/geographiclocation#4251> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4251> ;
-                                                     rdfs:label "Hudson Strait"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4252
-<http://bigdataocean.eu/bdo/geographiclocation#4252> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4252> ;
-                                                     rdfs:label "Hudson Bay"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4253
-<http://bigdataocean.eu/bdo/geographiclocation#4253> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4253> ;
-                                                     rdfs:label "Baffin Bay"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4254
-<http://bigdataocean.eu/bdo/geographiclocation#4254> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4254> ;
-                                                     rdfs:label "Lincoln Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4256
-<http://bigdataocean.eu/bdo/geographiclocation#4256> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4256> ;
-                                                     rdfs:label "Beaufort Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4257
-<http://bigdataocean.eu/bdo/geographiclocation#4257> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4257> ;
-                                                     rdfs:label "Chukchi Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4261
-<http://bigdataocean.eu/bdo/geographiclocation#4261> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4261> ;
-                                                     rdfs:label "Mozambique Channel"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4262
-<http://bigdataocean.eu/bdo/geographiclocation#4262> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4262> ;
-                                                     rdfs:label "Gulf of Suez"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4264
-<http://bigdataocean.eu/bdo/geographiclocation#4264> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4264> ;
-                                                     rdfs:label "Red Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4265
-<http://bigdataocean.eu/bdo/geographiclocation#4265> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4265> ;
-                                                     rdfs:label "Gulf of Aden"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4266
-<http://bigdataocean.eu/bdo/geographiclocation#4266> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4266> ;
-                                                     rdfs:label "Persian Gulf"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4267
-<http://bigdataocean.eu/bdo/geographiclocation#4267> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4267> ;
-                                                     rdfs:label "Gulf of Oman"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4268
-<http://bigdataocean.eu/bdo/geographiclocation#4268> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4268> ;
-                                                     rdfs:label "Arabian Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4273
-<http://bigdataocean.eu/bdo/geographiclocation#4273> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4273> ;
-                                                     rdfs:label "Bay of Bengal"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4274
-<http://bigdataocean.eu/bdo/geographiclocation#4274> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4274> ;
-                                                     rdfs:label "Andaman Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4275
-<http://bigdataocean.eu/bdo/geographiclocation#4275> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4275> ;
-                                                     rdfs:label "Malacca Strait"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4276
-<http://bigdataocean.eu/bdo/geographiclocation#4276> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4276> ;
-                                                     rdfs:label "Great Australian Bight"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4279
-<http://bigdataocean.eu/bdo/geographiclocation#4279> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4279> ;
-                                                     rdfs:label "Mediterranean Sea - Western Basin"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4280
-<http://bigdataocean.eu/bdo/geographiclocation#4280> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4280> ;
-                                                     rdfs:label "Mediterranean Sea - Eastern Basin"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4283
-<http://bigdataocean.eu/bdo/geographiclocation#4283> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4283> ;
-                                                     rdfs:label "Inner Seas off the West Coast of Scotland"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4286
-<http://bigdataocean.eu/bdo/geographiclocation#4286> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4286> ;
-                                                     rdfs:label "Gulf of Guinea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4287
-<http://bigdataocean.eu/bdo/geographiclocation#4287> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4287> ;
-                                                     rdfs:label "Caribbean Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4288
-<http://bigdataocean.eu/bdo/geographiclocation#4288> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4288> ;
-                                                     rdfs:label "Gulf of Mexico"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4289
-<http://bigdataocean.eu/bdo/geographiclocation#4289> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4289> ;
-                                                     rdfs:label "Bay of Fundy"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4291
-<http://bigdataocean.eu/bdo/geographiclocation#4291> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4291> ;
-                                                     rdfs:label "Labrador Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4300
-<http://bigdataocean.eu/bdo/geographiclocation#4300> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4300> ;
-                                                     rdfs:label "Philippine Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4302
-<http://bigdataocean.eu/bdo/geographiclocation#4302> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4302> ;
-                                                     rdfs:label "Eastern China Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4303
-<http://bigdataocean.eu/bdo/geographiclocation#4303> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4303> ;
-                                                     rdfs:label "Yellow Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4307
-<http://bigdataocean.eu/bdo/geographiclocation#4307> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4307> ;
-                                                     rdfs:label "Japan Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4309
-<http://bigdataocean.eu/bdo/geographiclocation#4309> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4309> ;
-                                                     rdfs:label "Sea of Okhotsk"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4310
-<http://bigdataocean.eu/bdo/geographiclocation#4310> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4310> ;
-                                                     rdfs:label "Bering Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4312
-<http://bigdataocean.eu/bdo/geographiclocation#4312> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4312> ;
-                                                     rdfs:label "Gulf of Alaska"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4313
-<http://bigdataocean.eu/bdo/geographiclocation#4313> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4313> ;
-                                                     rdfs:label "The Coastal Waters of Southeast Alaska and British Columbia"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4314
-<http://bigdataocean.eu/bdo/geographiclocation#4314> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4314> ;
-                                                     rdfs:label "Gulf of California"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4325
-<http://bigdataocean.eu/bdo/geographiclocation#4325> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4325> ;
-                                                     rdfs:label "Rio de La Plata"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4332
-<http://bigdataocean.eu/bdo/geographiclocation#4332> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4332> ;
-                                                     rdfs:label "South China Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4360
-<http://bigdataocean.eu/bdo/geographiclocation#4360> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4360> ;
-                                                     rdfs:label "Bismarck Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4361
-<http://bigdataocean.eu/bdo/geographiclocation#4361> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4361> ;
-                                                     rdfs:label "Solomon Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4364
-<http://bigdataocean.eu/bdo/geographiclocation#4364> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4364> ;
-                                                     rdfs:label "Coral Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4365
-<http://bigdataocean.eu/bdo/geographiclocation#4365> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4365> ;
-                                                     rdfs:label "Tasman Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4366
-<http://bigdataocean.eu/bdo/geographiclocation#4366> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4366> ;
-                                                     rdfs:label "Bass Strait"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#4969
-<http://bigdataocean.eu/bdo/geographiclocation#4969> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/4969> ;
-                                                     rdfs:label "Laccadive Sea"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#49716
-<http://bigdataocean.eu/bdo/geographiclocation#49716> rdf:type owl:NamedIndividual ,
-                                                               <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                      owl:sameAs <http://marineregions.org/mrgid/49716> ;
-                                                      rdfs:label "Gulf of St. Lawrence"@en .
-
-
-###  http://bigdataocean.eu/bdo/geographiclocation#5698
-<http://bigdataocean.eu/bdo/geographiclocation#5698> rdf:type owl:NamedIndividual ,
-                                                              <http://bigdataocean.eu/bdo/geographiclocation#GeoStandard> ;
-                                                     owl:sameAs <http://marineregions.org/mrgid/5698> ;
-                                                     rdfs:label "Northwestern Passages"@en .
-
-
 ###  http://marineregions.org/mrgid/1904
-<http://marineregions.org/mrgid/1904> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1904> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1904> .
 
 
 ###  http://marineregions.org/mrgid/1905
-<http://marineregions.org/mrgid/1905> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1905> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1905> .
 
 
 ###  http://marineregions.org/mrgid/1906
-<http://marineregions.org/mrgid/1906> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1906> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1906> .
 
 
 ###  http://marineregions.org/mrgid/1908
-<http://marineregions.org/mrgid/1908> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1908> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1908> .
 
 
 ###  http://marineregions.org/mrgid/1910
-<http://marineregions.org/mrgid/1910> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1910> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1910> .
 
 
 ###  http://marineregions.org/mrgid/1912
-<http://marineregions.org/mrgid/1912> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1912> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1912> .
 
 
 ###  http://marineregions.org/mrgid/1914
-<http://marineregions.org/mrgid/1914> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/1914> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#1914> .
 
 
 ###  http://marineregions.org/mrgid/2350
-<http://marineregions.org/mrgid/2350> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2350> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2350> .
 
 
 ###  http://marineregions.org/mrgid/2351
-<http://marineregions.org/mrgid/2351> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2351> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2351> .
 
 
 ###  http://marineregions.org/mrgid/2353
-<http://marineregions.org/mrgid/2353> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2353> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2353> .
 
 
 ###  http://marineregions.org/mrgid/2356
-<http://marineregions.org/mrgid/2356> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2356> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2356> .
 
 
 ###  http://marineregions.org/mrgid/2357
-<http://marineregions.org/mrgid/2357> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2357> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2357> .
 
 
 ###  http://marineregions.org/mrgid/2359
-<http://marineregions.org/mrgid/2359> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2359> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2359> .
 
 
 ###  http://marineregions.org/mrgid/2374
-<http://marineregions.org/mrgid/2374> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2374> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2374> .
 
 
 ###  http://marineregions.org/mrgid/2379
-<http://marineregions.org/mrgid/2379> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2379> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2379> .
 
 
 ###  http://marineregions.org/mrgid/2389
-<http://marineregions.org/mrgid/2389> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2389> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2389> .
 
 
 ###  http://marineregions.org/mrgid/2401
-<http://marineregions.org/mrgid/2401> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2401> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2401> .
 
 
 ###  http://marineregions.org/mrgid/2402
-<http://marineregions.org/mrgid/2402> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2402> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2402> .
 
 
 ###  http://marineregions.org/mrgid/2407
-<http://marineregions.org/mrgid/2407> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2407> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2407> .
 
 
 ###  http://marineregions.org/mrgid/2409
-<http://marineregions.org/mrgid/2409> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/2409> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#2409> .
 
 
 ###  http://marineregions.org/mrgid/3141
-<http://marineregions.org/mrgid/3141> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3141> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3141> .
 
 
 ###  http://marineregions.org/mrgid/3314
-<http://marineregions.org/mrgid/3314> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3314> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3314> .
 
 
 ###  http://marineregions.org/mrgid/3315
-<http://marineregions.org/mrgid/3315> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3315> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3315> .
 
 
 ###  http://marineregions.org/mrgid/3319
-<http://marineregions.org/mrgid/3319> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3319> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3319> .
 
 
 ###  http://marineregions.org/mrgid/3320
-<http://marineregions.org/mrgid/3320> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3320> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3320> .
 
 
 ###  http://marineregions.org/mrgid/3322
-<http://marineregions.org/mrgid/3322> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3322> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3322> .
 
 
 ###  http://marineregions.org/mrgid/3324
-<http://marineregions.org/mrgid/3324> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3324> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3324> .
 
 
 ###  http://marineregions.org/mrgid/3346
-<http://marineregions.org/mrgid/3346> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3346> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3346> .
 
 
 ###  http://marineregions.org/mrgid/3351
-<http://marineregions.org/mrgid/3351> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3351> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3351> .
 
 
 ###  http://marineregions.org/mrgid/3363
-<http://marineregions.org/mrgid/3363> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3363> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3363> .
 
 
 ###  http://marineregions.org/mrgid/3369
-<http://marineregions.org/mrgid/3369> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3369> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3369> .
 
 
 ###  http://marineregions.org/mrgid/3386
-<http://marineregions.org/mrgid/3386> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/3386> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#3386> .
 
 
 ###  http://marineregions.org/mrgid/4244
-<http://marineregions.org/mrgid/4244> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4244> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4244> .
 
 
 ###  http://marineregions.org/mrgid/4245
-<http://marineregions.org/mrgid/4245> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4245> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4245> .
 
 
 ###  http://marineregions.org/mrgid/4246
-<http://marineregions.org/mrgid/4246> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4246> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4246> .
 
 
 ###  http://marineregions.org/mrgid/4247
-<http://marineregions.org/mrgid/4247> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4247> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4247> .
 
 
 ###  http://marineregions.org/mrgid/4248
-<http://marineregions.org/mrgid/4248> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4248> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4248> .
 
 
 ###  http://marineregions.org/mrgid/4250
-<http://marineregions.org/mrgid/4250> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4250> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4250> .
 
 
 ###  http://marineregions.org/mrgid/4251
-<http://marineregions.org/mrgid/4251> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4251> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4251> .
 
 
 ###  http://marineregions.org/mrgid/4252
-<http://marineregions.org/mrgid/4252> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4252> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4252> .
 
 
 ###  http://marineregions.org/mrgid/4253
-<http://marineregions.org/mrgid/4253> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4253> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4253> .
 
 
 ###  http://marineregions.org/mrgid/4254
-<http://marineregions.org/mrgid/4254> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4254> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4254> .
 
 
 ###  http://marineregions.org/mrgid/4256
-<http://marineregions.org/mrgid/4256> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4256> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4256> .
 
 
 ###  http://marineregions.org/mrgid/4257
-<http://marineregions.org/mrgid/4257> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4257> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4257> .
 
 
 ###  http://marineregions.org/mrgid/4261
-<http://marineregions.org/mrgid/4261> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4261> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4261> .
 
 
 ###  http://marineregions.org/mrgid/4262
-<http://marineregions.org/mrgid/4262> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4262> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4262> .
 
 
 ###  http://marineregions.org/mrgid/4264
-<http://marineregions.org/mrgid/4264> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4264> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4264> .
 
 
 ###  http://marineregions.org/mrgid/4265
-<http://marineregions.org/mrgid/4265> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4265> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4265> .
 
 
 ###  http://marineregions.org/mrgid/4266
-<http://marineregions.org/mrgid/4266> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4266> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4266> .
 
 
 ###  http://marineregions.org/mrgid/4267
-<http://marineregions.org/mrgid/4267> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4267> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4267> .
 
 
 ###  http://marineregions.org/mrgid/4268
-<http://marineregions.org/mrgid/4268> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4268> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4268> .
 
 
 ###  http://marineregions.org/mrgid/4273
-<http://marineregions.org/mrgid/4273> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4273> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4273> .
 
 
 ###  http://marineregions.org/mrgid/4274
-<http://marineregions.org/mrgid/4274> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4274> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4274> .
 
 
 ###  http://marineregions.org/mrgid/4275
-<http://marineregions.org/mrgid/4275> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4275> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4275> .
 
 
 ###  http://marineregions.org/mrgid/4276
-<http://marineregions.org/mrgid/4276> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4276> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4276> .
 
 
 ###  http://marineregions.org/mrgid/4279
-<http://marineregions.org/mrgid/4279> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4279> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4279> .
 
 
 ###  http://marineregions.org/mrgid/4280
-<http://marineregions.org/mrgid/4280> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4280> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4280> .
 
 
 ###  http://marineregions.org/mrgid/4283
-<http://marineregions.org/mrgid/4283> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4283> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4283> .
 
 
 ###  http://marineregions.org/mrgid/4286
-<http://marineregions.org/mrgid/4286> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4286> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4286> .
 
 
 ###  http://marineregions.org/mrgid/4287
-<http://marineregions.org/mrgid/4287> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4287> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4287> .
 
 
 ###  http://marineregions.org/mrgid/4288
-<http://marineregions.org/mrgid/4288> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4288> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4288> .
 
 
 ###  http://marineregions.org/mrgid/4289
-<http://marineregions.org/mrgid/4289> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4289> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4289> .
 
 
 ###  http://marineregions.org/mrgid/4291
-<http://marineregions.org/mrgid/4291> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4291> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4291> .
 
 
 ###  http://marineregions.org/mrgid/4300
-<http://marineregions.org/mrgid/4300> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4300> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4300> .
 
 
 ###  http://marineregions.org/mrgid/4302
-<http://marineregions.org/mrgid/4302> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4302> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4302> .
 
 
 ###  http://marineregions.org/mrgid/4303
-<http://marineregions.org/mrgid/4303> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4303> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4303> .
 
 
 ###  http://marineregions.org/mrgid/4307
-<http://marineregions.org/mrgid/4307> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4307> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4307> .
 
 
 ###  http://marineregions.org/mrgid/4309
-<http://marineregions.org/mrgid/4309> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4309> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4309> .
 
 
 ###  http://marineregions.org/mrgid/4310
-<http://marineregions.org/mrgid/4310> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4310> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4310> .
 
 
 ###  http://marineregions.org/mrgid/4312
-<http://marineregions.org/mrgid/4312> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4312> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4312> .
 
 
 ###  http://marineregions.org/mrgid/4313
-<http://marineregions.org/mrgid/4313> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4313> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4313> .
 
 
 ###  http://marineregions.org/mrgid/4314
-<http://marineregions.org/mrgid/4314> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4314> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4314> .
 
 
 ###  http://marineregions.org/mrgid/4325
-<http://marineregions.org/mrgid/4325> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4325> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4325> .
 
 
 ###  http://marineregions.org/mrgid/4332
-<http://marineregions.org/mrgid/4332> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4332> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4332> .
 
 
 ###  http://marineregions.org/mrgid/4360
-<http://marineregions.org/mrgid/4360> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4360> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4360> .
 
 
 ###  http://marineregions.org/mrgid/4361
-<http://marineregions.org/mrgid/4361> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4361> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4361> .
 
 
 ###  http://marineregions.org/mrgid/4364
-<http://marineregions.org/mrgid/4364> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4364> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4364> .
 
 
 ###  http://marineregions.org/mrgid/4365
-<http://marineregions.org/mrgid/4365> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4365> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4365> .
 
 
 ###  http://marineregions.org/mrgid/4366
-<http://marineregions.org/mrgid/4366> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4366> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4366> .
 
 
 ###  http://marineregions.org/mrgid/4969
-<http://marineregions.org/mrgid/4969> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/4969> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#4969> .
 
 
 ###  http://marineregions.org/mrgid/49716
-<http://marineregions.org/mrgid/49716> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/49716> rdf:type owl:NamedIndividual ;
+                                       owl:sameAs <http://purl.org/bdo/geographiclocation#49716> .
 
 
 ###  http://marineregions.org/mrgid/5698
-<http://marineregions.org/mrgid/5698> rdf:type owl:NamedIndividual .
+<http://marineregions.org/mrgid/5698> rdf:type owl:NamedIndividual ;
+                                      owl:sameAs <http://purl.org/bdo/geographiclocation#5698> .
+
+
+###  http://purl.org/bdo/geographiclocation#
+<http://purl.org/bdo/geographiclocation#> rdf:type owl:NamedIndividual ,
+                                                   <http://purl.org/vocommons/voaf#Vocabulary> .
+
+
+###  http://purl.org/bdo/geographiclocation#1904
+<http://purl.org/bdo/geographiclocation#1904> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Indian Ocean"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#1905
+<http://purl.org/bdo/geographiclocation#1905> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Mediterranean Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#1906
+<http://purl.org/bdo/geographiclocation#1906> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Arctic Ocean"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#1908
+<http://purl.org/bdo/geographiclocation#1908> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "North Pacific Ocean"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#1910
+<http://purl.org/bdo/geographiclocation#1910> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "South Pacific Ocean"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#1912
+<http://purl.org/bdo/geographiclocation#1912> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "North Atlantic Ocean"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#1914
+<http://purl.org/bdo/geographiclocation#1914> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "South Atlantic Ocean"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2350
+<http://purl.org/bdo/geographiclocation#2350> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "North Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2351
+<http://purl.org/bdo/geographiclocation#2351> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Celtic Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2353
+<http://purl.org/bdo/geographiclocation#2353> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Norwegian Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2356
+<http://purl.org/bdo/geographiclocation#2356> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Greenland Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2357
+<http://purl.org/bdo/geographiclocation#2357> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Irish Sea and St. George's Channel"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2359
+<http://purl.org/bdo/geographiclocation#2359> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bay of Biscay"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2374
+<http://purl.org/bdo/geographiclocation#2374> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Kattegat"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2379
+<http://purl.org/bdo/geographiclocation#2379> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Skagerrak"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2389
+<http://purl.org/bdo/geographiclocation#2389> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "English Channel"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2401
+<http://purl.org/bdo/geographiclocation#2401> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Baltic Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2402
+<http://purl.org/bdo/geographiclocation#2402> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Bothnia"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2407
+<http://purl.org/bdo/geographiclocation#2407> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Finland"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#2409
+<http://purl.org/bdo/geographiclocation#2409> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Riga"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3141
+<http://purl.org/bdo/geographiclocation#3141> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bristol Channel"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3314
+<http://purl.org/bdo/geographiclocation#3314> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Adriatic Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3315
+<http://purl.org/bdo/geographiclocation#3315> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Aegean Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3319
+<http://purl.org/bdo/geographiclocation#3319> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Black Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3320
+<http://purl.org/bdo/geographiclocation#3320> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Sea of Azov"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3322
+<http://purl.org/bdo/geographiclocation#3322> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Balearic Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3324
+<http://purl.org/bdo/geographiclocation#3324> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Alboran Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3346
+<http://purl.org/bdo/geographiclocation#3346> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Strait of Gibraltar"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3351
+<http://purl.org/bdo/geographiclocation#3351> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Ionian Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3363
+<http://purl.org/bdo/geographiclocation#3363> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Ligurian Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3369
+<http://purl.org/bdo/geographiclocation#3369> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Sea of Marmara"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#3386
+<http://purl.org/bdo/geographiclocation#3386> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Tyrrhenian Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4244
+<http://purl.org/bdo/geographiclocation#4244> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "East Siberian Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4245
+<http://purl.org/bdo/geographiclocation#4245> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Laptev Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4246
+<http://purl.org/bdo/geographiclocation#4246> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Kara Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4247
+<http://purl.org/bdo/geographiclocation#4247> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Barentsz Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4248
+<http://purl.org/bdo/geographiclocation#4248> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "White Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4250
+<http://purl.org/bdo/geographiclocation#4250> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Davis Strait"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4251
+<http://purl.org/bdo/geographiclocation#4251> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Hudson Strait"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4252
+<http://purl.org/bdo/geographiclocation#4252> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Hudson Bay"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4253
+<http://purl.org/bdo/geographiclocation#4253> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Baffin Bay"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4254
+<http://purl.org/bdo/geographiclocation#4254> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Lincoln Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4256
+<http://purl.org/bdo/geographiclocation#4256> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Beaufort Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4257
+<http://purl.org/bdo/geographiclocation#4257> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Chukchi Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4261
+<http://purl.org/bdo/geographiclocation#4261> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Mozambique Channel"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4262
+<http://purl.org/bdo/geographiclocation#4262> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Suez"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4264
+<http://purl.org/bdo/geographiclocation#4264> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Red Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4265
+<http://purl.org/bdo/geographiclocation#4265> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Aden"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4266
+<http://purl.org/bdo/geographiclocation#4266> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Persian Gulf"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4267
+<http://purl.org/bdo/geographiclocation#4267> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Oman"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4268
+<http://purl.org/bdo/geographiclocation#4268> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Arabian Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4273
+<http://purl.org/bdo/geographiclocation#4273> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bay of Bengal"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4274
+<http://purl.org/bdo/geographiclocation#4274> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Andaman Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4275
+<http://purl.org/bdo/geographiclocation#4275> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Malacca Strait"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4276
+<http://purl.org/bdo/geographiclocation#4276> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Great Australian Bight"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4279
+<http://purl.org/bdo/geographiclocation#4279> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Mediterranean Sea - Western Basin"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4280
+<http://purl.org/bdo/geographiclocation#4280> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Mediterranean Sea - Eastern Basin"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4283
+<http://purl.org/bdo/geographiclocation#4283> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Inner Seas off the West Coast of Scotland"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4286
+<http://purl.org/bdo/geographiclocation#4286> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Guinea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4287
+<http://purl.org/bdo/geographiclocation#4287> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Caribbean Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4288
+<http://purl.org/bdo/geographiclocation#4288> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Mexico"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4289
+<http://purl.org/bdo/geographiclocation#4289> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bay of Fundy"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4291
+<http://purl.org/bdo/geographiclocation#4291> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Labrador Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4300
+<http://purl.org/bdo/geographiclocation#4300> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Philippine Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4302
+<http://purl.org/bdo/geographiclocation#4302> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Eastern China Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4303
+<http://purl.org/bdo/geographiclocation#4303> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Yellow Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4307
+<http://purl.org/bdo/geographiclocation#4307> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Japan Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4309
+<http://purl.org/bdo/geographiclocation#4309> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Sea of Okhotsk"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4310
+<http://purl.org/bdo/geographiclocation#4310> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bering Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4312
+<http://purl.org/bdo/geographiclocation#4312> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of Alaska"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4313
+<http://purl.org/bdo/geographiclocation#4313> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "The Coastal Waters of Southeast Alaska and British Columbia"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4314
+<http://purl.org/bdo/geographiclocation#4314> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Gulf of California"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4325
+<http://purl.org/bdo/geographiclocation#4325> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Rio de La Plata"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4332
+<http://purl.org/bdo/geographiclocation#4332> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "South China Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4360
+<http://purl.org/bdo/geographiclocation#4360> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bismarck Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4361
+<http://purl.org/bdo/geographiclocation#4361> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Solomon Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4364
+<http://purl.org/bdo/geographiclocation#4364> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Coral Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4365
+<http://purl.org/bdo/geographiclocation#4365> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Tasman Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4366
+<http://purl.org/bdo/geographiclocation#4366> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Bass Strait"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#4969
+<http://purl.org/bdo/geographiclocation#4969> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Laccadive Sea"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#49716
+<http://purl.org/bdo/geographiclocation#49716> rdf:type owl:NamedIndividual ,
+                                                        <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                               rdfs:label "Gulf of St. Lawrence"@en .
+
+
+###  http://purl.org/bdo/geographiclocation#5698
+<http://purl.org/bdo/geographiclocation#5698> rdf:type owl:NamedIndividual ,
+                                                       <http://purl.org/bdo/geographiclocation#GeoStandard> ;
+                                              rdfs:label "Northwestern Passages"@en .
 
 
 ###  Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
