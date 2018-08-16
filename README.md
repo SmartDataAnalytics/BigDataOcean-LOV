@@ -13,4 +13,4 @@ $ ./initLOV
 Do not forget to initialize LOV, the bash contains a repeat cycle that permits to update the system every day.
 
 
-Then visit http://localhost:3333/
+Then visit http://212.101.173.21:3333/
