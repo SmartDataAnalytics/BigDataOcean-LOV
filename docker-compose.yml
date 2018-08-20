@@ -2,6 +2,10 @@ version: '2'
 services:
   mongodb:
     image: "mongo:3.4"
+    environment:
+     - MONGO_INITDB_ROOT_USERNAME=admin
+     - MONGO_INITDB_ROOT_PASSWORD=bd0
+     - MONGO_INITDB_DATABASE=bdo
     ports:
      - "27017:27017"
   elasticsearch:

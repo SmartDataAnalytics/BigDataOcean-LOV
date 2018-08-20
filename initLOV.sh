@@ -1,15 +1,15 @@
 # Import collections to MongoDB
 docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/setup/BDO_setup;
-    mongoimport -h mongodb -d bdo -c logsearches --file logsearches.json;
-    mongoimport -h mongodb -d bdo -c sessions --file sessions.json;
-    mongoimport -h mongodb -d bdo -c statlanguages --file statlanguages.json;
-    mongoimport -h mongodb -d bdo -c stattags --file stattags.json;
-    mongoimport -h mongodb -d bdo -c statvocabularies --file statvocabularies.json;
-    mongoimport -h mongodb -d bdo -c users --file users.json;
-    mongoimport -h mongodb -d bdo -c agents --file agents.json;
-    mongoimport -h mongodb -d bdo -c languages --file languages.json;
-    mongoimport -h mongodb -d bdo -c vocabularies --file vocabularies.json;
-    mongoimport -h mongodb -d bdo -c pilots --file pilots.json'
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c logsearches --file logsearches.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c sessions --file sessions.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c statlanguages --file statlanguages.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c stattags --file stattags.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c statvocabularies --file statvocabularies.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c users --file users.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c agents --file agents.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c languages --file languages.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c vocabularies --file vocabularies.json;
+    mongoimport --uri mongodb://admin:bd0@mongodb/bdo?authSource=admin -c pilots --file pilots.json'
 
 # Update elasticsearch index
 # It runs every day (86400 seconds) to update the bdo.n3 and bdo.nq and the elasticsearch index and last the endpoint data is updated

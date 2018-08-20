@@ -3,6 +3,10 @@ FROM java:8
 RUN apt-get update \
   && apt-get install -y maven unzip build-essential python-pip
 
+# Install vim
+RUN ["apt-get", "update"]
+RUN ["apt-get", "install", "-y", "vim"]
+
 # Install flask and guepy
 RUN pip install Flask
 RUN pip install quepy
