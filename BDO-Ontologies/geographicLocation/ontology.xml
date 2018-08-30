@@ -96,6 +96,13 @@
     
 
 
+    <!-- http://www.w3.org/2004/02/skos/core#closeMatch -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#closeMatch"/>
+    
+
+
     <!-- http://www.w3.org/2004/02/skos/core#definition -->
 
 
@@ -162,738 +169,574 @@
     <!-- http://marineregions.org/mrgid/1904 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1904">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1904"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1904"/>
     
 
 
     <!-- http://marineregions.org/mrgid/1905 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1905">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1905"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1905"/>
     
 
 
     <!-- http://marineregions.org/mrgid/1906 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1906">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1906"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1906"/>
     
 
 
     <!-- http://marineregions.org/mrgid/1908 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1908">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1908"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1908"/>
     
 
 
     <!-- http://marineregions.org/mrgid/1910 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1910">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1910"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1910"/>
     
 
 
     <!-- http://marineregions.org/mrgid/1912 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1912">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1912"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1912"/>
     
 
 
     <!-- http://marineregions.org/mrgid/1914 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1914">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#1914"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/1914"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2350 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2350">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2350"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2350"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2351 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2351">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2351"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2351"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2353 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2353">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2353"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2353"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2356 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2356">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2356"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2356"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2357 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2357">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2357"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2357"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2359 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2359">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2359"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2359"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2374 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2374">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2374"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2374"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2379 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2379">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2379"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2379"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2389 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2389">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2389"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2389"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2401 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2401">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2401"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2401"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2402 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2402">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2402"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2402"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2407 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2407">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2407"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2407"/>
     
 
 
     <!-- http://marineregions.org/mrgid/2409 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2409">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#2409"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/2409"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3141 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3141">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3141"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3141"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3314 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3314">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3314"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3314"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3315 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3315">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3315"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3315"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3319 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3319">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3319"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3319"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3320 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3320">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3320"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3320"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3322 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3322">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3322"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3322"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3324 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3324">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3324"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3324"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3346 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3346">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3346"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3346"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3351 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3351">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3351"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3351"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3363 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3363">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3363"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3363"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3369 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3369">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3369"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3369"/>
     
 
 
     <!-- http://marineregions.org/mrgid/3386 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3386">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#3386"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/3386"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4244 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4244">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4244"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4244"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4245 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4245">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4245"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4245"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4246 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4246">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4246"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4246"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4247 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4247">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4247"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4247"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4248 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4248">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4248"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4248"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4250 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4250">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4250"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4250"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4251 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4251">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4251"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4251"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4252 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4252">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4252"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4252"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4253 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4253">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4253"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4253"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4254 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4254">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4254"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4254"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4256 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4256">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4256"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4256"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4257 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4257">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4257"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4257"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4261 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4261">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4261"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4261"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4262 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4262">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4262"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4262"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4264 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4264">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4264"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4264"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4265 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4265">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4265"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4265"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4266 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4266">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4266"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4266"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4267 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4267">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4267"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4267"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4268 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4268">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4268"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4268"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4273 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4273">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4273"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4273"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4274 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4274">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4274"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4274"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4275 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4275">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4275"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4275"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4276 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4276">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4276"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4276"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4279 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4279">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4279"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4279"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4280 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4280">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4280"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4280"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4283 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4283">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4283"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4283"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4286 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4286">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4286"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4286"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4287 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4287">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4287"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4287"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4288 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4288">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4288"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4288"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4289 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4289">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4289"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4289"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4291 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4291">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4291"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4291"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4300 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4300">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4300"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4300"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4302 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4302">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4302"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4302"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4303 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4303">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4303"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4303"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4307 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4307">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4307"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4307"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4309 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4309">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4309"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4309"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4310 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4310">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4310"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4310"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4312 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4312">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4312"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4312"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4313 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4313">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4313"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4313"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4314 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4314">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4314"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4314"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4325 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4325">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4325"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4325"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4332 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4332">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4332"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4332"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4360 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4360">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4360"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4360"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4361 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4361">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4361"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4361"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4364 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4364">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4364"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4364"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4365 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4365">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4365"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4365"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4366 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4366">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4366"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4366"/>
     
 
 
     <!-- http://marineregions.org/mrgid/4969 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4969">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#4969"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/4969"/>
     
 
 
     <!-- http://marineregions.org/mrgid/49716 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/49716">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#49716"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/49716"/>
     
 
 
     <!-- http://marineregions.org/mrgid/5698 -->
 
 
-    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/5698">
-        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#5698"/>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://marineregions.org/mrgid/5698"/>
     
 
 
@@ -903,6 +746,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1904">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Indian Ocean</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1904"/>
     </owl:NamedIndividual>
     
 
@@ -913,6 +757,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1905">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Mediterranean Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1905"/>
     </owl:NamedIndividual>
     
 
@@ -923,6 +768,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1906">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Arctic Ocean</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1906"/>
     </owl:NamedIndividual>
     
 
@@ -933,6 +779,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1908">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">North Pacific Ocean</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1908"/>
     </owl:NamedIndividual>
     
 
@@ -943,6 +790,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1910">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">South Pacific Ocean</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1910"/>
     </owl:NamedIndividual>
     
 
@@ -953,6 +801,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1912">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">North Atlantic Ocean</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1912"/>
     </owl:NamedIndividual>
     
 
@@ -963,6 +812,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#1914">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">South Atlantic Ocean</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/1914"/>
     </owl:NamedIndividual>
     
 
@@ -973,6 +823,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2350">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">North Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2350"/>
     </owl:NamedIndividual>
     
 
@@ -983,6 +834,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2351">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Celtic Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2351"/>
     </owl:NamedIndividual>
     
 
@@ -993,6 +845,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2353">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Norwegian Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2353"/>
     </owl:NamedIndividual>
     
 
@@ -1003,6 +856,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2356">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Greenland Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2356"/>
     </owl:NamedIndividual>
     
 
@@ -1013,6 +867,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2357">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Irish Sea and St. George&apos;s Channel</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2357"/>
     </owl:NamedIndividual>
     
 
@@ -1023,6 +878,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2359">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bay of Biscay</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2359"/>
     </owl:NamedIndividual>
     
 
@@ -1033,6 +889,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2374">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Kattegat</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2374"/>
     </owl:NamedIndividual>
     
 
@@ -1043,6 +900,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2379">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Skagerrak</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2379"/>
     </owl:NamedIndividual>
     
 
@@ -1053,6 +911,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2389">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">English Channel</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2389"/>
     </owl:NamedIndividual>
     
 
@@ -1063,6 +922,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2401">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Baltic Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2401"/>
     </owl:NamedIndividual>
     
 
@@ -1073,6 +933,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2402">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Bothnia</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2402"/>
     </owl:NamedIndividual>
     
 
@@ -1083,6 +944,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2407">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Finland</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2407"/>
     </owl:NamedIndividual>
     
 
@@ -1093,6 +955,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#2409">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Riga</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/2409"/>
     </owl:NamedIndividual>
     
 
@@ -1103,6 +966,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3141">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bristol Channel</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3141"/>
     </owl:NamedIndividual>
     
 
@@ -1113,6 +977,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3314">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Adriatic Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3314"/>
     </owl:NamedIndividual>
     
 
@@ -1123,6 +988,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3315">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Aegean Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3315"/>
     </owl:NamedIndividual>
     
 
@@ -1133,6 +999,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3319">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Black Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3319"/>
     </owl:NamedIndividual>
     
 
@@ -1143,6 +1010,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3320">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Sea of Azov</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3320"/>
     </owl:NamedIndividual>
     
 
@@ -1153,6 +1021,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3322">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Balearic Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3322"/>
     </owl:NamedIndividual>
     
 
@@ -1163,6 +1032,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3324">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Alboran Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3324"/>
     </owl:NamedIndividual>
     
 
@@ -1173,6 +1043,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3346">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Strait of Gibraltar</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3346"/>
     </owl:NamedIndividual>
     
 
@@ -1183,6 +1054,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3351">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Ionian Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3351"/>
     </owl:NamedIndividual>
     
 
@@ -1193,6 +1065,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3363">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Ligurian Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3363"/>
     </owl:NamedIndividual>
     
 
@@ -1203,6 +1076,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3369">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Sea of Marmara</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3369"/>
     </owl:NamedIndividual>
     
 
@@ -1213,6 +1087,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#3386">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Tyrrhenian Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/3386"/>
     </owl:NamedIndividual>
     
 
@@ -1223,6 +1098,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4244">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">East Siberian Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4244"/>
     </owl:NamedIndividual>
     
 
@@ -1233,6 +1109,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4245">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Laptev Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4245"/>
     </owl:NamedIndividual>
     
 
@@ -1243,6 +1120,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4246">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Kara Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4246"/>
     </owl:NamedIndividual>
     
 
@@ -1253,6 +1131,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4247">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Barentsz Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4247"/>
     </owl:NamedIndividual>
     
 
@@ -1263,6 +1142,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4248">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">White Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4248"/>
     </owl:NamedIndividual>
     
 
@@ -1273,6 +1153,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4250">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Davis Strait</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4250"/>
     </owl:NamedIndividual>
     
 
@@ -1283,6 +1164,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4251">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Hudson Strait</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4251"/>
     </owl:NamedIndividual>
     
 
@@ -1293,6 +1175,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4252">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Hudson Bay</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4252"/>
     </owl:NamedIndividual>
     
 
@@ -1303,6 +1186,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4253">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Baffin Bay</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4253"/>
     </owl:NamedIndividual>
     
 
@@ -1313,6 +1197,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4254">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Lincoln Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4254"/>
     </owl:NamedIndividual>
     
 
@@ -1323,6 +1208,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4256">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Beaufort Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4256"/>
     </owl:NamedIndividual>
     
 
@@ -1333,6 +1219,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4257">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Chukchi Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4257"/>
     </owl:NamedIndividual>
     
 
@@ -1343,6 +1230,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4261">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Mozambique Channel</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4261"/>
     </owl:NamedIndividual>
     
 
@@ -1353,6 +1241,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4262">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Suez</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4262"/>
     </owl:NamedIndividual>
     
 
@@ -1363,6 +1252,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4264">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Red Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4264"/>
     </owl:NamedIndividual>
     
 
@@ -1373,6 +1263,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4265">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Aden</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4265"/>
     </owl:NamedIndividual>
     
 
@@ -1383,6 +1274,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4266">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Persian Gulf</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4266"/>
     </owl:NamedIndividual>
     
 
@@ -1393,6 +1285,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4267">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Oman</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4267"/>
     </owl:NamedIndividual>
     
 
@@ -1403,6 +1296,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4268">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Arabian Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4268"/>
     </owl:NamedIndividual>
     
 
@@ -1413,6 +1307,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4273">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bay of Bengal</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4273"/>
     </owl:NamedIndividual>
     
 
@@ -1423,6 +1318,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4274">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Andaman Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4274"/>
     </owl:NamedIndividual>
     
 
@@ -1433,6 +1329,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4275">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Malacca Strait</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4275"/>
     </owl:NamedIndividual>
     
 
@@ -1443,6 +1340,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4276">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Great Australian Bight</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4276"/>
     </owl:NamedIndividual>
     
 
@@ -1453,6 +1351,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4279">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Mediterranean Sea - Western Basin</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4279"/>
     </owl:NamedIndividual>
     
 
@@ -1463,6 +1362,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4280">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Mediterranean Sea - Eastern Basin</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4280"/>
     </owl:NamedIndividual>
     
 
@@ -1473,6 +1373,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4283">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Inner Seas off the West Coast of Scotland</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4283"/>
     </owl:NamedIndividual>
     
 
@@ -1483,6 +1384,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4286">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Guinea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4286"/>
     </owl:NamedIndividual>
     
 
@@ -1493,6 +1395,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4287">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Caribbean Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4287"/>
     </owl:NamedIndividual>
     
 
@@ -1503,6 +1406,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4288">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Mexico</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4288"/>
     </owl:NamedIndividual>
     
 
@@ -1513,6 +1417,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4289">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bay of Fundy</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4289"/>
     </owl:NamedIndividual>
     
 
@@ -1523,6 +1428,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4291">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Labrador Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4291"/>
     </owl:NamedIndividual>
     
 
@@ -1533,6 +1439,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4300">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Philippine Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4300"/>
     </owl:NamedIndividual>
     
 
@@ -1543,6 +1450,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4302">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Eastern China Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4302"/>
     </owl:NamedIndividual>
     
 
@@ -1553,6 +1461,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4303">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Yellow Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4303"/>
     </owl:NamedIndividual>
     
 
@@ -1563,6 +1472,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4307">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Japan Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4307"/>
     </owl:NamedIndividual>
     
 
@@ -1573,6 +1483,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4309">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Sea of Okhotsk</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4309"/>
     </owl:NamedIndividual>
     
 
@@ -1583,6 +1494,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4310">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bering Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4310"/>
     </owl:NamedIndividual>
     
 
@@ -1593,6 +1505,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4312">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of Alaska</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4312"/>
     </owl:NamedIndividual>
     
 
@@ -1603,6 +1516,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4313">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">The Coastal Waters of Southeast Alaska and British Columbia</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4313"/>
     </owl:NamedIndividual>
     
 
@@ -1613,6 +1527,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4314">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of California</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4314"/>
     </owl:NamedIndividual>
     
 
@@ -1623,6 +1538,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4325">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Rio de La Plata</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4325"/>
     </owl:NamedIndividual>
     
 
@@ -1633,6 +1549,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4332">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">South China Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4332"/>
     </owl:NamedIndividual>
     
 
@@ -1643,6 +1560,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4360">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bismarck Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4360"/>
     </owl:NamedIndividual>
     
 
@@ -1653,6 +1571,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4361">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Solomon Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4361"/>
     </owl:NamedIndividual>
     
 
@@ -1663,6 +1582,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4364">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Coral Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4364"/>
     </owl:NamedIndividual>
     
 
@@ -1673,6 +1593,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4365">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Tasman Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4365"/>
     </owl:NamedIndividual>
     
 
@@ -1683,6 +1604,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4366">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Bass Strait</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4366"/>
     </owl:NamedIndividual>
     
 
@@ -1693,6 +1615,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#4969">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Laccadive Sea</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/4969"/>
     </owl:NamedIndividual>
     
 
@@ -1703,6 +1626,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#49716">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Gulf of St. Lawrence</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/49716"/>
     </owl:NamedIndividual>
     
 
@@ -1713,6 +1637,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/geographiclocation#5698">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"/>
         <rdfs:label xml:lang="en">Northwestern Passages</rdfs:label>
+        <skos:closeMatch rdf:resource="http://marineregions.org/mrgid/5698"/>
     </owl:NamedIndividual>
 </rdf:RDF>
 
