@@ -31,7 +31,7 @@ RUN npm install
 WORKDIR /BDO
 RUN git clone https://github.com/EIS-Bonn/lovScripts.git
 RUN mkdir -p /scripts/log && touch /scripts/log/server.log
-RUN cd lovScripts/ && mvn install
+RUN cd lovScripts/ && mvn install -Dmaven.test.skip=true 
 
 # Install QA4LOV
 WORKDIR /BDO
