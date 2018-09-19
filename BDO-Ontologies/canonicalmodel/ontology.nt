@@ -2822,7 +2822,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_distance" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.bigdataocean.eu/standards/canonicalmodel#hasColumnName> "stop_or_slow_distance" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.w3.org/2000/01/rdf-schema#label> "top/slow downs \u2013 distance"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 distance"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

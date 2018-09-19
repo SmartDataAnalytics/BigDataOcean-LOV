@@ -3121,7 +3121,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_distance"^^xsd:string ;
                                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasColumnName> "stop_or_slow_distance"^^xsd:string ;
                                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
-                                                                              rdfs:label "top/slow downs – distance"@en .
+                                                                              rdfs:label "stop/slow downs – distance"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel
