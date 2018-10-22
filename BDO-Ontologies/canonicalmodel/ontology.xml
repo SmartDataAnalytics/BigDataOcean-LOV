@@ -352,6 +352,25 @@
     
 
 
+    <!-- http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity -->
+
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#u"/>
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#uo"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mmisw.org/ont/cf/parameter/land_binary_mask -->
+
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/land_binary_mask">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#mask"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mmisw.org/ont/cf/parameter/latitude -->
 
 
@@ -386,6 +405,16 @@
 
     <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water">
         <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#doxy"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mmisw.org/ont/cf/parameter/northward_sea_water_velocity -->
+
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/northward_sea_water_velocity">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#v"/>
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#vo"/>
     </owl:NamedIndividual>
     
 
@@ -546,6 +575,7 @@
 
     <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/sea_water_speed">
         <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#hcsp"/>
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#vm"/>
     </owl:NamedIndividual>
     
 
@@ -612,6 +642,36 @@
         <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#atmospheric_pressure_on_the_sea_level"/>
         <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#atms"/>
         <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#pmsl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#a -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#a">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length_from_gps_to_bow</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">Length from GPS to bow</terms:description>
+        <rdfs:label xml:lang="en">a</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ammonia -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ammonia">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mole_concentration_of_ammonium_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mol m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole_concentration_of_ammonium_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mole concentration of ammonium in sea water</terms:description>
+        <rdfs:label xml:lang="en">ammonia</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -814,6 +874,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#b -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#b">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length_from_gps_to_stern</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">Length from GPS to stern</terms:description>
+        <rdfs:label xml:lang="en">b</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry -->
 
 
@@ -840,6 +914,34 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</hasDataType>
         <terms:description xml:lang="en">BERTHED (DATE/TIME)</terms:description>
         <rdfs:label xml:lang="en">berthed date</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#c -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#c">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length_from_gps_to_starboard_side</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">Length from GPS to starboard side</terms:description>
+        <rdfs:label xml:lang="en">c</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#callsign -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#callsign">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">callsign</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <terms:description xml:lang="en">Callsign</terms:description>
+        <rdfs:label xml:lang="en">callsign</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1054,6 +1156,36 @@
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bts_code</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <rdfs:label xml:lang="en">codebts</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#cog -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#cog">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cog</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">COG</terms:description>
+        <rdfs:label xml:lang="en">cog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#cohesive_sediment -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#cohesive_sediment">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mass_concentration_of_suspended_matter_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass_concentration_of_suspended_matter_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mass concentration of suspended matter in sea water</terms:description>
+        <rdfs:label xml:lang="en">cohesive_sediment</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1314,6 +1446,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#d -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#d">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length_from_gps_to_port_side</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">Length from GPS to port side</terms:description>
+        <rdfs:label xml:lang="en">d</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#data_mode -->
 
 
@@ -1468,6 +1614,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#depth_staggered -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#depth_staggered">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">depth_staggered</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Staggered depth</terms:description>
+        <rdfs:label xml:lang="en">depth_staggered</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#desig -->
 
 
@@ -1594,6 +1754,22 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dissolved_oxygen -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dissolved_oxygen">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mass_concentration_of_oxygen_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">kg m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mass_concentration_of_oxygen_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mass concentration of oxygen in sea water</terms:description>
+        <rdfs:label xml:lang="en">dissolved_oxygen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#distance -->
 
 
@@ -1705,6 +1881,20 @@
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</canonicalUnit>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
         <rdfs:label xml:lang="en">draft</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#draught -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#draught">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">draught</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <terms:description xml:lang="en">Draught</terms:description>
+        <rdfs:label xml:lang="en">draught</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1891,6 +2081,20 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</hasDataType>
         <terms:description xml:lang="en">E.O.S.P Date</terms:description>
         <rdfs:label xml:lang="en">eosp date</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#eta -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#eta">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">estimated_time_of_arrival_date</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</hasDataType>
+        <terms:description xml:lang="en">Estimated date and time of arrival at the destination port followed by the speed under which the estimation has been made</terms:description>
+        <rdfs:label xml:lang="en">eta</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2772,6 +2976,22 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mole_concentration_of_phosphate_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mol m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole_concentration_of_phosphate_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mole concentration of phosphate in sea water</terms:description>
+        <rdfs:label xml:lang="en">inorganic_phosphorus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#insp_placeofinspection -->
 
 
@@ -3431,6 +3651,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#mask -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#mask">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land_binary_mask</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <terms:description xml:lang="en">mask of potential water points</terms:description>
+        <rdfs:label xml:lang="en">mask</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#max_temperature -->
 
 
@@ -3573,6 +3808,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">navigational_status_description</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <terms:description xml:lang="en">Navigational Status Description</terms:description>
+        <rdfs:label xml:lang="en">navigational status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#next_port -->
 
 
@@ -3583,6 +3832,22 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <terms:description xml:lang="en">Next port in the voyage</terms:description>
         <rdfs:label xml:lang="en">next port</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#nitrate -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#nitrate">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mole_concentration_of_nitrate_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mol m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole_concentration_of_nitrate_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mole concentration of nitrate in sea water</terms:description>
+        <rdfs:label xml:lang="en">nitrate</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3871,6 +4136,38 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_nitrogen -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_nitrogen">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mol m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mole concentration of particulate organic matter expressed as nitrogen in sea water</terms:description>
+        <rdfs:label xml:lang="en">particulate_organic_nitrogen</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_phosphorus -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_phosphorus">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mol m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mole concentration of particulate organic matter expressed as phosphorus in sea water</terms:description>
+        <rdfs:label xml:lang="en">particulate_organic_phosphorus</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#passengers -->
 
 
@@ -3939,6 +4236,22 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Mole Concentration of Phytoplankton expressed as carbon in sea water</terms:description>
         <rdfs:label xml:lang="en">phyc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#phytoplankton -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#phytoplankton">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mol m-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Mole concentration of phytoplankton expressed as carbon in sea water</terms:description>
+        <rdfs:label xml:lang="en">phytoplankton</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4109,7 +4422,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#pres_adjusted_dm">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_pressure_adjusted_processing_method</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_pressure_processing_method</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <terms:description xml:lang="en">method of data processing</terms:description>
         <rdfs:label xml:lang="en">pres_adjusted_dm</rdfs:label>
@@ -4123,7 +4436,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#pres_adjusted_qc">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_pressure_adjusted_quality_flag</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_pressure_quality_flag</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</hasDataType>
         <terms:description xml:lang="en">Quality Flag</terms:description>
         <rdfs:label xml:lang="en">pres_adjusted_qc</rdfs:label>
@@ -4195,7 +4508,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#psal_adjusted_dm">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_practical_salinity_adjusted_processing_method</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_practical_salinity_processing_method</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <terms:description xml:lang="en">method of data processing</terms:description>
         <rdfs:label xml:lang="en">psal_adjusted_dm</rdfs:label>
@@ -4209,7 +4522,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#psal_adjusted_qc">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_practical_salinity_adjusted_quality_flag</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_practical_salinity_quality_flag</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</hasDataType>
         <terms:description xml:lang="en">Quality Flag</terms:description>
         <rdfs:label xml:lang="en">psal_adjusted_qc</rdfs:label>
@@ -4324,6 +4637,20 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
         <terms:description xml:lang="en">The rain volume that was recorded during last 3 hours</terms:description>
         <rdfs:label xml:lang="en">rain_volume_last_3_hours</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#reference -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#reference">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reference</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <terms:description xml:lang="en">reference to the prevailing source of data with metadata</terms:description>
+        <rdfs:label xml:lang="en">reference</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4463,6 +4790,36 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
         <terms:description xml:lang="en">R.O.B (remaining on board) oil for the engine</terms:description>
         <rdfs:label xml:lang="en">rob – engine oil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#rot -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#rot">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rot</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">ROT</terms:description>
+        <rdfs:label xml:lang="en">rot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#salinity -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#salinity">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_water_salinity"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1e-3</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_salinity</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Sea water salinity</terms:description>
+        <rdfs:label xml:lang="en">salinity</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4706,6 +5063,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#shiptype1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#shiptype1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platform_type_id</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <terms:description xml:lang="en">Type of ship identifier</terms:description>
+        <rdfs:label xml:lang="en">ship type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#si -->
 
 
@@ -4793,6 +5164,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sog -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sog">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sog</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <terms:description xml:lang="en">SOG</terms:description>
+        <rdfs:label xml:lang="en">sog</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#source -->
 
 
@@ -4818,6 +5203,20 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
         <terms:description xml:lang="en">Speed over ground</terms:description>
         <rdfs:label xml:lang="en">speed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ssh -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ssh">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_height</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Sea surface height</terms:description>
+        <rdfs:label xml:lang="en">ssh</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5122,7 +5521,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#temp_adjusted_dm">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_temperature_adjusted_processing_method</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_temperature_processing_method</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <terms:description xml:lang="en">method of data processing</terms:description>
         <rdfs:label xml:lang="en">temp_adjusted_dm</rdfs:label>
@@ -5136,7 +5535,7 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#temp_adjusted_qc">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_temperature_adjusted_quality_flag</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_temperature_quality_flag</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</hasDataType>
         <terms:description xml:lang="en">Quality Flag</terms:description>
         <rdfs:label xml:lang="en">temp_adjusted_qc</rdfs:label>
@@ -5204,6 +5603,22 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#thetao -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#thetao">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">K</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_potential_temperature</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Potential Temperature</terms:description>
+        <rdfs:label xml:lang="en">thetao</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#thickness_range -->
 
 
@@ -5256,8 +5671,9 @@
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#time_counter">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/time"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hours</canonicalUnit>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time_counter</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Time</terms:description>
         <rdfs:label xml:lang="en">time_counter</rdfs:label>
@@ -5463,6 +5879,36 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#u -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#u">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eastward_sea_water_velocity</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Eastward sea water velocity</terms:description>
+        <rdfs:label xml:lang="en">u</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#uo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#uo">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">eastward_sea_water_velocity</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Eastward sea water velocity</terms:description>
+        <rdfs:label xml:lang="en">uo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#us_representative -->
 
 
@@ -5488,6 +5934,64 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Velocity Zonal Component</terms:description>
         <rdfs:label xml:lang="en">uvel</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#v -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#v">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">northward_sea_water_velocity</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Northward sea water velocity</terms:description>
+        <rdfs:label xml:lang="en">v</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vanh -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vanh">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_wave_significant_height</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Spectral significant wave height (Hm0)</terms:description>
+        <rdfs:label xml:lang="en">vanh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_wave_significant_height_processing_method</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <terms:description xml:lang="en">Method of data processing</terms:description>
+        <rdfs:label xml:lang="en">vanh_dm</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_wave_significant_height_quality_flag</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</hasDataType>
+        <terms:description xml:lang="en">Quality flag</terms:description>
+        <rdfs:label xml:lang="en">vanh_qc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5658,7 +6162,7 @@
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_primary_swell_wave_significant_height</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Spectral significant primary swell wave height</terms:description>
         <rdfs:label xml:lang="en">vhm0_sw1</rdfs:label>
     </owl:NamedIndividual>
@@ -5674,7 +6178,7 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_secondary_swell_wave_significant_height"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_secondary_swell_wave_significant_height</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Spectral significant secondary swell wave height</terms:description>
         <rdfs:label xml:lang="en">vhm0_sw2</rdfs:label>
     </owl:NamedIndividual>
@@ -5690,9 +6194,24 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_significant_height"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_wind_wave_significant_height</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Spectral significant wind wave height</terms:description>
         <rdfs:label xml:lang="en">vhm0_ww</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vm -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vm">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_water_speed</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Horizontal current speed</terms:description>
+        <rdfs:label xml:lang="en">vm</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5749,7 +6268,7 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_primary_swell_wave_from_direction"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_primary_swell_wave_from_direction</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Mean primary swell wave direction from</terms:description>
         <rdfs:label xml:lang="en">vmdr_sw1</rdfs:label>
     </owl:NamedIndividual>
@@ -5765,7 +6284,7 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_secondary_swell_wave_from_direction"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_secondary_swell_wave_from_direction</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Mean secondary swell wave direction from</terms:description>
         <rdfs:label xml:lang="en">vmdr_sw2</rdfs:label>
     </owl:NamedIndividual>
@@ -5781,9 +6300,24 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_from_direction"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degree</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_wind_wave_from_direction</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Mean wind wave direction from</terms:description>
         <rdfs:label xml:lang="en">vmdr_ww</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vo -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vo">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">m s-1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">northward_sea_water_velocity</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <terms:description xml:lang="en">Northward sea water velocity</terms:description>
+        <rdfs:label xml:lang="en">vo</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5916,7 +6450,7 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_primary_swell_wave_mean_period"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_primary_swell_wave_mean_period</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Spectral moments(0,1) primary swell wave period</terms:description>
         <rdfs:label xml:lang="en">vtm01_sw1</rdfs:label>
     </owl:NamedIndividual>
@@ -5932,7 +6466,7 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_secondary_swell_wave_mean_period"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_secondary_swell_wave_mean_period</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Spectral moments(0,1) secondary swell wave period</terms:description>
         <rdfs:label xml:lang="en">vtm01_sw2</rdfs:label>
     </owl:NamedIndividual>
@@ -5948,7 +6482,7 @@
         <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_mean_period"/>
         <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">s</canonicalUnit>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_wind_wave_mean_period</hasCanonicalName>
-        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <terms:description xml:lang="en">Spectral moments(0,1)wind wave period</terms:description>
         <rdfs:label xml:lang="en">vtm01_ww</rdfs:label>
     </owl:NamedIndividual>
@@ -6577,6 +7111,27 @@
     
 
 
+    <!-- https://mmisw.org/ont/cf/parameter/mass_concentration_of_oxygen_in_sea_water -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/mass_concentration_of_oxygen_in_sea_water"/>
+    
+
+
+    <!-- https://mmisw.org/ont/cf/parameter/mass_concentration_of_suspended_matter_in_sea_water -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/mass_concentration_of_suspended_matter_in_sea_water"/>
+    
+
+
+    <!-- https://mmisw.org/ont/cf/parameter/mole_concentration_of_ammonium_in_sea_water -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/mole_concentration_of_ammonium_in_sea_water"/>
+    
+
+
     <!-- https://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_iron_in_sea_water -->
 
 
@@ -6595,6 +7150,20 @@
 
 
     <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/mole_concentration_of_nitrate_in_sea_water"/>
+    
+
+
+    <!-- https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water"/>
+    
+
+
+    <!-- https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water"/>
     
 
 
@@ -6703,6 +7272,13 @@
     
 
 
+    <!-- https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height"/>
+    
+
+
     <!-- https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_period -->
 
 
@@ -6742,6 +7318,20 @@
 
 
     <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_significant_height"/>
+    
+
+
+    <!-- https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature"/>
+    
+
+
+    <!-- https://mmisw.org/ont/cf/parameter/sea_water_salinity -->
+
+
+    <owl:NamedIndividual rdf:about="https://mmisw.org/ont/cf/parameter/sea_water_salinity"/>
     
 
 

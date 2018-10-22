@@ -198,6 +198,17 @@ rdf:type rdf:type owl:AnnotationProperty .
                                           owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#depth> .
 
 
+###  http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity
+<http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity> rdf:type owl:NamedIndividual ;
+                                                                owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#u> ,
+                                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#uo> .
+
+
+###  http://mmisw.org/ont/cf/parameter/land_binary_mask
+<http://mmisw.org/ont/cf/parameter/land_binary_mask> rdf:type owl:NamedIndividual ;
+                                                     owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#mask> .
+
+
 ###  http://mmisw.org/ont/cf/parameter/latitude
 <http://mmisw.org/ont/cf/parameter/latitude> rdf:type owl:NamedIndividual ;
                                              owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#lat> ,
@@ -218,6 +229,12 @@ rdf:type rdf:type owl:AnnotationProperty .
 ###  http://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water
 <http://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water> rdf:type owl:NamedIndividual ;
                                                                                                   owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#doxy> .
+
+
+###  http://mmisw.org/ont/cf/parameter/northward_sea_water_velocity
+<http://mmisw.org/ont/cf/parameter/northward_sea_water_velocity> rdf:type owl:NamedIndividual ;
+                                                                 owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#v> ,
+                                                                            <http://www.bigdataocean.eu/standards/canonicalmodel#vo> .
 
 
 ###  http://mmisw.org/ont/cf/parameter/platform_course
@@ -309,7 +326,8 @@ rdf:type rdf:type owl:AnnotationProperty .
 
 ###  http://mmisw.org/ont/cf/parameter/sea_water_speed
 <http://mmisw.org/ont/cf/parameter/sea_water_speed> rdf:type owl:NamedIndividual ;
-                                                    owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#hcsp> .
+                                                    owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#hcsp> ,
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#vm> .
 
 
 ###  http://mmisw.org/ont/cf/parameter/sea_water_temperature
@@ -348,6 +366,28 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                          owl:sameAs <http://www.bigdataocean.eu/standards/canonicalmodel#atmospheric_pressure_on_the_sea_level> ,
                                                                                     <http://www.bigdataocean.eu/standards/canonicalmodel#atms> ,
                                                                                     <http://www.bigdataocean.eu/standards/canonicalmodel#pmsl> .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#a
+<http://www.bigdataocean.eu/standards/canonicalmodel#a> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "length_from_gps_to_bow"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                        <http://purl.org/dc/terms/description> "Length from GPS to bow"@en ;
+                                                        rdfs:label "a"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ammonia
+<http://www.bigdataocean.eu/standards/canonicalmodel#ammonia> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                              owl:sameAs <https://mmisw.org/ont/cf/parameter/mole_concentration_of_ammonium_in_sea_water> ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "mol m-3"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mole_concentration_of_ammonium_in_sea_water"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                              <http://purl.org/dc/terms/description> "Mole concentration of ammonium in sea water"@en ;
+                                                              rdfs:label "ammonia"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#anchorage_depth
@@ -492,6 +532,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                     rdfs:label "average speed"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#b
+<http://www.bigdataocean.eu/standards/canonicalmodel#b> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "length_from_gps_to_stern"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                        <http://purl.org/dc/terms/description> "Length from GPS to stern"@en ;
+                                                        rdfs:label "b"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry
 <http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry> rdf:type owl:NamedIndividual ,
                                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
@@ -512,6 +562,26 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp"^^xsd:string ;
                                                                    <http://purl.org/dc/terms/description> "BERTHED (DATE/TIME)"@en ;
                                                                    rdfs:label "berthed date"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#c
+<http://www.bigdataocean.eu/standards/canonicalmodel#c> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "length_from_gps_to_starboard_side"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                        <http://purl.org/dc/terms/description> "Length from GPS to starboard side"@en ;
+                                                        rdfs:label "c"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#callsign
+<http://www.bigdataocean.eu/standards/canonicalmodel#callsign> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "callsign"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
+                                                               <http://purl.org/dc/terms/description> "Callsign"@en ;
+                                                               rdfs:label "callsign"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#cargo_pier_depth
@@ -666,6 +736,28 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "bts_code"^^xsd:string ;
                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
                                                               rdfs:label "codebts"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#cog
+<http://www.bigdataocean.eu/standards/canonicalmodel#cog> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "cog"^^xsd:string ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                          <http://purl.org/dc/terms/description> "COG"@en ;
+                                                          rdfs:label "cog"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#cohesive_sediment
+<http://www.bigdataocean.eu/standards/canonicalmodel#cohesive_sediment> rdf:type owl:NamedIndividual ,
+                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                        owl:sameAs <https://mmisw.org/ont/cf/parameter/mass_concentration_of_suspended_matter_in_sea_water> ;
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "kg m-3"^^xsd:string ;
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mass_concentration_of_suspended_matter_in_sea_water"^^xsd:string ;
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                        <http://purl.org/dc/terms/description> "Mass concentration of suspended matter in sea water"@en ;
+                                                                        rdfs:label "cohesive_sediment"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#column_c
@@ -852,6 +944,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                           rdfs:label "csp"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#d
+<http://www.bigdataocean.eu/standards/canonicalmodel#d> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "length_from_gps_to_port_side"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                        <http://purl.org/dc/terms/description> "Length from GPS to port side"@en ;
+                                                        rdfs:label "d"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#data_mode
 <http://www.bigdataocean.eu/standards/canonicalmodel#data_mode> rdf:type owl:NamedIndividual ,
                                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
@@ -962,6 +1064,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                             rdfs:label "depth"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#depth_staggered
+<http://www.bigdataocean.eu/standards/canonicalmodel#depth_staggered> rdf:type owl:NamedIndividual ,
+                                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics> ,
+                                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                      <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "depth_staggered"^^xsd:string ;
+                                                                      <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                      <http://purl.org/dc/terms/description> "Staggered depth"@en ;
+                                                                      rdfs:label "depth_staggered"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#desig
 <http://www.bigdataocean.eu/standards/canonicalmodel#desig> rdf:type owl:NamedIndividual ,
                                                                      <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
@@ -1052,6 +1164,18 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                     rdfs:label "dirty_ballast"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#dissolved_oxygen
+<http://www.bigdataocean.eu/standards/canonicalmodel#dissolved_oxygen> rdf:type owl:NamedIndividual ,
+                                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                       owl:sameAs <https://mmisw.org/ont/cf/parameter/mass_concentration_of_oxygen_in_sea_water> ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "kg m-3"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mass_concentration_of_oxygen_in_sea_water"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                       <http://purl.org/dc/terms/description> "Mass concentration of oxygen in sea water"@en ;
+                                                                       rdfs:label "dissolved_oxygen"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#distance
 <http://www.bigdataocean.eu/standards/canonicalmodel#distance> rdf:type owl:NamedIndividual ,
                                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
@@ -1133,6 +1257,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                                                                                 "m"^^xsd:string ;
                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
                                                             rdfs:label "draft"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#draught
+<http://www.bigdataocean.eu/standards/canonicalmodel#draught> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "draught"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
+                                                              <http://purl.org/dc/terms/description> "Draught"@en ;
+                                                              rdfs:label "draught"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#drydock
@@ -1267,6 +1401,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp"^^xsd:string ;
                                                                 <http://purl.org/dc/terms/description> "E.O.S.P Date"@en ;
                                                                 rdfs:label "eosp date"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#eta
+<http://www.bigdataocean.eu/standards/canonicalmodel#eta> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "estimated_time_of_arrival_date"^^xsd:string ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp"^^xsd:string ;
+                                                          <http://purl.org/dc/terms/description> "Estimated date and time of arrival at the destination port followed by the speed under which the estimation has been made"@en ;
+                                                          rdfs:label "eta"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#eta_date
@@ -1898,6 +2042,18 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                           rdfs:label "imo"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus
+<http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus> rdf:type owl:NamedIndividual ,
+                                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                           owl:sameAs <https://mmisw.org/ont/cf/parameter/mole_concentration_of_phosphate_in_sea_water> ;
+                                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "mol m-3"^^xsd:string ;
+                                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mole_concentration_of_phosphate_in_sea_water"^^xsd:string ;
+                                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                           <http://purl.org/dc/terms/description> "Mole concentration of phosphate in sea water"@en ;
+                                                                           rdfs:label "inorganic_phosphorus"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#insp_placeofinspection
 <http://www.bigdataocean.eu/standards/canonicalmodel#insp_placeofinspection> rdf:type owl:NamedIndividual ,
                                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
@@ -2369,6 +2525,17 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                              rdfs:label "marine"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#mask
+<http://www.bigdataocean.eu/standards/canonicalmodel#mask> rdf:type owl:NamedIndividual ,
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "1"^^xsd:string ;
+                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "land_binary_mask"^^xsd:string ;
+                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                           <http://purl.org/dc/terms/description> "mask of potential water points"@en ;
+                                                           rdfs:label "mask"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#max_temperature
 <http://www.bigdataocean.eu/standards/canonicalmodel#max_temperature> rdf:type owl:NamedIndividual ,
                                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics> ,
@@ -2471,6 +2638,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                            rdfs:label "name"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status
+<http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status> rdf:type owl:NamedIndividual ,
+                                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "navigational_status_description"^^xsd:string ;
+                                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
+                                                                          <http://purl.org/dc/terms/description> "Navigational Status Description"@en ;
+                                                                          rdfs:label "navigational status"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#next_port
 <http://www.bigdataocean.eu/standards/canonicalmodel#next_port> rdf:type owl:NamedIndividual ,
                                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
@@ -2479,6 +2656,18 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
                                                                 <http://purl.org/dc/terms/description> "Next port in the voyage"@en ;
                                                                 rdfs:label "next port"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#nitrate
+<http://www.bigdataocean.eu/standards/canonicalmodel#nitrate> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                              owl:sameAs <https://mmisw.org/ont/cf/parameter/mole_concentration_of_nitrate_in_sea_water> ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "mol m-3"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mole_concentration_of_nitrate_in_sea_water"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                              <http://purl.org/dc/terms/description> "Mole concentration of nitrate in sea water"@en ;
+                                                              rdfs:label "nitrate"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#no3
@@ -2685,6 +2874,30 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                   rdfs:label "parent_iso3"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_nitrogen
+<http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_nitrogen> rdf:type owl:NamedIndividual ,
+                                                                                            <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                                            <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                                   owl:sameAs <https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water> ;
+                                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "mol m-3"^^xsd:string ;
+                                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water"^^xsd:string ;
+                                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                                   <http://purl.org/dc/terms/description> "Mole concentration of particulate organic matter expressed as nitrogen in sea water"@en ;
+                                                                                   rdfs:label "particulate_organic_nitrogen"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_phosphorus
+<http://www.bigdataocean.eu/standards/canonicalmodel#particulate_organic_phosphorus> rdf:type owl:NamedIndividual ,
+                                                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                                     owl:sameAs <https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water> ;
+                                                                                     <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "mol m-3"^^xsd:string ;
+                                                                                     <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water"^^xsd:string ;
+                                                                                     <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                                     <http://purl.org/dc/terms/description> "Mole concentration of particulate organic matter expressed as phosphorus in sea water"@en ;
+                                                                                     rdfs:label "particulate_organic_phosphorus"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#passengers
 <http://www.bigdataocean.eu/standards/canonicalmodel#passengers> rdf:type owl:NamedIndividual ,
                                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
@@ -2735,6 +2948,18 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                            <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                            <http://purl.org/dc/terms/description> "Mole Concentration of Phytoplankton expressed as carbon in sea water"@en ;
                                                            rdfs:label "phyc"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#phytoplankton
+<http://www.bigdataocean.eu/standards/canonicalmodel#phytoplankton> rdf:type owl:NamedIndividual ,
+                                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
+                                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                    owl:sameAs <https://mmisw.org/ont/cf/parameter/mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water> ;
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "mol m-3"^^xsd:string ;
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "mole_concentration_of_phytoplankton_expressed_as_carbon_in_sea_water"^^xsd:string ;
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                                    <http://purl.org/dc/terms/description> "Mole concentration of phytoplankton expressed as carbon in sea water"@en ;
+                                                                    rdfs:label "phytoplankton"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#pilotage_advisable
@@ -2857,7 +3082,7 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#pres_adjusted_dm> rdf:type owl:NamedIndividual ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
-                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_pressure_adjusted_processing_method"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_pressure_processing_method"^^xsd:string ;
                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
                                                                        <http://purl.org/dc/terms/description> "method of data processing"@en ;
                                                                        rdfs:label "pres_adjusted_dm"@en .
@@ -2867,7 +3092,7 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#pres_adjusted_qc> rdf:type owl:NamedIndividual ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
-                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_pressure_adjusted_quality_flag"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_pressure_quality_flag"^^xsd:string ;
                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte"^^xsd:string ;
                                                                        <http://purl.org/dc/terms/description> "Quality Flag"@en ;
                                                                        rdfs:label "pres_adjusted_qc"@en .
@@ -2919,7 +3144,7 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#psal_adjusted_dm> rdf:type owl:NamedIndividual ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
-                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_practical_salinity_adjusted_processing_method"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_practical_salinity_processing_method"^^xsd:string ;
                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
                                                                        <http://purl.org/dc/terms/description> "method of data processing"@en ;
                                                                        rdfs:label "psal_adjusted_dm"@en .
@@ -2929,7 +3154,7 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#psal_adjusted_qc> rdf:type owl:NamedIndividual ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
-                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_practical_salinity_adjusted_quality_flag"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_practical_salinity_quality_flag"^^xsd:string ;
                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte"^^xsd:string ;
                                                                        <http://purl.org/dc/terms/description> "Quality Flag"@en ;
                                                                        rdfs:label "psal_adjusted_qc"@en .
@@ -3012,6 +3237,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
                                                                                <http://purl.org/dc/terms/description> "The rain volume that was recorded during last 3 hours"@en ;
                                                                                rdfs:label "rain_volume_last_3_hours"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#reference
+<http://www.bigdataocean.eu/standards/canonicalmodel#reference> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
+                                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "reference"^^xsd:string ;
+                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
+                                                                <http://purl.org/dc/terms/description> "reference to the prevailing source of data with metadata"@en ;
+                                                                rdfs:label "reference"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#region_index
@@ -3111,6 +3346,28 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                      <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
                                                                      <http://purl.org/dc/terms/description> "R.O.B (remaining on board) oil for the engine"@en ;
                                                                      rdfs:label "rob – engine oil"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#rot
+<http://www.bigdataocean.eu/standards/canonicalmodel#rot> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "rot"^^xsd:string ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                          <http://purl.org/dc/terms/description> "ROT"@en ;
+                                                          rdfs:label "rot"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#salinity
+<http://www.bigdataocean.eu/standards/canonicalmodel#salinity> rdf:type owl:NamedIndividual ,
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                               owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_water_salinity> ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "1e-3"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_salinity"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                               <http://purl.org/dc/terms/description> "Sea water salinity"@en ;
+                                                               rdfs:label "salinity"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition
@@ -3284,6 +3541,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                rdfs:label "shiptype"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#shiptype1
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype1> rdf:type owl:NamedIndividual ,
+                                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "platform_type_id"^^xsd:string ;
+                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
+                                                                <http://purl.org/dc/terms/description> "Type of ship identifier"@en ;
+                                                                rdfs:label "ship type"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#si
 <http://www.bigdataocean.eu/standards/canonicalmodel#si> rdf:type owl:NamedIndividual ,
                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> ,
@@ -3347,6 +3614,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                                rdfs:label "snow_volume_last_3_hours"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sog
+<http://www.bigdataocean.eu/standards/canonicalmodel#sog> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sog"^^xsd:string ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
+                                                          <http://purl.org/dc/terms/description> "SOG"@en ;
+                                                          rdfs:label "sog"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#source
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> rdf:type owl:NamedIndividual ,
                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
@@ -3366,6 +3643,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double"^^xsd:string ;
                                                             <http://purl.org/dc/terms/description> "Speed over ground"@en ;
                                                             rdfs:label "speed"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ssh
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh> rdf:type owl:NamedIndividual ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_height"^^xsd:string ;
+                                                          <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                          <http://purl.org/dc/terms/description> "Sea surface height"@en ;
+                                                          rdfs:label "ssh"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#status
@@ -3582,7 +3869,7 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#temp_adjusted_dm> rdf:type owl:NamedIndividual ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
-                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_temperature_adjusted_processing_method"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_temperature_processing_method"^^xsd:string ;
                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
                                                                        <http://purl.org/dc/terms/description> "method of data processing"@en ;
                                                                        rdfs:label "temp_adjusted_dm"@en .
@@ -3592,7 +3879,7 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#temp_adjusted_qc> rdf:type owl:NamedIndividual ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> ,
                                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
-                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_temperature_adjusted_quality_flag"^^xsd:string ;
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_temperature_quality_flag"^^xsd:string ;
                                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte"^^xsd:string ;
                                                                        <http://purl.org/dc/terms/description> "Quality Flag"@en ;
                                                                        rdfs:label "temp_adjusted_qc"@en .
@@ -3642,6 +3929,18 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                            rdfs:label "tgps"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#thetao
+<http://www.bigdataocean.eu/standards/canonicalmodel#thetao> rdf:type owl:NamedIndividual ,
+                                                                      <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics> ,
+                                                                      <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                             owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature> ;
+                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "K"^^xsd:string ;
+                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_potential_temperature"^^xsd:string ;
+                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                             <http://purl.org/dc/terms/description> "Potential Temperature"@en ;
+                                                             rdfs:label "thetao"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#thickness_range
 <http://www.bigdataocean.eu/standards/canonicalmodel#thickness_range> rdf:type owl:NamedIndividual ,
                                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> ,
@@ -3680,8 +3979,9 @@ rdf:type rdf:type owl:AnnotationProperty .
 <http://www.bigdataocean.eu/standards/canonicalmodel#time_counter> rdf:type owl:NamedIndividual ,
                                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#General> ,
                                                                             <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                                   owl:sameAs <https://mmisw.org/ont/cf/parameter/time> ;
                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "hours"^^xsd:string ;
-                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "time_counter"^^xsd:string ;
+                                                                   <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "timestamp"^^xsd:string ;
                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                    <http://purl.org/dc/terms/description> "Time"@en ;
                                                                    rdfs:label "time_counter"@en .
@@ -3829,6 +4129,28 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                                      rdfs:label "type of position fixing device"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#u
+<http://www.bigdataocean.eu/standards/canonicalmodel#u> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "eastward_sea_water_velocity"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                        <http://purl.org/dc/terms/description> "Eastward sea water velocity"@en ;
+                                                        rdfs:label "u"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#uo
+<http://www.bigdataocean.eu/standards/canonicalmodel#uo> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1"^^xsd:string ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "eastward_sea_water_velocity"^^xsd:string ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                         <http://purl.org/dc/terms/description> "Eastward sea water velocity"@en ;
+                                                         rdfs:label "uo"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#us_representative
 <http://www.bigdataocean.eu/standards/canonicalmodel#us_representative> rdf:type owl:NamedIndividual ,
                                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#Ports> ,
@@ -3848,6 +4170,48 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                            <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                            <http://purl.org/dc/terms/description> "Velocity Zonal Component"@en ;
                                                            rdfs:label "uvel"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#v
+<http://www.bigdataocean.eu/standards/canonicalmodel#v> rdf:type owl:NamedIndividual ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "northward_sea_water_velocity"^^xsd:string ;
+                                                        <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                        <http://purl.org/dc/terms/description> "Northward sea water velocity"@en ;
+                                                        rdfs:label "v"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vanh
+<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> rdf:type owl:NamedIndividual ,
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                    <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                           owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height> ;
+                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m"^^xsd:string ;
+                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height"^^xsd:string ;
+                                                           <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                           <http://purl.org/dc/terms/description> "Spectral significant wave height (Hm0)"@en ;
+                                                           rdfs:label "vanh"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm
+<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height_processing_method"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string"^^xsd:string ;
+                                                              <http://purl.org/dc/terms/description> "Method of data processing"@en ;
+                                                              rdfs:label "vanh_dm"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc
+<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> rdf:type owl:NamedIndividual ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                       <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height_quality_flag"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte"^^xsd:string ;
+                                                              <http://purl.org/dc/terms/description> "Quality flag"@en ;
+                                                              rdfs:label "vanh_qc"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#vavh
@@ -3970,7 +4334,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m"^^xsd:string ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_primary_swell_wave_significant_height"^^xsd:string ;
-                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                <http://purl.org/dc/terms/description> "Spectral significant primary swell wave height"@en ;
                                                                rdfs:label "vhm0_sw1"@en .
 
@@ -3982,7 +4346,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_secondary_swell_wave_significant_height> ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1"^^xsd:string ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_secondary_swell_wave_significant_height"^^xsd:string ;
-                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                <http://purl.org/dc/terms/description> "Spectral significant secondary swell wave height"@en ;
                                                                rdfs:label "vhm0_sw2"@en .
 
@@ -3994,9 +4358,20 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                               owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_significant_height> ;
                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m"^^xsd:string ;
                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wind_wave_significant_height"^^xsd:string ;
-                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                               <http://purl.org/dc/terms/description> "Spectral significant wind wave height"@en ;
                                                               rdfs:label "vhm0_ww"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vm
+<http://www.bigdataocean.eu/standards/canonicalmodel#vm> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ,
+                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1"^^xsd:string ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_speed"^^xsd:string ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                         <http://purl.org/dc/terms/description> "Horizontal current speed"@en ;
+                                                         rdfs:label "vm"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#vmdr
@@ -4037,7 +4412,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_primary_swell_wave_from_direction> ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degree"^^xsd:string ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_primary_swell_wave_from_direction"^^xsd:string ;
-                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                <http://purl.org/dc/terms/description> "Mean primary swell wave direction from"@en ;
                                                                rdfs:label "vmdr_sw1"@en .
 
@@ -4049,7 +4424,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_secondary_swell_wave_from_direction> ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degree"^^xsd:string ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_secondary_swell_wave_from_direction"^^xsd:string ;
-                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                <http://purl.org/dc/terms/description> "Mean secondary swell wave direction from"@en ;
                                                                rdfs:label "vmdr_sw2"@en .
 
@@ -4061,9 +4436,20 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                               owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_from_direction> ;
                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degree"^^xsd:string ;
                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wind_wave_from_direction"^^xsd:string ;
-                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                              <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                               <http://purl.org/dc/terms/description> "Mean wind wave direction from"@en ;
                                                               rdfs:label "vmdr_ww"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vo
+<http://www.bigdataocean.eu/standards/canonicalmodel#vo> rdf:type owl:NamedIndividual ,
+                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> ,
+                                                                  <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1"^^xsd:string ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "northward_sea_water_velocity"^^xsd:string ;
+                                                         <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
+                                                         <http://purl.org/dc/terms/description> "Northward sea water velocity"@en ;
+                                                         rdfs:label "vo"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#voyage_no
@@ -4160,7 +4546,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                 owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_primary_swell_wave_mean_period> ;
                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "s"^^xsd:string ;
                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_primary_swell_wave_mean_period"^^xsd:string ;
-                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                 <http://purl.org/dc/terms/description> "Spectral moments(0,1) primary swell wave period"@en ;
                                                                 rdfs:label "vtm01_sw1"@en .
 
@@ -4172,7 +4558,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                 owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_secondary_swell_wave_mean_period> ;
                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "s"^^xsd:string ;
                                                                 <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_secondary_swell_wave_mean_period"^^xsd:string ;
-                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                 <http://purl.org/dc/terms/description> "Spectral moments(0,1) secondary swell wave period"@en ;
                                                                 rdfs:label "vtm01_sw2"@en .
 
@@ -4184,7 +4570,7 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                owl:sameAs <https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_mean_period> ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "s"^^xsd:string ;
                                                                <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wind_wave_mean_period"^^xsd:string ;
-                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int"^^xsd:string ;
+                                                               <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float"^^xsd:string ;
                                                                <http://purl.org/dc/terms/description> "Spectral moments(0,1)wind wave period"@en ;
                                                                rdfs:label "vtm01_ww"@en .
 
@@ -4633,6 +5019,18 @@ rdf:type rdf:type owl:AnnotationProperty .
 <https://mmisw.org/ont/cf/parameter/mass_concentration_of_chlorophyll_in_sea_water> rdf:type owl:NamedIndividual .
 
 
+###  https://mmisw.org/ont/cf/parameter/mass_concentration_of_oxygen_in_sea_water
+<https://mmisw.org/ont/cf/parameter/mass_concentration_of_oxygen_in_sea_water> rdf:type owl:NamedIndividual .
+
+
+###  https://mmisw.org/ont/cf/parameter/mass_concentration_of_suspended_matter_in_sea_water
+<https://mmisw.org/ont/cf/parameter/mass_concentration_of_suspended_matter_in_sea_water> rdf:type owl:NamedIndividual .
+
+
+###  https://mmisw.org/ont/cf/parameter/mole_concentration_of_ammonium_in_sea_water
+<https://mmisw.org/ont/cf/parameter/mole_concentration_of_ammonium_in_sea_water> rdf:type owl:NamedIndividual .
+
+
 ###  https://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_iron_in_sea_water
 <https://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_iron_in_sea_water> rdf:type owl:NamedIndividual .
 
@@ -4643,6 +5041,14 @@ rdf:type rdf:type owl:AnnotationProperty .
 
 ###  https://mmisw.org/ont/cf/parameter/mole_concentration_of_nitrate_in_sea_water
 <https://mmisw.org/ont/cf/parameter/mole_concentration_of_nitrate_in_sea_water> rdf:type owl:NamedIndividual .
+
+
+###  https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water
+<https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_nitrogen_in_sea_water> rdf:type owl:NamedIndividual .
+
+
+###  https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water
+<https://mmisw.org/ont/cf/parameter/mole_concentration_of_particulate_organic_matter_expressed_as_phosphorus_in_sea_water> rdf:type owl:NamedIndividual .
 
 
 ###  https://mmisw.org/ont/cf/parameter/mole_concentration_of_phosphate_in_sea_water
@@ -4705,6 +5111,10 @@ rdf:type rdf:type owl:AnnotationProperty .
 <https://mmisw.org/ont/cf/parameter/sea_surface_wave_mean_period_from_variance_spectral_density_inverse_frequency_moment> rdf:type owl:NamedIndividual .
 
 
+###  https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height
+<https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height> rdf:type owl:NamedIndividual .
+
+
 ###  https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_period
 <https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_period> rdf:type owl:NamedIndividual .
 
@@ -4727,6 +5137,14 @@ rdf:type rdf:type owl:AnnotationProperty .
 
 ###  https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_significant_height
 <https://mmisw.org/ont/cf/parameter/sea_surface_wind_wave_significant_height> rdf:type owl:NamedIndividual .
+
+
+###  https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature
+<https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature> rdf:type owl:NamedIndividual .
+
+
+###  https://mmisw.org/ont/cf/parameter/sea_water_salinity
+<https://mmisw.org/ont/cf/parameter/sea_water_salinity> rdf:type owl:NamedIndividual .
 
 
 ###  https://mmisw.org/ont/cf/parameter/sea_water_y_velocity
