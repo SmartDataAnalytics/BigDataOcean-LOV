@@ -170,13 +170,25 @@
 <http://bigdataocean.eu/bdo/canonicalmodel#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://bigdataocean.eu/bdo/canonicalmodel#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://purl.org/vocommons/voaf#Vocabulary> .
 # 
+# http://mmisw.org/ont/cf/parameter/age_of_sea_ice
+<http://mmisw.org/ont/cf/parameter/age_of_sea_ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/age_of_sea_ice> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> .
+# 
 # http://mmisw.org/ont/cf/parameter/beaufort_wind_force
 <http://mmisw.org/ont/cf/parameter/beaufort_wind_force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/beaufort_wind_force> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#wind_force> .
 # 
+# http://mmisw.org/ont/cf/parameter/cell_thickness
+<http://mmisw.org/ont/cf/parameter/cell_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/cell_thickness> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> .
+# 
 # http://mmisw.org/ont/cf/parameter/depth
 <http://mmisw.org/ont/cf/parameter/depth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/depth> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#depth> .
+# 
+# http://mmisw.org/ont/cf/parameter/eastward_sea_ice_velocity
+<http://mmisw.org/ont/cf/parameter/eastward_sea_ice_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/eastward_sea_ice_velocity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#usi> .
 # 
 # http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity
 <http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -201,9 +213,17 @@
 <http://mmisw.org/ont/cf/parameter/mass_concentration_of_chlorophyll_a_in_sea_water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/mass_concentration_of_chlorophyll_a_in_sea_water> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#flu2_dm> .
 # 
+# http://mmisw.org/ont/cf/parameter/model_level_number_at_sea_floor
+<http://mmisw.org/ont/cf/parameter/model_level_number_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/model_level_number_at_sea_floor> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> .
+# 
 # http://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water
 <http://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#doxy> .
+# 
+# http://mmisw.org/ont/cf/parameter/northward_sea_ice_velocity
+<http://mmisw.org/ont/cf/parameter/northward_sea_ice_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/northward_sea_ice_velocity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#vsi> .
 # 
 # http://mmisw.org/ont/cf/parameter/northward_sea_water_velocity
 <http://mmisw.org/ont/cf/parameter/northward_sea_water_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -222,6 +242,22 @@
 <http://mmisw.org/ont/cf/parameter/relative_humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/relative_humidity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#humidity> .
 <http://mmisw.org/ont/cf/parameter/relative_humidity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#relh> .
+# 
+# http://mmisw.org/ont/cf/parameter/sea_ice_albedo
+<http://mmisw.org/ont/cf/parameter/sea_ice_albedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/sea_ice_albedo> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#albedo> .
+# 
+# http://mmisw.org/ont/cf/parameter/sea_ice_x_velocity
+<http://mmisw.org/ont/cf/parameter/sea_ice_x_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/sea_ice_x_velocity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#uice> .
+# 
+# http://mmisw.org/ont/cf/parameter/sea_ice_y_velocity
+<http://mmisw.org/ont/cf/parameter/sea_ice_y_velocity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/sea_ice_y_velocity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#vice> .
+# 
+# http://mmisw.org/ont/cf/parameter/sea_surface_height_above_geoid
+<http://mmisw.org/ont/cf/parameter/sea_surface_height_above_geoid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/sea_surface_height_above_geoid> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#zos> .
 # 
 # http://mmisw.org/ont/cf/parameter/sea_surface_wave_from_direction
 <http://mmisw.org/ont/cf/parameter/sea_surface_wave_from_direction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -303,6 +339,10 @@
 <http://mmisw.org/ont/cf/parameter/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/source> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#source> .
 # 
+# http://mmisw.org/ont/cf/parameter/surface_snow_thickness
+<http://mmisw.org/ont/cf/parameter/surface_snow_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/surface_snow_thickness> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> .
+# 
 # http://mmisw.org/ont/cf/parameter/wind_from_direction
 <http://mmisw.org/ont/cf/parameter/wind_from_direction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/wind_from_direction> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#gdir> .
@@ -325,6 +365,25 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#a> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#a> <http://purl.org/dc/terms/description> "Length from GPS to bow"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#a> <http://www.w3.org/2000/01/rdf-schema#label> "a"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "year" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "age_of_sea_ice" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://purl.org/dc/terms/description> "Age of sea ice means the length of time elapsed since the ice formed"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> <http://www.w3.org/2000/01/rdf-schema#label> "age_of_sea_ice"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#albedo
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_ice_albedo" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://purl.org/dc/terms/description> "The albedo of sea ice. Albedo is the ratio of outgoing to incoming shortwave irradiance"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#albedo> <http://www.w3.org/2000/01/rdf-schema#label> "albedo"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#ammonia
 <http://www.bigdataocean.eu/standards/canonicalmodel#ammonia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -371,7 +430,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_anchor_duration" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_duration> <http://purl.org/dc/terms/description> "Time of a vessel waiting at anchor"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "at anchor (consumptions) \u2013 duration"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "at anchor (consumptions) – duration"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -380,7 +439,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_anchor_engine_diesel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil> <http://purl.org/dc/terms/description> "Consumption of diesel oil in the main engine, of a vessel waiting at anchor"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "at anchor (consumptions) \u2013 engine diesel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "at anchor (consumptions) – engine diesel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -389,7 +448,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_anchor_engine_fuel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil> <http://purl.org/dc/terms/description> "Consumption of fuel oil in the main engine, of a vessel waiting at anchor"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "at anchor (consumptions) \u2013 engine fuel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#at_anchor_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "at anchor (consumptions) – engine fuel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -398,7 +457,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_berth_duration" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration> <http://purl.org/dc/terms/description> "Time of vessel's stay AT BERTH in hours and minutes"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "at berth (consumptions) \u2013 duration"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#at_berth_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "at berth (consumptions) – duration"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#atmospheric_pressure_on_the_ground_level
 <http://www.bigdataocean.eu/standards/canonicalmodel#atmospheric_pressure_on_the_ground_level> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -465,6 +524,24 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#average_speed> <http://purl.org/dc/terms/description> "Average speed for the distance covered from the previous noon or from FULLAWAY"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#average_speed> <http://www.w3.org/2000/01/rdf-schema#label> "average speed"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "average_waterdepth" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://purl.org/dc/terms/description> "average waterdepth in meters to LAT"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.w3.org/2000/01/rdf-schema#label> "average_waterdepth"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "average_waterdepth_smoothed" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://purl.org/dc/terms/description> "average waterdepth smoothed by means of a spline function in meters to LAT"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.w3.org/2000/01/rdf-schema#label> "average_waterdepth_smoothed"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#b
 <http://www.bigdataocean.eu/standards/canonicalmodel#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#b> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
@@ -493,6 +570,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#berthed_date> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#berthed_date> <http://purl.org/dc/terms/description> "BERTHED (DATE/TIME)"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#berthed_date> <http://www.w3.org/2000/01/rdf-schema#label> "berthed date"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#bottomT
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature_at_sea_floor> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees_C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_potential_temperature_at_sea_floor" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://purl.org/dc/terms/description> "Sea floor potential temperature"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#bottomT> <http://www.w3.org/2000/01/rdf-schema#label> "bottomT"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#c
 <http://www.bigdataocean.eu/standards/canonicalmodel#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -567,6 +655,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#cdom_qc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cdom_qc> <http://purl.org/dc/terms/description> "Quality Flag"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cdom_qc> <http://www.w3.org/2000/01/rdf-schema#label> "cdom_qc"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "cell_thickness" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://purl.org/dc/terms/description> "Thickness means the vertical extent of a layer. Cell refers to a model grid-cell."@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cell_thickness> <http://www.w3.org/2000/01/rdf-schema#label> "cell_thickness"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#channel_depth
 <http://www.bigdataocean.eu/standards/canonicalmodel#channel_depth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -798,7 +896,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_cruising_duration" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_duration> <http://purl.org/dc/terms/description> "Trip duration in hours and minutes, in any case where the vessel cannot stay at anchor and is obliged to cruise"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) \u2013 duration"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) – duration"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -807,7 +905,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_cruising_engine_diesel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil> <http://purl.org/dc/terms/description> "Consumption of diesel oil in the main engine, in any case where the vessel cannot stay at anchor and is obliged to cruise"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) \u2013 engine diesel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) – engine diesel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -816,7 +914,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_cruising_engine_fuel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil> <http://purl.org/dc/terms/description> "Consumption of fuel oil in the main engine, in any case where the vessel cannot stay at anchor and is obliged to cruise"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) \u2013 engine fuel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) – engine fuel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -825,7 +923,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_cruising_miles" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles> <http://purl.org/dc/terms/description> "Distance run in miles, in any case where the vessel cannot stay at anchor and is obliged to cruise"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) \u2013 miles"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#cruising_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "cruising (consumptions) – miles"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#csp
 <http://www.bigdataocean.eu/standards/canonicalmodel#csp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1708,8 +1806,18 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "time_changes" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://purl.org/dc/terms/description> "Time changes from setting the clock forward or backward with +(plus) for forward movements and \u2013 (minus) for backward movements"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://purl.org/dc/terms/description> "Time changes from setting the clock forward or backward with +(plus) for forward movements and – (minus) for backward movements"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://www.w3.org/2000/01/rdf-schema#label> "hours (+/-)"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#hsnow
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "surface_snow_thickness" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://purl.org/dc/terms/description> "The surface called surface means the lower boundary of the atmosphere."@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hsnow> <http://www.w3.org/2000/01/rdf-schema#label> "hsnow"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#humidity
 <http://www.bigdataocean.eu/standards/canonicalmodel#humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1873,6 +1981,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#int_crit> <http://purl.org/dc/terms/description> "This field is only applied to the UNESCO World Heritage natural sites and Ramsar sites"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#int_crit> <http://www.w3.org/2000/01/rdf-schema#label> "int_crit"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "interpolation_flag" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://purl.org/dc/terms/description> "interpolation flag (identification of extrapolated cells)"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag> <http://www.w3.org/2000/01/rdf-schema#label> "interpolation_flag"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
@@ -1880,7 +1997,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_inward_duration" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://purl.org/dc/terms/description> "Duration of movement in minutes and hours referred to vessel's movement from STAND BY (seabuoy) to BERTH"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) \u2013 duration"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) – duration"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1889,7 +2006,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_inward_engine_diesel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil> <http://purl.org/dc/terms/description> "Consumption of diesel oil in the main engine referred to vessel's movement from STAND BY (seabuoy) to BERTH"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) \u2013 engine diesel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) – engine diesel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1898,7 +2015,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_inward_engine_fuel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil> <http://purl.org/dc/terms/description> "Consumption of fuel oil in the main engine referred to vessel's movement from STAND BY (seabuoy) to BERTH"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) \u2013 engine fuel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) – engine fuel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1907,7 +2024,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_inward_miles" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles> <http://purl.org/dc/terms/description> "Distance in miles referred to vessel's movement from STAND BY (seabuoy) to BERTH"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) \u2013 miles"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "inward moves (consumptions) – miles"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#ismc_imo
 <http://www.bigdataocean.eu/standards/canonicalmodel#ismc_imo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2015,7 +2132,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "platform_length" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://purl.org/dc/terms/description> "Dimensions of ship \u2013 Length"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://purl.org/dc/terms/description> "Dimensions of ship – Length"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://www.w3.org/2000/01/rdf-schema#label> "length"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons
@@ -2197,7 +2314,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_cylinder> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "remaining_on_board_cylinder_lubricant" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_cylinder> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_cylinder> <http://purl.org/dc/terms/description> "R.O.B (remaining on board) lubricants for the cylinder"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_cylinder> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants \u2013 cylinder"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_cylinder> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants – cylinder"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2206,7 +2323,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "remaining_on_board_engine_lubricant" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine> <http://purl.org/dc/terms/description> "R.O.B (remaining on board) lubricants for the engine"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants \u2013 engine"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_engine> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants – engine"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2215,7 +2332,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "remaining_on_board_evaporator_lubricant" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator> <http://purl.org/dc/terms/description> "R.O.B (remaining on board) lubricants for the evaporator"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants \u2013 evaporator"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_evaporator> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants – evaporator"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2224,7 +2341,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "remaining_on_board_generator_lubricant" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator> <http://purl.org/dc/terms/description> "R.O.B (remaining on board) lubricants for the generator"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants \u2013 generator"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#lubricants_generator> <http://www.w3.org/2000/01/rdf-schema#label> "lubricants – generator"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#main_port_name
 <http://www.bigdataocean.eu/standards/canonicalmodel#main_port_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2281,13 +2398,22 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#max_temperature> <http://purl.org/dc/terms/description> "The maximum temperature recorded"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#max_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "max_temperature"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "maximum_waterdepth" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://purl.org/dc/terms/description> "maximum waterdepth in meters to LAT"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maximum_waterdepth> <http://www.w3.org/2000/01/rdf-schema#label> "maximum_waterdepth"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code
 <http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "vessel_code" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://purl.org/dc/terms/description> "\u201CL\u201D indicates that a ship of over 500 feet (152.4 meters) long may be accommodated. \u201CM\u201D indicates ships less than 500 feet (152.4 meters) long may be accommodated"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://purl.org/dc/terms/description> "“L” indicates that a ship of over 500 feet (152.4 meters) long may be accommodated. “M” indicates ships less than 500 feet (152.4 meters) long may be accommodated"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#maxsize_vessel_code> <http://www.w3.org/2000/01/rdf-schema#label> "maxsize_vessel_code"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#mean_wave_direction
@@ -2337,6 +2463,26 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#min_temperature> <http://purl.org/dc/terms/description> "The minimum temperature recorded"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#min_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "min_temperature"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "minimum_waterdepth" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://purl.org/dc/terms/description> "minimum waterdepth in meters to LAT"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/2000/01/rdf-schema#label> "minimum_waterdepth"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#mlotst
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/ocean_mixed_layer_thickness_defined_by_sigma_theta> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ocean_mixed_layer_thickness_defined_by_sigma_theta" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://purl.org/dc/terms/description> "Density ocean mixed layer thickness"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/2000/01/rdf-schema#label> "mlotst"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#mmsi
 <http://www.bigdataocean.eu/standards/canonicalmodel#mmsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#mmsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -2345,6 +2491,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#mmsi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#mmsi> <http://purl.org/dc/terms/description> "Maritime mobile service identity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#mmsi> <http://www.w3.org/2000/01/rdf-schema#label> "mmsi"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "model_level_number_at_sea_floor" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://purl.org/dc/terms/description> "the depth of the ocean expressed in model levels"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#model_level_number_at_sea_floor> <http://www.w3.org/2000/01/rdf-schema#label> "model_level_number_at_sea_floor"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#month
 <http://www.bigdataocean.eu/standards/canonicalmodel#month> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2439,6 +2595,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#notes> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#notes> <http://www.w3.org/2000/01/rdf-schema#label> "notes"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "number_of_values_used" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://purl.org/dc/terms/description> "number of values used for interpolation over the grid cell"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#number_of_values_used> <http://www.w3.org/2000/01/rdf-schema#label> "number_of_values_used"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#nvh
 <http://www.bigdataocean.eu/standards/canonicalmodel#nvh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#nvh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -2457,6 +2622,26 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://purl.org/dc/terms/description> "Mole Concentration of Dissolved Oxygen in Sea Water"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://www.w3.org/2000/01/rdf-schema#label> "o2"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/ocean_mixed_layer_thickness_defined_by_sigma_theta> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ocean_mixed_layer_thickness_defined_by_sigma_theta" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://purl.org/dc/terms/description> "The ocean mixed layer is the upper part of the ocean, regarded as being well-mixed"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/2000/01/rdf-schema#label> "ocean_mixed_layer_thickness_defined_by_sigma_theta"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "offsets_indicator" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://purl.org/dc/terms/description> "an indicator of the offsets between the average and smoothed waterdepth as a % of the waterdepth "@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#offsets_indicator> <http://www.w3.org/2000/01/rdf-schema#label> "offsets_indicator"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#oil_terminal_depth
 <http://www.bigdataocean.eu/standards/canonicalmodel#oil_terminal_depth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2512,7 +2697,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_out_movement_duration" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_duration> <http://purl.org/dc/terms/description> "Duration of movement in minutes and hours, referred to vessel's movement from BERTH to STAND BY (seabuoy)"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) \u2013 duration"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) – duration"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2521,7 +2706,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_out_movement_engine_diesel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil> <http://purl.org/dc/terms/description> "Consumption of diesel oil in the main engine, referred to vessel's movement from BERTH to STAND BY (seabuoy)"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) \u2013 engine diesel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) – engine diesel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2530,7 +2715,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_out_movement_engine_fuel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil> <http://purl.org/dc/terms/description> "Consumption of fuel oil in the main engine, referred to vessel's movement from BERTH to STAND BY (seabuoy)"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) \u2013 engine fuel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) – engine fuel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2539,7 +2724,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_out_movement_miles" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles> <http://purl.org/dc/terms/description> "Distance in miles, referred to vessel's movement from BERTH to STAND BY (seabuoy)"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) \u2013 miles"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "out movement (consumptions) – miles"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#overhead_limits
 <http://www.bigdataocean.eu/standards/canonicalmodel#overhead_limits> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2984,7 +3169,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#rep_m_area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rep_m_area> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "rep_m_area" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rep_m_area> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#rep_m_area> <http://purl.org/dc/terms/description> "The reported marine area details the extent of the protected area in square kilometers provided by data provider if the \u2018Marine\u2019 field is \u20181\u2019 or \u20182\u2019"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#rep_m_area> <http://purl.org/dc/terms/description> "The reported marine area details the extent of the protected area in square kilometers provided by data provider if the ‘Marine’ field is ‘1’ or ‘2’"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rep_m_area> <http://www.w3.org/2000/01/rdf-schema#label> "rep_m_area"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#repair_code
@@ -3003,7 +3188,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "remaining_on_board_engine_oil" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil> <http://purl.org/dc/terms/description> "R.O.B (remaining on board) oil for the engine"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil> <http://www.w3.org/2000/01/rdf-schema#label> "rob \u2013 engine oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil> <http://www.w3.org/2000/01/rdf-schema#label> "rob – engine oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#rot
 <http://www.bigdataocean.eu/standards/canonicalmodel#rot> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3033,6 +3218,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://purl.org/dc/terms/description> "Condition of the sea and the swell"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://www.w3.org/2000/01/rdf-schema#label> "sea condition"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature_at_sea_floor> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "K" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_water_potential_temperature_at_sea_floor" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://purl.org/dc/terms/description> "Potential temperature is the temperature a parcel of air or sea water would have if moved adiabatically to sea level pressure. The potential temperature at the sea floor is that adjacent to the ocean bottom, which would be the deepest grid cell in an ocean model."@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/2000/01/rdf-schema#label> "sea_water_potential_temperature_at_sea_floor"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#seastate
 <http://www.bigdataocean.eu/standards/canonicalmodel#seastate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3104,7 +3300,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_shifting_duration" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_duration> <http://purl.org/dc/terms/description> "Duration of movement in minutes and hours, referred to vessel's movement from BERTH TO BERTH or BERTH TO ANCHORAGE and vise-versa"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) \u2013 duration"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_duration> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) – duration"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3113,7 +3309,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_shifting_engine_diesel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil> <http://purl.org/dc/terms/description> "Consumption of diesel oil in the main engine, referred to vessel's movement from BERTH TO BERTH or BERTH TO ANCHORAGE and vise-versa"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) \u2013 engine diesel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_diesel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) – engine diesel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3122,7 +3318,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_shifting_engine_fuel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil> <http://purl.org/dc/terms/description> "Consumption of fuel oil in the main engine, referred to vessel's movement from BERTH TO BERTH or BERTH TO ANCHORAGE and vise-versa"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) \u2013 engine fuel oil"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_engine_fuel_oil> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) – engine fuel oil"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3131,7 +3327,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "consumptions_shifting_miles" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles> <http://purl.org/dc/terms/description> "Distance in miles, referred to vessel's movement from BERTH TO BERTH or BERTH TO ANCHORAGE and vise-versa"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) \u2013 miles"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shifting_consumptions_miles> <http://www.w3.org/2000/01/rdf-schema#label> "shifting (consumptions) – miles"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#ship_flag
 <http://www.bigdataocean.eu/standards/canonicalmodel#ship_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3282,13 +3478,23 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh> <http://purl.org/dc/terms/description> "Sea surface height"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh> <http://www.w3.org/2000/01/rdf-schema#label> "ssh"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#ssh1
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_elevation" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://purl.org/dc/terms/description> "sea surface elevation"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.w3.org/2000/01/rdf-schema#label> "ssh"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#status
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "status" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://purl.org/dc/terms/description> "All protected areas in the WDPA are either listed as \u2018Designated\u2019, \u2018Proposed\u2019 or \u2018Established\u2019. Protected areas that have been degazetted are not included within the WDPA"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://purl.org/dc/terms/description> "All protected areas in the WDPA are either listed as ‘Designated’, ‘Proposed’ or ‘Established’. Protected areas that have been degazetted are not included within the WDPA"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.w3.org/2000/01/rdf-schema#label> "status"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#status1
@@ -3315,7 +3521,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#status_yr> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status_yr> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "status_yr" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status_yr> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "long" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#status_yr> <http://purl.org/dc/terms/description> "The year in which the protected area was proposed (if Status is listed as \u2018Proposed\u2019), designated (if Status is listed as \u2018Designated\u2019) or established (if Status is listed as \u2018Established\u2019)"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#status_yr> <http://purl.org/dc/terms/description> "The year in which the protected area was proposed (if Status is listed as ‘Proposed’), designated (if Status is listed as ‘Designated’) or established (if Status is listed as ‘Established’)"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status_yr> <http://www.w3.org/2000/01/rdf-schema#label> "status_yr"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance
@@ -3324,7 +3530,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_distance" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 distance"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_distance> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – distance"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3333,7 +3539,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_engine_diesel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://purl.org/dc/terms/description> "Consumption of diesel oil in the main engine, during stoppage or slow down"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 engine diesel"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_diesel> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – engine diesel"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3342,7 +3548,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_engine_fuel" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel> <http://purl.org/dc/terms/description> "Consumption of fuel oil in the main engine, during stoppage or slow down"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 engine fuel"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_engine_fuel> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – engine fuel"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3351,7 +3557,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_from" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from> <http://purl.org/dc/terms/description> "Commencement for stoppages or slow-down"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 from"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_from> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – from"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3359,7 +3565,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_rpm" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 rpm"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_rpm> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – rpm"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3367,7 +3573,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_speed" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 speed"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_speed> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – speed"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3376,7 +3582,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "stop_or_slow_to" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to> <http://purl.org/dc/terms/description> "Termination for stoppages or slow-down"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs \u2013 to"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#stopslow_downs_to> <http://www.w3.org/2000/01/rdf-schema#label> "stop/slow downs – to"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#sub_loc
 <http://www.bigdataocean.eu/standards/canonicalmodel#sub_loc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3720,6 +3926,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#u> <http://purl.org/dc/terms/description> "Eastward sea water velocity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#u> <http://www.w3.org/2000/01/rdf-schema#label> "u"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#uice
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_ice_x_velocity" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://purl.org/dc/terms/description> "sea ice x velocity"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#uice> <http://www.w3.org/2000/01/rdf-schema#label> "uice"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#uo
 <http://www.bigdataocean.eu/standards/canonicalmodel#uo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#uo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
@@ -3738,6 +3954,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#us_representative> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#us_representative> <http://purl.org/dc/terms/description> "Indicates whether the United States maintains civilian/military representation in that port."@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#us_representative> <http://www.w3.org/2000/01/rdf-schema#label> "us_representative"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#usi
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "eastward_sea_ice_velocity" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://purl.org/dc/terms/description> "Sea ice eastward velocity"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#usi> <http://www.w3.org/2000/01/rdf-schema#label> "usi"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#uvel
 <http://www.bigdataocean.eu/standards/canonicalmodel#uvel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3758,61 +3984,39 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#v> <http://purl.org/dc/terms/description> "Northward sea water velocity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#v> <http://www.w3.org/2000/01/rdf-schema#label> "v"@en .
 # 
-# http://www.bigdataocean.eu/standards/canonicalmodel#vanh
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://purl.org/dc/terms/description> "Spectral significant wave height (Hm0)"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh> <http://www.w3.org/2000/01/rdf-schema#label> "vanh"@en .
-# 
-# http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height_processing_method" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://purl.org/dc/terms/description> "Method of data processing"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_dm> <http://www.w3.org/2000/01/rdf-schema#label> "vanh_dm"@en .
-# 
-# http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height_quality_flag" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://purl.org/dc/terms/description> "Quality flag"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#vanh_qc> <http://www.w3.org/2000/01/rdf-schema#label> "vanh_qc"@en .
-# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vavh
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/sea_surface_wave_significant_height> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://purl.org/dc/terms/description> "Average height highest 1/3 wave (H1/3)"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://purl.org/dc/terms/description> "Spectral significant wave height (Hm0)"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/2000/01/rdf-schema#label> "vavh"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height_processing_method" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://purl.org/dc/terms/description> "Method of data processing"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://purl.org/dc/terms/description> "method of data processing"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_dm> <http://www.w3.org/2000/01/rdf-schema#label> "vavh_dm"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_wave_significant_height_quality_flag" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://purl.org/dc/terms/description> "Quality Flag"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://purl.org/dc/terms/description> "Quality flag"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh_qc> <http://www.w3.org/2000/01/rdf-schema#label> "vavh_qc"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vavt
@@ -3921,6 +4125,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#vhm0_ww> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vhm0_ww> <http://purl.org/dc/terms/description> "Spectral significant wind wave height"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vhm0_ww> <http://www.w3.org/2000/01/rdf-schema#label> "vhm0_ww"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#vice
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_ice_y_velocity" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://purl.org/dc/terms/description> "sea ice y velocity"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vice> <http://www.w3.org/2000/01/rdf-schema#label> "vice"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vm
 <http://www.bigdataocean.eu/standards/canonicalmodel#vm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4082,6 +4296,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#vsdy> <http://purl.org/dc/terms/description> "Stokes drift V"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vsdy> <http://www.w3.org/2000/01/rdf-schema#label> "vsdy"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#vsi
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m s-1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "northward_sea_ice_velocity" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://purl.org/dc/terms/description> "Sea ice northward velocity"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vsi> <http://www.w3.org/2000/01/rdf-schema#label> "vsi"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vtm01_sw1
 <http://www.bigdataocean.eu/standards/canonicalmodel#vtm01_sw1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vtm01_sw1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
@@ -4240,6 +4464,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#watercons> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#watercons> <http://www.w3.org/2000/01/rdf-schema#label> "watercons"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "waterdepth_deviation" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://purl.org/dc/terms/description> "standard deviation of waterdepth in meters"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#waterdepth_deviation> <http://www.w3.org/2000/01/rdf-schema#label> "waterdepth_deviation"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#waterpoints
 <http://www.bigdataocean.eu/standards/canonicalmodel#waterpoints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#waterpoints> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -4313,7 +4546,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#wdpa_pid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#wdpa_pid> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "wdpa_pid" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#wdpa_pid> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#wdpa_pid> <http://purl.org/dc/terms/description> "Parcel ID. Parcel ID\u2019s are used when in a same protected area different zones have been formally defined and delineated"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wdpa_pid> <http://purl.org/dc/terms/description> "Parcel ID. Parcel ID’s are used when in a same protected area different zones have been formally defined and delineated"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#wdpa_pid> <http://www.w3.org/2000/01/rdf-schema#label> "wdpa_pid"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#wdpaid
@@ -4377,7 +4610,7 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#width> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#width> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "platform_width" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#width> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#width> <http://purl.org/dc/terms/description> "Dimensions of ship \u2013 Width"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#width> <http://purl.org/dc/terms/description> "Dimensions of ship – Width"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#width> <http://www.w3.org/2000/01/rdf-schema#label> "width"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#wind_direction
@@ -4495,6 +4728,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#year> <http://purl.org/dc/terms/description> "year when took place"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#year> <http://www.w3.org/2000/01/rdf-schema#label> "year"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#zos
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_height_above_geoid" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://purl.org/dc/terms/description> "Sea surface height"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#zos> <http://www.w3.org/2000/01/rdf-schema#label> "zos"@en .
+# 
 # https://mmisw.org/ont/cf/parameter/air_temperature
 <https://mmisw.org/ont/cf/parameter/air_temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
@@ -4548,6 +4791,9 @@
 # 
 # https://mmisw.org/ont/cf/parameter/non_tidal_elevation_of_sea_surface_height
 <https://mmisw.org/ont/cf/parameter/non_tidal_elevation_of_sea_surface_height> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://mmisw.org/ont/cf/parameter/ocean_mixed_layer_thickness_defined_by_sigma_theta
+<https://mmisw.org/ont/cf/parameter/ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
 # https://mmisw.org/ont/cf/parameter/platform_id
 <https://mmisw.org/ont/cf/parameter/platform_id> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4606,6 +4852,9 @@
 # https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature
 <https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
+# https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature_at_sea_floor
+<https://mmisw.org/ont/cf/parameter/sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
 # https://mmisw.org/ont/cf/parameter/sea_water_salinity
 <https://mmisw.org/ont/cf/parameter/sea_water_salinity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
@@ -4630,4 +4879,4 @@
 # https://mmisw.org/ont/cf/parameter/y_wind
 <https://mmisw.org/ont/cf/parameter/y_wind> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 # 
-# Generated by the OWL API (version 5.1.0) https://github.com/owlcs/owlapi/
+# Generated by the OWL API (version 5.1.7) https://github.com/owlcs/owlapi/
