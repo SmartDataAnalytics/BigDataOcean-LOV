@@ -3324,16 +3324,16 @@
     
 
 
-    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress -->
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress">
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName>ismc_nameadress</hasCanonicalName>
+        <hasCanonicalName>ismc_nameadres</hasCanonicalName>
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">name address of the destination of the ship</terms:description>
-        <rdfs:label xml:lang="en">ismc_nameadress</rdfs:label>
+        <rdfs:label xml:lang="en">ismc_nameadres</rdfs:label>
     </owl:NamedIndividual>
     
 

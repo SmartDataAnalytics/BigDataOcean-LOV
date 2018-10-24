@@ -2035,14 +2035,14 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#ismc_imo> <http://purl.org/dc/terms/description> "International Safety Management code of International Maritime Organization"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ismc_imo> <http://www.w3.org/2000/01/rdf-schema#label> "ismc_imo"@en .
 # 
-# http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ismc_nameadress" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://purl.org/dc/terms/description> "name address of the destination of the ship"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress> <http://www.w3.org/2000/01/rdf-schema#label> "ismc_nameadress"@en .
+# http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ismc_nameadres" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://purl.org/dc/terms/description> "name address of the destination of the ship"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres> <http://www.w3.org/2000/01/rdf-schema#label> "ismc_nameadres"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#iso3
 <http://www.bigdataocean.eu/standards/canonicalmodel#iso3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

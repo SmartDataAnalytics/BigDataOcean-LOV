@@ -2278,14 +2278,14 @@ rdf:type rdf:type owl:AnnotationProperty .
           rdfs:label "ismc_imo"@en .
 
 
-###  http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress
-:ismc_nameadress rdf:type owl:NamedIndividual ,
-                          :General ,
-                          :Variable ;
-                 :hasCanonicalName "ismc_nameadress" ;
-                 :hasDataType "string" ;
-                 <http://purl.org/dc/terms/description> "name address of the destination of the ship"@en ;
-                 rdfs:label "ismc_nameadress"@en .
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres
+:ismc_nameadres rdf:type owl:NamedIndividual ,
+                         :General ,
+                         :Variable ;
+                :hasCanonicalName "ismc_nameadres" ;
+                :hasDataType "string" ;
+                <http://purl.org/dc/terms/description> "name address of the destination of the ship"@en ;
+                rdfs:label "ismc_nameadres"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#iso3

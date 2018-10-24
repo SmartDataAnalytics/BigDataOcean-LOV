@@ -3069,15 +3069,15 @@
     
 
 
-    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress -->
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres -->
 
-    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress">
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ismc_nameadress</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ismc_nameadres</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <dcterms:description xml:lang="en">name address of the destination of the ship</dcterms:description>
-        <rdfs:label xml:lang="en">ismc_nameadress</rdfs:label>
+        <rdfs:label xml:lang="en">ismc_nameadres</rdfs:label>
     </owl:NamedIndividual>
     
 

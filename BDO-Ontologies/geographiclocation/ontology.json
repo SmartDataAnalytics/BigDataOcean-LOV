@@ -1,1 +1,1182 @@
-[{"@id":"http://bigdataocean.eu/bdo/geographiclocation#","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://purl.org/vocommons/voaf#Vocabulary"]},{"@id":"http://creativecommons.org/ns#licence","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://marineregions.org/mrgid/1904","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/1905","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/1906","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/1908","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/1910","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/1912","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/1914","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2350","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2351","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2353","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2356","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2357","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2359","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2374","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2379","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2389","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2401","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2402","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2407","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/2409","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3141","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3314","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3315","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3319","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3320","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3322","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3324","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3346","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3351","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3363","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3369","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/3386","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4244","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4245","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4246","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4247","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4248","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4250","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4251","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4252","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4253","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4254","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4256","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4257","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4261","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4262","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4264","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4265","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4266","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4267","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4268","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4273","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4274","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4275","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4276","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4279","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4280","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4283","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4286","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4287","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4288","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4289","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4291","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4300","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4302","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4303","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4307","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4309","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4310","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4312","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4313","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4314","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4325","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4332","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4360","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4361","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4364","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4365","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4366","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/4969","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/49716","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://marineregions.org/mrgid/5698","@type":["http://www.w3.org/2002/07/owl#NamedIndividual"]},{"@id":"http://purl.org/dc/terms/description","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://purl.org/dc/terms/issued","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://purl.org/dc/terms/publisher","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://purl.org/dc/terms/rights","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://purl.org/dc/terms/title","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://purl.org/vocommons/voaf#Vocabulary","@type":["http://www.w3.org/2002/07/owl#Class"]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#","@type":["http://www.w3.org/2002/07/owl#Ontology"],"http://creativecommons.org/ns#licence":[{"@id":"https://creativecommons.org/licenses/by/3.0/"}],"http://purl.org/dc/terms/creator":[{"@value":"Ana-Cristina Trillos-Ujueta"},{"@value":"Jaime-Manuel Trillos-Ujueta"}],"http://purl.org/dc/terms/description":[{"@language":"en","@value":"A vocabulary which represents the geographic location standards used in Big Data Ocean."}],"http://purl.org/dc/terms/issued":[{"@type":"http://www.w3.org/2001/XMLSchema#dateTime","@value":"2018-08-15T13:00:00"}],"http://purl.org/dc/terms/publisher":[{"@id":"http://dbpedia.org/resource/University_of_Bonn"}],"http://purl.org/dc/terms/rights":[{"@id":"http://creativecommons.org/licenses/by-nc-sa/3.0/"}],"http://purl.org/dc/terms/title":[{"@language":"en","@value":"Geographic Location Standards for Big Data Ocean"}],"http://purl.org/vocab/vann/preferredNamespacePrefix":[{"@value":"geolocbdo"}],"http://purl.org/vocab/vann/preferredNamespaceUri":[{"@value":"http://www.bigdataocean.eu/standards/geographiclocation#"}],"http://www.w3.org/2000/01/rdf-schema#comment":[{"@language":"en","@value":"Version 1: Vocabulary creation"}],"http://www.w3.org/2002/07/owl#versionInfo":[{"@type":"http://www.w3.org/2001/XMLSchema#decimal","@value":"1.0"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1904","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Indian Ocean"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1904"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1905","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Mediterranean Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1905"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1906","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Arctic Ocean"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1906"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1908","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"North Pacific Ocean"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1908"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1910","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"South Pacific Ocean"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1910"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1912","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"North Atlantic Ocean"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1912"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#1914","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"South Atlantic Ocean"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/1914"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2350","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"North Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2350"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2351","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Celtic Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2351"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2353","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Norwegian Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2353"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2356","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Greenland Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2356"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2357","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Irish Sea and St. George's Channel"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2357"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2359","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bay of Biscay"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2359"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2374","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Kattegat"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2374"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2379","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Skagerrak"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2379"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2389","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"English Channel"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2389"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2401","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Baltic Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2401"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2402","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Bothnia"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2402"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2407","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Finland"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2407"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#2409","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Riga"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/2409"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3141","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bristol Channel"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3141"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3314","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Adriatic Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3314"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3315","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Aegean Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3315"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3319","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Black Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3319"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3320","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Sea of Azov"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3320"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3322","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Balearic Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3322"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3324","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Alboran Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3324"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3346","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Strait of Gibraltar"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3346"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3351","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Ionian Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3351"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3363","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Ligurian Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3363"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3369","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Sea of Marmara"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3369"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#3386","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Tyrrhenian Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/3386"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4244","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"East Siberian Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4244"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4245","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Laptev Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4245"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4246","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Kara Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4246"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4247","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Barentsz Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4247"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4248","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"White Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4248"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4250","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Davis Strait"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4250"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4251","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Hudson Strait"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4251"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4252","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Hudson Bay"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4252"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4253","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Baffin Bay"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4253"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4254","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Lincoln Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4254"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4256","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Beaufort Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4256"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4257","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Chukchi Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4257"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4261","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Mozambique Channel"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4261"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4262","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Suez"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4262"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4264","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Red Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4264"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4265","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Aden"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4265"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4266","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Persian Gulf"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4266"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4267","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Oman"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4267"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4268","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Arabian Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4268"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4273","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bay of Bengal"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4273"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4274","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Andaman Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4274"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4275","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Malacca Strait"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4275"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4276","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Great Australian Bight"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4276"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4279","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Mediterranean Sea - Western Basin"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4279"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4280","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Mediterranean Sea - Eastern Basin"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4280"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4283","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Inner Seas off the West Coast of Scotland"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4283"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4286","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Guinea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4286"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4287","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Caribbean Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4287"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4288","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Mexico"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4288"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4289","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bay of Fundy"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4289"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4291","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Labrador Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4291"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4300","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Philippine Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4300"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4302","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Eastern China Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4302"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4303","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Yellow Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4303"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4307","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Japan Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4307"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4309","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Sea of Okhotsk"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4309"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4310","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bering Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4310"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4312","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of Alaska"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4312"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4313","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"The Coastal Waters of Southeast Alaska and British Columbia"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4313"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4314","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of California"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4314"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4325","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Rio de La Plata"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4325"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4332","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"South China Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4332"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4360","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bismarck Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4360"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4361","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Solomon Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4361"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4364","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Coral Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4364"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4365","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Tasman Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4365"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4366","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Bass Strait"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4366"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#4969","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Laccadive Sea"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/4969"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#49716","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Gulf of St. Lawrence"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/49716"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#5698","@type":["http://www.w3.org/2002/07/owl#NamedIndividual","http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Northwestern Passages"}],"http://www.w3.org/2004/02/skos/core#closeMatch":[{"@id":"http://marineregions.org/mrgid/5698"}]},{"@id":"http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard","@type":["http://www.w3.org/2002/07/owl#Class"],"http://www.w3.org/2000/01/rdf-schema#label":[{"@language":"en","@value":"Geographic Location Standard"}]},{"@id":"http://www.w3.org/1999/02/22-rdf-syntax-ns#type","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://www.w3.org/2002/07/owl#sameAs","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://www.w3.org/2004/02/skos/core#closeMatch","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://www.w3.org/2004/02/skos/core#definition","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]},{"@id":"http://www.w3.org/2004/02/skos/core#example","@type":["http://www.w3.org/2002/07/owl#AnnotationProperty"]}]
+[ {
+  "@id" : "http://bigdataocean.eu/bdo/geographiclocation#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://purl.org/vocommons/voaf#Vocabulary" ]
+}, {
+  "@id" : "http://creativecommons.org/ns#licence",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/17812",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1901",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1904",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1905",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1906",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1908",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1910",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1912",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/1914",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2351",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2353",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2356",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2357",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2359",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2374",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2379",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2389",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2401",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2402",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2407",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/2409",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3314",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3315",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3320",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3322",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3324",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3346",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3351",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3363",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3369",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/3386",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4244",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4245",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4246",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4247",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4251",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4252",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4253",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4254",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4256",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4257",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4261",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4262",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4264",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4265",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4266",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4267",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4268",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4273",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4274",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4276",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4279",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4280",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4283",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4286",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4287",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4288",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4289",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4291",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4300",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4302",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4303",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4307",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4309",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4310",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4312",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4313",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4314",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4325",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4332",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4360",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4361",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4364",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4365",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4366",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/4969",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/49716",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://marineregions.org/mrgid/5698",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/description",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/issued",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/publisher",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/rights",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/dc/terms/title",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://purl.org/vocommons/voaf#Vocabulary",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://creativecommons.org/ns#licence" : [ {
+    "@id" : "https://creativecommons.org/licenses/by/3.0/"
+  } ],
+  "http://purl.org/dc/terms/creator" : [ {
+    "@value" : "Ana-Cristina Trillos-Ujueta"
+  }, {
+    "@value" : "Jaime-Manuel Trillos-Ujueta"
+  } ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "A vocabulary which represents the geographic location standards used in Big Data Ocean."
+  } ],
+  "http://purl.org/dc/terms/issued" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "@value" : "2018-08-15T13:00:00"
+  } ],
+  "http://purl.org/dc/terms/publisher" : [ {
+    "@id" : "http://dbpedia.org/resource/University_of_Bonn"
+  } ],
+  "http://purl.org/dc/terms/rights" : [ {
+    "@id" : "http://creativecommons.org/licenses/by-nc-sa/3.0/"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Geographic Location Standards for Big Data Ocean"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespacePrefix" : [ {
+    "@value" : "geolocbdo"
+  } ],
+  "http://purl.org/vocab/vann/preferredNamespaceUri" : [ {
+    "@value" : "http://www.bigdataocean.eu/standards/geographiclocation#"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#comment" : [ {
+    "@language" : "en",
+    "@value" : "Version 1: Vocabulary creation"
+  } ],
+  "http://www.w3.org/2002/07/owl#versionInfo" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "1.0"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#17812",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Portuguese Coast"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/17812"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1901",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Global Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1901"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1904",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Indian Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1904"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1905",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1905"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1906",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arctic Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1906"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1908",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Pacific Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1908"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1910",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South Pacific Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1910"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1912",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Atlantic Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1912"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#1914",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South Atlantic Ocean"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/1914"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2350",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "North Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2350"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2351",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Celtic Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2351"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2353",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Norwegian Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2353"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2356",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Greenland Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2356"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2357",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Irish Sea and St. George's Channel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2357"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2359",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bay of Biscay"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2359"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2374",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kattegat"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2374"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2379",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Skagerrak"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2379"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2389",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "English Channel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2389"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2401",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Baltic Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2401"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2402",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Bothnia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2402"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2407",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Finland"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2407"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#2409",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Riga"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/2409"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3141",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bristol Channel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3141"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3314",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Adriatic Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3314"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3315",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Aegean Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3315"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3319",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Black Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3319"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3320",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sea of Azov"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3320"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3322",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Balearic Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3322"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3324",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Alboran Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3324"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3346",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Strait of Gibraltar"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3346"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3351",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ionian Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3351"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3363",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Ligurian Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3363"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3369",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sea of Marmara"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3369"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#3386",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tyrrhenian Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/3386"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4244",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "East Siberian Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4244"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4245",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laptev Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4245"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4246",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Kara Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4246"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4247",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Barentsz Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4247"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4248",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "White Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4248"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Davis Strait"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4250"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4251",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hudson Strait"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4251"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4252",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Hudson Bay"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4252"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4253",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Baffin Bay"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4253"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4254",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Lincoln Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4254"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4256",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Beaufort Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4256"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4257",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Chukchi Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4257"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4261",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mozambique Channel"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4261"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4262",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Suez"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4262"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4264",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Red Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4264"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4265",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Aden"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4265"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4266",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Persian Gulf"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4266"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4267",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Oman"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4267"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4268",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arabian Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4268"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4273",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bay of Bengal"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4273"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4274",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Andaman Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4274"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4275",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Malacca Strait"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4275"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4276",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Great Australian Bight"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4276"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4279",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean Sea - Western Basin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4279"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4280",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mediterranean Sea - Eastern Basin"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4280"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4283",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Inner Seas off the West Coast of Scotland"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4283"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4286",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Guinea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4286"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4287",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Caribbean Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4287"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4288",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Mexico"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4288"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4289",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bay of Fundy"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4289"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4291",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Labrador Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4291"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4300",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Philippine Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4300"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4302",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Eastern China Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4302"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4303",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Yellow Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4303"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4307",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Japan Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4307"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4309",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sea of Okhotsk"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4309"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4310",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bering Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4310"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4312",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of Alaska"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4312"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4313",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "The Coastal Waters of Southeast Alaska and British Columbia"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4313"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4314",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of California"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4314"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4325",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Rio de La Plata"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4325"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4332",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "South China Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4332"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4360",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bismarck Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4360"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4361",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Solomon Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4361"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4364",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Coral Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4364"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4365",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Tasman Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4365"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4366",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Bass Strait"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4366"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#4969",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Laccadive Sea"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/4969"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#49716",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Gulf of St. Lawrence"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/49716"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#5698",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Northwestern Passages"
+  } ],
+  "http://www.w3.org/2004/02/skos/core#closeMatch" : [ {
+    "@id" : "http://marineregions.org/mrgid/5698"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/geographiclocation#GeoStandard",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Geographic Location Standard"
+  } ]
+}, {
+  "@id" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2002/07/owl#sameAs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#closeMatch",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2004/02/skos/core#example",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AnnotationProperty" ]
+} ]

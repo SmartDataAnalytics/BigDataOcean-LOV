@@ -3726,21 +3726,21 @@
     "@value" : "ismc_imo"
   } ]
 }, {
-  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadress",
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#ismc_nameadres",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
     "@value" : "name address of the destination of the ship"
   } ],
   "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
-    "@value" : "ismc_nameadress"
+    "@value" : "ismc_nameadres"
   } ],
   "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
     "@value" : "string"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "ismc_nameadress"
+    "@value" : "ismc_nameadres"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#iso3",
