@@ -2298,14 +2298,14 @@ rdf:type rdf:type owl:AnnotationProperty .
       rdfs:label "iso3"@en .
 
 
-###  http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat
-:iunc_cat rdf:type owl:NamedIndividual ,
+###  http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat
+:iucn_cat rdf:type owl:NamedIndividual ,
                    :General ,
                    :Variable ;
-          :hasCanonicalName "iunc_cat" ;
+          :hasCanonicalName "iucn_cat" ;
           :hasDataType "string" ;
           <http://purl.org/dc/terms/description> "IUCN Management Category"@en ;
-          rdfs:label "iunc_cat"@en .
+          rdfs:label "iucn_cat"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#lat

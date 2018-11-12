@@ -2053,14 +2053,14 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#iso3> <http://purl.org/dc/terms/description> "ISO3 Code"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#iso3> <http://www.w3.org/2000/01/rdf-schema#label> "iso3"@en .
 # 
-# http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "iunc_cat" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://purl.org/dc/terms/description> "IUCN Management Category"@en .
-<http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat> <http://www.w3.org/2000/01/rdf-schema#label> "iunc_cat"@en .
+# http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "iucn_cat" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://purl.org/dc/terms/description> "IUCN Management Category"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.w3.org/2000/01/rdf-schema#label> "iucn_cat"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lat
 <http://www.bigdataocean.eu/standards/canonicalmodel#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

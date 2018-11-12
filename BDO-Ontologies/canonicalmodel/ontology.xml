@@ -3352,16 +3352,16 @@
     
 
 
-    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat -->
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat -->
 
 
-    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat">
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName>iunc_cat</hasCanonicalName>
+        <hasCanonicalName>iucn_cat</hasCanonicalName>
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">IUCN Management Category</terms:description>
-        <rdfs:label xml:lang="en">iunc_cat</rdfs:label>
+        <rdfs:label xml:lang="en">iucn_cat</rdfs:label>
     </owl:NamedIndividual>
     
 

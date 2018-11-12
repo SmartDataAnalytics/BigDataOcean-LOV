@@ -3760,21 +3760,21 @@
     "@value" : "iso3"
   } ]
 }, {
-  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat",
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
     "@language" : "en",
     "@value" : "IUCN Management Category"
   } ],
   "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
-    "@value" : "iunc_cat"
+    "@value" : "iucn_cat"
   } ],
   "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
     "@value" : "string"
   } ],
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
-    "@value" : "iunc_cat"
+    "@value" : "iucn_cat"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#lat",
