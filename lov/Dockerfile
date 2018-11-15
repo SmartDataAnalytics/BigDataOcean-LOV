@@ -45,9 +45,9 @@ RUN apt-get update && apt-get install -y mongodb-org
 # Install fuseki
 RUN apt-get install -y ruby-full
 WORKDIR /
-RUN wget http://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-3.4.0.zip
-RUN unzip apache-jena-fuseki-3.4.0.zip && rm apache-jena-fuseki-3.4.0.zip
-RUN chmod +x apache-jena-fuseki-3.4.0/bin/s-*
+RUN wget http://archive.apache.org/dist/jena/binaries/apache-jena-fuseki-3.9.0.zip
+RUN unzip apache-jena-fuseki-3.9.0.zip && rm apache-jena-fuseki-3.9.0.zip
+RUN chmod +x apache-jena-fuseki-3.9.0/bin/s-*
 
 # Set timezone 
 ENV TZ=Europe/Athens
