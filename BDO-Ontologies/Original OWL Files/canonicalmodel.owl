@@ -915,6 +915,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">average_waterdepth_offsets_indicator</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <dcterms:description xml:lang="en">an indicator of the offsets of the average waterdepth as a % of the waterdepth</dcterms:description>
+        <rdfs:label xml:lang="en">average_waterdepth_offsets_indicator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed">
@@ -3095,15 +3108,15 @@
     
 
 
-    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat -->
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat -->
 
-    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#iunc_cat">
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat">
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
-        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iunc_cat</hasCanonicalName>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">iucn_cat</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <dcterms:description xml:lang="en">IUCN Management Category</dcterms:description>
-        <rdfs:label xml:lang="en">iunc_cat</rdfs:label>
+        <rdfs:label xml:lang="en">iucn_cat</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3759,6 +3772,19 @@
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
         <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
         <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">name</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">name of the ship</dcterms:description>
+        <rdfs:label xml:lang="en">name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#name2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#name2">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ship_name</hasCanonicalName>
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <dcterms:description xml:lang="en">name of the ship</dcterms:description>
         <rdfs:label xml:lang="en">name</rdfs:label>
@@ -5002,6 +5028,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platform_type_id</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Type of ship identifier</dcterms:description>
+        <rdfs:label xml:lang="en">ship_type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#si -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#si">
@@ -5066,6 +5105,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
         <dcterms:description xml:lang="en">Streaming time run at SLOW SPEED</dcterms:description>
         <rdfs:label xml:lang="en">slow speed duration</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">smoothed_waterdepth_offsets_indicator</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
+        <dcterms:description xml:lang="en">an indicator of the offsets of the smoothed waterdepth as a % of the waterdepth </dcterms:description>
+        <rdfs:label xml:lang="en">smoothed_waterdepth_offsets_indicator</rdfs:label>
     </owl:NamedIndividual>
     
 
