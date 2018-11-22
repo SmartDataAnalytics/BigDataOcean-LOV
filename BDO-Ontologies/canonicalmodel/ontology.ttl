@@ -613,6 +613,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                     rdfs:label "average_waterdepth"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator
+:average_waterdepth_offsets_indicator rdf:type owl:NamedIndividual ,
+                                               :Hydrology ,
+                                               :Variable ;
+                                      :hasCanonicalName "average_waterdepth_offsets_indicator" ;
+                                      :hasDataType "float" ;
+                                      <http://purl.org/dc/terms/description> "an indicator of the offsets of the average waterdepth as a % of the waterdepth"@en ;
+                                      rdfs:label "average_waterdepth_offsets_indicator"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed
 :average_waterdepth_smoothed rdf:type owl:NamedIndividual ,
                                       :OceanDynamics ,
@@ -2816,6 +2826,16 @@ rdf:type rdf:type owl:AnnotationProperty .
       rdfs:label "name"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#name2
+:name2 rdf:type owl:NamedIndividual ,
+                :General ,
+                :Variable ;
+       :hasCanonicalName "ship_name" ;
+       :hasDataType "string" ;
+       <http://purl.org/dc/terms/description> "name of the ship"@en ;
+       rdfs:label "name"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status
 :navigational_status rdf:type owl:NamedIndividual ,
                               :Variable ,
@@ -3773,6 +3793,16 @@ rdf:type rdf:type owl:AnnotationProperty .
            rdfs:label "ship type"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2
+:shiptype2 rdf:type owl:NamedIndividual ,
+                    :Variable ,
+                    :Vessels ;
+           :hasCanonicalName "platform_type_id" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Type of ship identifier"@en ;
+           rdfs:label "ship_type"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#si
 :si rdf:type owl:NamedIndividual ,
              :AtmosphericChemestry ,
@@ -3824,6 +3854,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                      :hasDataType "double" ;
                      <http://purl.org/dc/terms/description> "Streaming time run at SLOW SPEED"@en ;
                      rdfs:label "slow speed duration"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator
+:smoothed_waterdepth_offsets_indicator rdf:type owl:NamedIndividual ,
+                                                :Hydrology ,
+                                                :Variable ;
+                                       :hasCanonicalName "smoothed_waterdepth_offsets_indicator" ;
+                                       :hasDataType "float" ;
+                                       <http://purl.org/dc/terms/description> "an indicator of the offsets of the smoothed waterdepth as a % of the waterdepth "@en ;
+                                       rdfs:label "smoothed_waterdepth_offsets_indicator"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#snow_volume_last_3_hours

@@ -830,6 +830,23 @@
     "@value" : "average_waterdepth"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "an indicator of the offsets of the average waterdepth as a % of the waterdepth"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "average_waterdepth_offsets_indicator"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "average_waterdepth_offsets_indicator"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -4643,6 +4660,23 @@
     "@value" : "name"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#name2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "name of the ship"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "ship_name"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "name"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable", "http://www.bigdataocean.eu/standards/canonicalmodel#Vessels" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -6299,6 +6333,23 @@
     "@value" : "ship type"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable", "http://www.bigdataocean.eu/standards/canonicalmodel#Vessels" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Type of ship identifier"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "platform_type_id"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ship_type"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#si",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -6391,6 +6442,23 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "slow speed duration"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "an indicator of the offsets of the smoothed waterdepth as a % of the waterdepth "
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "smoothed_waterdepth_offsets_indicator"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "float"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "smoothed_waterdepth_offsets_indicator"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#snow_volume_last_3_hours",

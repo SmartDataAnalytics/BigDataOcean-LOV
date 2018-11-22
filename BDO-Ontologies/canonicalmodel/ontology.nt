@@ -533,6 +533,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://purl.org/dc/terms/description> "average waterdepth in meters to LAT"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth> <http://www.w3.org/2000/01/rdf-schema#label> "average_waterdepth"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "average_waterdepth_offsets_indicator" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://purl.org/dc/terms/description> "an indicator of the offsets of the average waterdepth as a % of the waterdepth"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_offsets_indicator> <http://www.w3.org/2000/01/rdf-schema#label> "average_waterdepth_offsets_indicator"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed
 <http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#average_waterdepth_smoothed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
@@ -2520,6 +2529,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#name> <http://purl.org/dc/terms/description> "name of the ship"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#name> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#name2
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ship_name" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://purl.org/dc/terms/description> "name of the ship"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#name2> <http://www.w3.org/2000/01/rdf-schema#label> "name"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status
 <http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#navigational_status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
@@ -3384,6 +3402,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#shiptype1> <http://purl.org/dc/terms/description> "Type of ship identifier"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#shiptype1> <http://www.w3.org/2000/01/rdf-schema#label> "ship type"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "platform_type_id" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://purl.org/dc/terms/description> "Type of ship identifier"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#shiptype2> <http://www.w3.org/2000/01/rdf-schema#label> "ship_type"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#si
 <http://www.bigdataocean.eu/standards/canonicalmodel#si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#si> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> .
@@ -3431,6 +3458,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#slow_speed_duration> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#slow_speed_duration> <http://purl.org/dc/terms/description> "Streaming time run at SLOW SPEED"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#slow_speed_duration> <http://www.w3.org/2000/01/rdf-schema#label> "slow speed duration"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "smoothed_waterdepth_offsets_indicator" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://purl.org/dc/terms/description> "an indicator of the offsets of the smoothed waterdepth as a % of the waterdepth "@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#smoothed_waterdepth_offsets_indicator> <http://www.w3.org/2000/01/rdf-schema#label> "smoothed_waterdepth_offsets_indicator"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#snow_volume_last_3_hours
 <http://www.bigdataocean.eu/standards/canonicalmodel#snow_volume_last_3_hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
