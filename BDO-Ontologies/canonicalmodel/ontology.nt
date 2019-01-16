@@ -560,6 +560,24 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#b> <http://purl.org/dc/terms/description> "Length from GPS to stern"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#b> <http://www.w3.org/2000/01/rdf-schema#label> "b"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ban_situation" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://purl.org/dc/terms/description> "The current situation of banning"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.w3.org/2000/01/rdf-schema#label> "ban situation"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "banning_authority" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://purl.org/dc/terms/description> "The banning authority"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.w3.org/2000/01/rdf-schema#label> "banning authority"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry
 <http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -987,6 +1005,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#date_created> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#date_created> <http://purl.org/dc/terms/description> "The date that data was created"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#date_created> <http://www.w3.org/2000/01/rdf-schema#label> "date_created"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "banning_date" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://purl.org/dc/terms/description> "The date at which the vessel was banned"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning> <http://www.w3.org/2000/01/rdf-schema#label> "date of banning"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference
 <http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -1422,6 +1449,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#fe> <http://purl.org/dc/terms/description> "Mole Concentration of Dissolved iron in Sea Water"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#fe> <http://www.w3.org/2000/01/rdf-schema#label> "fe"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#featurecla
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "feature_cla" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://purl.org/dc/terms/description> "CLA Feature"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#featurecla> <http://www.w3.org/2000/01/rdf-schema#label> "featurecla"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#first_port_of_entry
 <http://www.bigdataocean.eu/standards/canonicalmodel#first_port_of_entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#first_port_of_entry> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Ports> .
@@ -1610,6 +1646,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#gdir_qc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "byte" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#gdir_qc> <http://purl.org/dc/terms/description> "Quality flag"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#gdir_qc> <http://www.w3.org/2000/01/rdf-schema#label> "gdir_qc"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#gear_category
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "gear_category" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://purl.org/dc/terms/description> "The vessel's gear category"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gear_category> <http://www.w3.org/2000/01/rdf-schema#label> "gear_category"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#gis_area
 <http://www.bigdataocean.eu/standards/canonicalmodel#gis_area> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2071,6 +2116,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://purl.org/dc/terms/description> "IUCN Management Category"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.w3.org/2000/01/rdf-schema#label> "iucn_cat"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "landed_weight" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://purl.org/dc/terms/description> "Landed weight"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.w3.org/2000/01/rdf-schema#label> "landed_weight"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lat
 <http://www.bigdataocean.eu/standards/canonicalmodel#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -2144,6 +2198,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://purl.org/dc/terms/description> "Dimensions of ship – Length"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#length> <http://www.w3.org/2000/01/rdf-schema#label> "length"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#length_group
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "length_group" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://purl.org/dc/terms/description> "The length group"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#length_group> <http://www.w3.org/2000/01/rdf-schema#label> "length_group"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons
 <http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Ports> .
@@ -2189,6 +2252,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#line_c> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#line_c> <http://purl.org/dc/terms/description> "Y"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#line_c> <http://www.w3.org/2000/01/rdf-schema#label> "line_c"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#live_weight
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "live_weight" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://purl.org/dc/terms/description> "Live weight"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#live_weight> <http://www.w3.org/2000/01/rdf-schema#label> "live_weight"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#load_indicator
 <http://www.bigdataocean.eu/standards/canonicalmodel#load_indicator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2472,6 +2544,13 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#min_temperature> <http://purl.org/dc/terms/description> "The minimum temperature recorded"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#min_temperature> <http://www.w3.org/2000/01/rdf-schema#label> "min_temperature"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "minimum_duration_of_ban" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban> <http://purl.org/dc/terms/description> "Minimum duration of ban"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban> <http://www.w3.org/2000/01/rdf-schema#label> "minimum duration of ban"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth
 <http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
@@ -2641,6 +2720,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://purl.org/dc/terms/description> "Mole Concentration of Dissolved Oxygen in Sea Water"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://www.w3.org/2000/01/rdf-schema#label> "o2"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#occurrence
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "ban_occurrence" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://purl.org/dc/terms/description> "The occurrence of the banning"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.w3.org/2000/01/rdf-schema#label> "occurrence"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta
 <http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
@@ -2770,6 +2858,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#pa_def> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#pa_def> <http://purl.org/dc/terms/description> "The IUCN Definition attribute indicates whether the site meets the following definition of a protected area"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#pa_def> <http://www.w3.org/2000/01/rdf-schema#label> "pa_def"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "pac_group" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://purl.org/dc/terms/description> "PAC Group"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup> <http://www.w3.org/2000/01/rdf-schema#label> "pacgroup"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#parent_iso3
 <http://www.bigdataocean.eu/standards/canonicalmodel#parent_iso3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2916,6 +3013,24 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#po4> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#po4> <http://purl.org/dc/terms/description> "Mole Concentration of Phosphate in Sea Water"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#po4> <http://www.w3.org/2000/01/rdf-schema#label> "po4"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "port_nationality" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://purl.org/dc/terms/description> "The origin country of the port"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality> <http://www.w3.org/2000/01/rdf-schema#label> "port_nationality"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "destination_port" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://purl.org/dc/terms/description> "Destination port"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing> <http://www.w3.org/2000/01/rdf-schema#label> "port_of_landing"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#position_qc
 <http://www.bigdataocean.eu/standards/canonicalmodel#position_qc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3110,6 +3225,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#rain_volume_last_3_hours> <http://purl.org/dc/terms/description> "The rain volume that was recorded during last 3 hours"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rain_volume_last_3_hours> <http://www.w3.org/2000/01/rdf-schema#label> "rain_volume_last_3_hours"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "banning_reason" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://purl.org/dc/terms/description> "Reason of banning"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning> <http://www.w3.org/2000/01/rdf-schema#label> "reason for banning"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#reference
 <http://www.bigdataocean.eu/standards/canonicalmodel#reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -3227,6 +3351,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#salinity> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#salinity> <http://purl.org/dc/terms/description> "Sea water salinity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#salinity> <http://www.w3.org/2000/01/rdf-schema#label> "salinity"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#scalerank
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "scale_rank" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://purl.org/dc/terms/description> "Scale rank"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#scalerank> <http://www.w3.org/2000/01/rdf-schema#label> "scalerank"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3494,6 +3627,42 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> <http://purl.org/dc/terms/description> "data source type"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> <http://www.w3.org/2000/01/rdf-schema#label> "data source type"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#species
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "species" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://purl.org/dc/terms/description> "Species"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species> <http://www.w3.org/2000/01/rdf-schema#label> "species"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#species_code
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "species_code" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://purl.org/dc/terms/description> "Species code"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_code> <http://www.w3.org/2000/01/rdf-schema#label> "species_code"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#species_group
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "species_group" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://purl.org/dc/terms/description> "Species group"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_group> <http://www.w3.org/2000/01/rdf-schema#label> "species_group"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#species_name
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "species_name" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://purl.org/dc/terms/description> "Species name"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#species_name> <http://www.w3.org/2000/01/rdf-schema#label> "species_name"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#speed
 <http://www.bigdataocean.eu/standards/canonicalmodel#speed> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4020,6 +4189,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#v> <http://purl.org/dc/terms/description> "Northward sea water velocity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#v> <http://www.w3.org/2000/01/rdf-schema#label> "v"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "value_gbp" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://purl.org/dc/terms/description> "Value in GBP"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp> <http://www.w3.org/2000/01/rdf-schema#label> "value_gbp"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vavh
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vavh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
@@ -4101,6 +4279,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#vertical_sampling_scheme> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vertical_sampling_scheme> <http://purl.org/dc/terms/description> "Vertical sampling scheme"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vertical_sampling_scheme> <http://www.w3.org/2000/01/rdf-schema#label> "vertical_sampling_scheme"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "vessel_nationality" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://purl.org/dc/terms/description> "The origin country of the vessel"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.w3.org/2000/01/rdf-schema#label> "vessel_nationality"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vhm0
 <http://www.bigdataocean.eu/standards/canonicalmodel#vhm0> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4666,6 +4853,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#wind_force> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "int" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#wind_force> <http://purl.org/dc/terms/description> "Force of the wind"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#wind_force> <http://www.w3.org/2000/01/rdf-schema#label> "wind force"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#wkt
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "well_known_text" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://purl.org/dc/terms/description> "Well-known text"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#wkt> <http://www.w3.org/2000/01/rdf-schema#label> "wkt"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#world_port_index_number
 <http://www.bigdataocean.eu/standards/canonicalmodel#world_port_index_number> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -643,6 +643,26 @@ rdf:type rdf:type owl:AnnotationProperty .
    rdfs:label "b"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation
+:ban_situation rdf:type owl:NamedIndividual ,
+                        :MaritimeObservations ,
+                        :Variable ;
+               :hasCanonicalName "ban_situation" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "The current situation of banning"@en ;
+               rdfs:label "ban situation"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority
+:banning_authority rdf:type owl:NamedIndividual ,
+                            :MaritimeObservations ,
+                            :Variable ;
+                   :hasCanonicalName "banning_authority" ;
+                   :hasDataType "string" ;
+                   <http://purl.org/dc/terms/description> "The banning authority"@en ;
+                   rdfs:label "banning authority"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry
 :bathymetry rdf:type owl:NamedIndividual ,
                      :General ,
@@ -1115,6 +1135,16 @@ rdf:type rdf:type owl:AnnotationProperty .
               :hasDataType "timestamp" ;
               <http://purl.org/dc/terms/description> "The date that data was created"@en ;
               rdfs:label "date_created"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning
+:date_of_banning rdf:type owl:NamedIndividual ,
+                          :MaritimeObservations ,
+                          :Variable ;
+                 :hasCanonicalName "banning_date" ;
+                 :hasDataType "timestamp" ;
+                 <http://purl.org/dc/terms/description> "The date at which the vessel was banned"@en ;
+                 rdfs:label "date of banning"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference
@@ -1598,6 +1628,16 @@ rdf:type rdf:type owl:AnnotationProperty .
     rdfs:label "fe"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#featurecla
+:featurecla rdf:type owl:NamedIndividual ,
+                     :MaritimeObservations ,
+                     :Variable ;
+            :hasCanonicalName "feature_cla" ;
+            :hasDataType "byte" ;
+            <http://purl.org/dc/terms/description> "CLA Feature"@en ;
+            rdfs:label "featurecla"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#first_port_of_entry
 :first_port_of_entry rdf:type owl:NamedIndividual ,
                               :Ports ,
@@ -1806,6 +1846,16 @@ rdf:type rdf:type owl:AnnotationProperty .
          :hasDataType "byte" ;
          <http://purl.org/dc/terms/description> "Quality flag"@en ;
          rdfs:label "gdir_qc"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#gear_category
+:gear_category rdf:type owl:NamedIndividual ,
+                        :MaritimeObservations ,
+                        :Variable ;
+               :hasCanonicalName "gear_category" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "The vessel's gear category"@en ;
+               rdfs:label "gear_category"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#gis_area
@@ -2318,6 +2368,16 @@ rdf:type rdf:type owl:AnnotationProperty .
           rdfs:label "iucn_cat"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight
+:landed_weight rdf:type owl:NamedIndividual ,
+                        :MaritimeObservations ,
+                        :Variable ;
+               :hasCanonicalName "landed_weight" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Landed weight"@en ;
+               rdfs:label "landed_weight"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#lat
 :lat rdf:type owl:NamedIndividual ,
               :General ,
@@ -2399,6 +2459,16 @@ rdf:type rdf:type owl:AnnotationProperty .
         rdfs:label "length"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#length_group
+:length_group rdf:type owl:NamedIndividual ,
+                       :MaritimeObservations ,
+                       :Variable ;
+              :hasCanonicalName "length_group" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "The length group"@en ;
+              rdfs:label "length_group"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons
 :lifts_0_24_tons rdf:type owl:NamedIndividual ,
                           :Ports ,
@@ -2448,6 +2518,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                      "float" ;
         <http://purl.org/dc/terms/description> "Y"@en ;
         rdfs:label "line_c"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#live_weight
+:live_weight rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "live_weight" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Live weight"@en ;
+             rdfs:label "live_weight"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#load_indicator
@@ -2763,6 +2843,14 @@ rdf:type rdf:type owl:AnnotationProperty .
                  rdfs:label "min_temperature"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban
+:minimum_duration_of_ban rdf:type owl:NamedIndividual ;
+                         :hasCanonicalName "minimum_duration_of_ban" ;
+                         :hasDataType "string" ;
+                         <http://purl.org/dc/terms/description> "Minimum duration of ban"@en ;
+                         rdfs:label "minimum duration of ban"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth
 :minimum_waterdepth rdf:type owl:NamedIndividual ,
                              :OceanDynamics ,
@@ -2950,6 +3038,16 @@ rdf:type rdf:type owl:AnnotationProperty .
     rdfs:label "o2"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#occurrence
+:occurrence rdf:type owl:NamedIndividual ,
+                     :MaritimeObservations ,
+                     :Variable ;
+            :hasCanonicalName "ban_occurrence" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "The occurrence of the banning"@en ;
+            rdfs:label "occurrence"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta
 :ocean_mixed_layer_thickness_defined_by_sigma_theta rdf:type owl:NamedIndividual ,
                                                              :SeaIce ,
@@ -3092,6 +3190,16 @@ rdf:type rdf:type owl:AnnotationProperty .
         :hasDataType "string" ;
         <http://purl.org/dc/terms/description> "The IUCN Definition attribute indicates whether the site meets the following definition of a protected area"@en ;
         rdfs:label "pa_def"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup
+:pacgroup rdf:type owl:NamedIndividual ,
+                   :MaritimeObservations ,
+                   :Variable ;
+          :hasCanonicalName "pac_group" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "PAC Group"@en ;
+          rdfs:label "pacgroup"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#parent_iso3
@@ -3253,6 +3361,26 @@ rdf:type rdf:type owl:AnnotationProperty .
      :hasDataType "float" ;
      <http://purl.org/dc/terms/description> "Mole Concentration of Phosphate in Sea Water"@en ;
      rdfs:label "po4"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality
+:port_nationality rdf:type owl:NamedIndividual ,
+                           :MaritimeObservations ,
+                           :Variable ;
+                  :hasCanonicalName "port_nationality" ;
+                  :hasDataType "string" ;
+                  <http://purl.org/dc/terms/description> "The origin country of the port"@en ;
+                  rdfs:label "port_nationality"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing
+:port_of_landing rdf:type owl:NamedIndividual ,
+                          :MaritimeObservations ,
+                          :Variable ;
+                 :hasCanonicalName "destination_port" ;
+                 :hasDataType "string" ;
+                 <http://purl.org/dc/terms/description> "Destination port"@en ;
+                 rdfs:label "port_of_landing"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#position_qc
@@ -3469,6 +3597,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                           rdfs:label "rain_volume_last_3_hours"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning
+:reason_for_banning rdf:type owl:NamedIndividual ,
+                             :MaritimeObservations ,
+                             :Variable ;
+                    :hasCanonicalName "banning_reason" ;
+                    :hasDataType "string" ;
+                    <http://purl.org/dc/terms/description> "Reason of banning"@en ;
+                    rdfs:label "reason for banning"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#reference
 :reference rdf:type owl:NamedIndividual ,
                     :General ,
@@ -3598,6 +3736,16 @@ rdf:type rdf:type owl:AnnotationProperty .
           :hasDataType "float" ;
           <http://purl.org/dc/terms/description> "Sea water salinity"@en ;
           rdfs:label "salinity"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#scalerank
+:scalerank rdf:type owl:NamedIndividual ,
+                    :MaritimeObservations ,
+                    :Variable ;
+           :hasCanonicalName "scale_rank" ;
+           :hasDataType "double" ;
+           <http://purl.org/dc/terms/description> "Scale rank"@en ;
+           rdfs:label "scalerank"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition
@@ -3894,6 +4042,46 @@ rdf:type rdf:type owl:AnnotationProperty .
         :hasDataType "string" ;
         <http://purl.org/dc/terms/description> "data source type"@en ;
         rdfs:label "data source type"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#species
+:species rdf:type owl:NamedIndividual ,
+                  :MaritimeObservations ,
+                  :Variable ;
+         :hasCanonicalName "species" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Species"@en ;
+         rdfs:label "species"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#species_code
+:species_code rdf:type owl:NamedIndividual ,
+                       :MaritimeObservations ,
+                       :Variable ;
+              :hasCanonicalName "species_code" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Species code"@en ;
+              rdfs:label "species_code"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#species_group
+:species_group rdf:type owl:NamedIndividual ,
+                        :MaritimeObservations ,
+                        :Variable ;
+               :hasCanonicalName "species_group" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Species group"@en ;
+               rdfs:label "species_group"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#species_name
+:species_name rdf:type owl:NamedIndividual ,
+                       :MaritimeObservations ,
+                       :Variable ;
+              :hasCanonicalName "species_name" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Species name"@en ;
+              rdfs:label "species_name"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#speed
@@ -4477,6 +4665,16 @@ rdf:type rdf:type owl:AnnotationProperty .
    rdfs:label "v"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp
+:value_gbp rdf:type owl:NamedIndividual ,
+                    :MaritimeObservations ,
+                    :Variable ;
+           :hasCanonicalName "value_gbp" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Value in GBP"@en ;
+           rdfs:label "value_gbp"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#vavh
 :vavh rdf:type owl:NamedIndividual ,
                :OceanDynamics ,
@@ -4565,6 +4763,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                           :hasDataType "string" ;
                           <http://purl.org/dc/terms/description> "Vertical sampling scheme"@en ;
                           rdfs:label "vertical_sampling_scheme"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality
+:vessel_nationality rdf:type owl:NamedIndividual ,
+                             :MaritimeObservations ,
+                             :Variable ;
+                    :hasCanonicalName "vessel_nationality" ;
+                    :hasDataType "string" ;
+                    <http://purl.org/dc/terms/description> "The origin country of the vessel"@en ;
+                    rdfs:label "vessel_nationality"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#vhm0
@@ -5188,6 +5396,16 @@ rdf:type rdf:type owl:AnnotationProperty .
             :hasDataType "int" ;
             <http://purl.org/dc/terms/description> "Force of the wind"@en ;
             rdfs:label "wind force"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#wkt
+:wkt rdf:type owl:NamedIndividual ,
+              :MaritimeObservations ,
+              :Variable ;
+     :hasCanonicalName "well_known_text" ;
+     :hasDataType "string" ;
+     <http://purl.org/dc/terms/description> "Well-known text"@en ;
+     rdfs:label "wkt"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#world_port_index_number
