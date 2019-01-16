@@ -954,6 +954,32 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ban_situation</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The current situation of banning</dcterms:description>
+        <rdfs:label xml:lang="en">ban situation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banning_authority</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The banning authority</dcterms:description>
+        <rdfs:label xml:lang="en">banning authority</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#bathymetry">
@@ -1562,6 +1588,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</hasDataType>
         <dcterms:description xml:lang="en">The date that data was created</dcterms:description>
         <rdfs:label xml:lang="en">date_created</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_of_banning">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banning_date</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">timestamp</hasDataType>
+        <dcterms:description xml:lang="en">The date at which the vessel was banned</dcterms:description>
+        <rdfs:label xml:lang="en">date of banning</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2188,6 +2227,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#featurecla -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#featurecla">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">feature_cla</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</hasDataType>
+        <dcterms:description xml:lang="en">CLA Feature</dcterms:description>
+        <rdfs:label xml:lang="en">featurecla</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#first_port_of_entry -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#first_port_of_entry">
@@ -2457,6 +2509,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">byte</hasDataType>
         <dcterms:description xml:lang="en">Quality flag</dcterms:description>
         <rdfs:label xml:lang="en">gdir_qc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#gear_category -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#gear_category">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gear_category</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The vessel&apos;s gear category</dcterms:description>
+        <rdfs:label xml:lang="en">gear_category</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3121,6 +3186,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">landed_weight</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Landed weight</dcterms:description>
+        <rdfs:label xml:lang="en">landed_weight</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#lat -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#lat">
@@ -3226,6 +3304,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#length_group -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#length_group">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">length_group</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The length group</dcterms:description>
+        <rdfs:label xml:lang="en">length_group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons">
@@ -3288,6 +3379,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <dcterms:description xml:lang="en">Y</dcterms:description>
         <rdfs:label xml:lang="en">line_c</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#live_weight -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#live_weight">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">live_weight</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Live weight</dcterms:description>
+        <rdfs:label xml:lang="en">live_weight</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3698,6 +3802,17 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#minimum_duration_of_ban">
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minimum_duration_of_ban</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Minimum duration of ban</dcterms:description>
+        <rdfs:label xml:lang="en">minimum duration of ban</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth">
@@ -3939,6 +4054,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#occurrence -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#occurrence">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ban_occurrence</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The occurrence of the banning</dcterms:description>
+        <rdfs:label xml:lang="en">occurrence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta">
@@ -4121,6 +4249,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <dcterms:description xml:lang="en">The IUCN Definition attribute indicates whether the site meets the following definition of a protected area</dcterms:description>
         <rdfs:label xml:lang="en">pa_def</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#pacgroup">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pac_group</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">PAC Group</dcterms:description>
+        <rdfs:label xml:lang="en">pacgroup</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4327,6 +4468,32 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <dcterms:description xml:lang="en">Mole Concentration of Phosphate in Sea Water</dcterms:description>
         <rdfs:label xml:lang="en">po4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">port_nationality</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The origin country of the port</dcterms:description>
+        <rdfs:label xml:lang="en">port_nationality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#port_of_landing">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">destination_port</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Destination port</dcterms:description>
+        <rdfs:label xml:lang="en">port_of_landing</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4608,6 +4775,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#reason_for_banning">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">banning_reason</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Reason of banning</dcterms:description>
+        <rdfs:label xml:lang="en">reason for banning</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#reference -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#reference">
@@ -4774,6 +4954,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">float</hasDataType>
         <dcterms:description xml:lang="en">Sea water salinity</dcterms:description>
         <rdfs:label xml:lang="en">salinity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#scalerank -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#scalerank">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">scale_rank</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Scale rank</dcterms:description>
+        <rdfs:label xml:lang="en">scalerank</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5157,6 +5350,58 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <dcterms:description xml:lang="en">data source type</dcterms:description>
         <rdfs:label xml:lang="en">data source type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#species -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#species">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Species</dcterms:description>
+        <rdfs:label xml:lang="en">species</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#species_code -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#species_code">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species_code</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Species code</dcterms:description>
+        <rdfs:label xml:lang="en">species_code</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#species_group -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#species_group">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species_group</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Species group</dcterms:description>
+        <rdfs:label xml:lang="en">species_group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#species_name -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#species_name">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">species_name</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Species name</dcterms:description>
+        <rdfs:label xml:lang="en">species_name</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5910,6 +6155,19 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#value_gbp">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">value_gbp</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Value in GBP</dcterms:description>
+        <rdfs:label xml:lang="en">value_gbp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vavh -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vavh">
@@ -6020,6 +6278,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
         <dcterms:description xml:lang="en">Vertical sampling scheme</dcterms:description>
         <rdfs:label xml:lang="en">vertical_sampling_scheme</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vessel_nationality</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">The origin country of the vessel</dcterms:description>
+        <rdfs:label xml:lang="en">vessel_nationality</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6817,6 +7088,19 @@
         <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">int</hasDataType>
         <dcterms:description xml:lang="en">Force of the wind</dcterms:description>
         <rdfs:label xml:lang="en">wind force</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#wkt -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#wkt">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">well_known_text</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Well-known text</dcterms:description>
+        <rdfs:label xml:lang="en">wkt</rdfs:label>
     </owl:NamedIndividual>
     
 
