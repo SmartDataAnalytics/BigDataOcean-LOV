@@ -750,6 +750,62 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#abundance_category -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#abundance_category">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>abundance_category</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species population abudance category</terms:description>
+        <rdfs:label xml:lang="en">abundance_category</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#address -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#address">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>address</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Address where resides the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">address</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#address_unstructured -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#address_unstructured">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>unstructured_address</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The address of the individual or organization providing the information contained in the record without a sparation on the different elements that compose an address</terms:description>
+        <rdfs:label xml:lang="en">address_unstructured</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#adminunit -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#adminunit">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>admin_unit</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The local administrative unit where resides the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">adminunit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice -->
 
 
@@ -819,6 +875,118 @@
         <hasDataType>timestamp</hasDataType>
         <terms:description xml:lang="en">ANCHORED (DATE/TIME)</terms:description>
         <rdfs:label xml:lang="en">anchored date</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexii -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexii">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexii</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex II of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexii</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexii1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexii1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexii1</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex II1 of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexii1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexiii1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexiii1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexiii1</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex III1 of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexiii1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexiii2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexiii2">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexiii2</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex III2 of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexiii2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexiv -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexiv">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexiv</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex IV of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexiv</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexv -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexv">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexv</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex V of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexv</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#annexxii2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#annexxii2">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>annexii2</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in Annex II2 of the Directive</terms:description>
+        <rdfs:label xml:lang="en">annexxii2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#areaha -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#areaha">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>surface_area_hectares</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Surface area of a site in hectares. Although it is an obligatory field, the value -99 is given for sites for witch the areas is unkown. A value of 0 cab be correct if the site is a cave or cliff. In this case the field 2.3 is obligatory</terms:description>
+        <rdfs:label xml:lang="en">areaha</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1107,6 +1275,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#biogeographicreg -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#biogeographicreg">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>bio_geographic_region</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Indicate in wich beogreograhic region the site is falling</terms:description>
+        <rdfs:label xml:lang="en">biogeographicreg</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#bottomT -->
 
 
@@ -1189,6 +1371,20 @@
         <hasDataType>int</hasDataType>
         <terms:description xml:lang="en">The number of cars aboard</terms:description>
         <rdfs:label xml:lang="en">cars</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#caves -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#caves">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>caves</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">% Cover the site is covered by a habitat type of AnnexI</terms:description>
+        <rdfs:label xml:lang="en">caves</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1524,6 +1720,34 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#conservation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#conservation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>conservation</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Degree of conservation of the structure and functions of the natural habitat type, concerned and restoration possiblities</terms:description>
+        <rdfs:label xml:lang="en">conservation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#counting_unit -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#counting_unit">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>counting_unit</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Units of population, i = individuals, p = pairs or other units according to the standard list of population units and codes in accordance with Article 12 and 17 reporting</terms:description>
+        <rdfs:label xml:lang="en">counting_unit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#country -->
 
 
@@ -1534,6 +1758,20 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">Name of a country</terms:description>
         <rdfs:label xml:lang="en">country</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#country_code -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#country_code">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>country_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The code of the country</terms:description>
+        <rdfs:label xml:lang="en">country_code</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1549,6 +1787,20 @@
         <hasDataType>int</hasDataType>
         <terms:description xml:lang="en">Course over ground</terms:description>
         <rdfs:label xml:lang="en">course</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#cover_ha -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#cover_ha">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>cover_hectares</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Area cover in hectares</terms:description>
+        <rdfs:label xml:lang="en">cover_ha</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1708,6 +1960,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dataquality -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dataquality">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>data_quality</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Assessment of the quality of data provided for habitats</terms:description>
+        <rdfs:label xml:lang="en">dataquality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date -->
 
 
@@ -1717,6 +1983,34 @@
         <hasCanonicalName>voyage_date</hasCanonicalName>
         <hasDataType>timestamp</hasDataType>
         <rdfs:label xml:lang="en">date</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_compilation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_compilation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>compilation_date</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The date information has been recorded in the Standard Data Form. The data field takes the form of the year (four digits) followed by the month in numeric form (two digits)</terms:description>
+        <rdfs:label xml:lang="en">date_compilation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_conf_sci -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_conf_sci">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>identification_confirmed_date</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Date site has been confirmed as a Site of Community importance (SCI)</terms:description>
+        <rdfs:label xml:lang="en">date_conf_sci</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1745,6 +2039,62 @@
         <hasDataType>timestamp</hasDataType>
         <terms:description xml:lang="en">The date at which the vessel was banned</terms:description>
         <rdfs:label xml:lang="en">date of banning</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_prop_sci -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_prop_sci">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>identification_proposed_date</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Date site proposed as eligible for identification as a Site of Community importance (SCI)</terms:description>
+        <rdfs:label xml:lang="en">date_prop_sci</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_sac -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_sac">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>date_sac</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Date site designated as SAC</terms:description>
+        <rdfs:label xml:lang="en">date_sac</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_spa -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_spa">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>spa_date</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Date site classified as SPA</terms:description>
+        <rdfs:label xml:lang="en">date_spa</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#date_update -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#date_update">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>update_date</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The date when the information reported for the site was last changed. The data field takes the form of the year (four digits) followed by the month in numeric form (two digits)</terms:description>
+        <rdfs:label xml:lang="en">date_update</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1862,6 +2212,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#description -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#description">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>description</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Name of the general habitat class in English</terms:description>
+        <rdfs:label xml:lang="en">description</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#desig -->
 
 
@@ -1900,6 +2264,62 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">The designation type is the category or type of protected area as legally/officially designated or proposed</terms:description>
         <rdfs:label xml:lang="en">desig_type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#designatedsitename -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#designatedsitename">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>designated_site_name</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Name of the sites related with the described site</terms:description>
+        <rdfs:label xml:lang="en">designatedsitename</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#designation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#designation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>desig_eng</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The name of the designation of the protected area in English</terms:description>
+        <rdfs:label xml:lang="en">designation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#designationcode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#designationcode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>designation_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Designation code at regional or national level</terms:description>
+        <rdfs:label xml:lang="en">designationcode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#designator -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#designator">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>desig_eng</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The name of the designation of the protected area in English</terms:description>
+        <rdfs:label xml:lang="en">designator</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -1974,6 +2394,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#directive -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#directive">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>directive</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Name of the directive</terms:description>
+        <rdfs:label xml:lang="en">directive</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dirty_ballast -->
 
 
@@ -2014,6 +2448,20 @@
         <hasCanonicalName>distance</hasCanonicalName>
         <hasDataType>double</hasDataType>
         <rdfs:label xml:lang="en">distance</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#documentation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#documentation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>documentation</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Addtional documentation existing as a reference for the site</terms:description>
+        <rdfs:label xml:lang="en">documentation</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2221,6 +2669,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#email -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#email">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>email</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The e-mail account of the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">email</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#engine_diesel_consumption -->
 
 
@@ -2385,6 +2847,20 @@
         <hasDataType>timestamp</hasDataType>
         <terms:description xml:lang="en">ETD Date</terms:description>
         <rdfs:label xml:lang="en">etd date</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#explanations -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#explanations">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>explanations</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Additional explanations given by the country to support the dates designations</terms:description>
+        <rdfs:label xml:lang="en">explanations</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2768,6 +3244,34 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#global -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#global">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>global_assessment</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Global assesment of the value of the site conservation of the natural habitat type concerned</terms:description>
+        <rdfs:label xml:lang="en">global</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#global_assessment -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#global_assessment">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>global_assessment</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Global assesment of the value of the site conservation of the natural habitat type concerned</terms:description>
+        <rdfs:label xml:lang="en">global_assessment</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground -->
 
 
@@ -2910,6 +3414,34 @@
         <hasDataType>byte</hasDataType>
         <terms:description xml:lang="en">Quality flag</terms:description>
         <rdfs:label xml:lang="en">gspd_qc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#habitat_priority -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#habitat_priority">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>habitat_priority</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">When the priority of the habitat is present in the legislation, a \&quot;*\&quot; indicates a priority habitat</terms:description>
+        <rdfs:label xml:lang="en">habitat_priority</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#habitatcode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#habitatcode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>habitat_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Code of the general habitat class</terms:description>
+        <rdfs:label xml:lang="en">habitatcode</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3253,6 +3785,34 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#impact_type -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#impact_type">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>impact_type</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Indicate whether the influence is positive (P) or negative (N)</terms:description>
+        <rdfs:label xml:lang="en">impact_type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#impactcode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#impactcode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>impact_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Human activity and natural process that may have an influence, either positive or negative, on the conservation and management of the site</terms:description>
+        <rdfs:label xml:lang="en">impactcode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus -->
 
 
@@ -3324,6 +3884,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#intensity -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#intensity">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>intensity</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Indicates the rank of the impact</terms:description>
+        <rdfs:label xml:lang="en">intensity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag -->
 
 
@@ -3334,6 +3908,20 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">interpolation flag (identification of extrapolated cells)</terms:description>
         <rdfs:label xml:lang="en">interpolation_flag</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#introduction_candidate -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#introduction_candidate">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>introduction_candidate</hasCanonicalName>
+        <hasDataType>byte</hasDataType>
+        <terms:description xml:lang="en">Habitat type referred to in Annex I to Directive 92/43/EEC considered as a candidate for introduction on the site</terms:description>
+        <rdfs:label xml:lang="en">introduction_candidate</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3432,6 +4020,20 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">ISO3 Code</terms:description>
         <rdfs:label xml:lang="en">iso3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#isolation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#isolation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>isolation</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Degree of isolation of the population present on the site in relation to the natural range of the species</terms:description>
+        <rdfs:label xml:lang="en">isolation</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3587,6 +4189,21 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">The length group</terms:description>
         <rdfs:label xml:lang="en">length_group</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#lengthkm -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#lengthkm">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>km</canonicalUnit>
+        <hasCanonicalName>site_length</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Site length is entered in kilometers</terms:description>
+        <rdfs:label xml:lang="en">lengthkm</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3760,6 +4377,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#locatorname -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#locatorname">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>locator_name</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Address locator name (e.g. street) where resides the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">locatorname</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#lon -->
 
 
@@ -3840,6 +4471,20 @@
         <hasDataType>double</hasDataType>
         <terms:description xml:lang="en">Longitude in minutes</terms:description>
         <rdfs:label xml:lang="en">longitude_minutes</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#lowerbound -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#lowerbound">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>lower_bound</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">Lower limits for the species population size</terms:description>
+        <rdfs:label xml:lang="en">lowerbound</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3942,6 +4587,62 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#manag_conserv_measures -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#manag_conserv_measures">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>management_conservation_measures</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Conservation measures published by the management plan if exists</terms:description>
+        <rdfs:label xml:lang="en">manag_conserv_measures</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#manag_plan -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#manag_plan">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>management_plan</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Name of the actual management for the site</terms:description>
+        <rdfs:label xml:lang="en">manag_plan</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#manag_plan_url -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#manag_plan_url">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>management_plan_url</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">URL link of the actual management for the site</terms:description>
+        <rdfs:label xml:lang="en">manag_plan_url</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#manag_status -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#manag_status">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>management_status</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Status of the actual management plan</terms:description>
+        <rdfs:label xml:lang="en">manag_status</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#mang_auth -->
 
 
@@ -3980,6 +4681,20 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">This field describes whether a protected area falls totally or partially, within the marine environment</terms:description>
         <rdfs:label xml:lang="en">marine</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#marine_area_percentage -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#marine_area_percentage">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>marine_area_percentage</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Percentage of the site considwered as marine</terms:description>
+        <rdfs:label xml:lang="en">marine_area_percentage</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4198,6 +4913,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#motivation -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#motivation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>motivation</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Motivation for listing these other important species in the site</terms:description>
+        <rdfs:label xml:lang="en">motivation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#name -->
 
 
@@ -4314,6 +5043,34 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#non_presence_in_site -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#non_presence_in_site">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>non_presence_in_site</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">In case that a habitat type no longer exists in the site, a value \&quot;1\&quot; is entered</terms:description>
+        <rdfs:label xml:lang="en">non_presence_in_site</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#nonprecenseinsite -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#nonprecenseinsite">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>non_presence_in_site</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">In case that a habitat type no longer exists in the site, a value \&quot;1\&quot; is entered</terms:description>
+        <rdfs:label xml:lang="en">nonprecenseinsite</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#nor_date -->
 
 
@@ -4398,6 +5155,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#occurrence1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#occurrence1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>occurrence</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Indicate whether the influence is positive (+) or negative (-)</terms:description>
+        <rdfs:label xml:lang="en">occurrence</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta -->
 
 
@@ -4438,6 +5209,118 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">The greatest depth at chart datum</terms:description>
         <rdfs:label xml:lang="en">oil_terminal_depth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_address -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_address">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_address</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Address where resides the body responsible of the management</terms:description>
+        <rdfs:label xml:lang="en">org_address</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_address_unstructured -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_address_unstructured">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_address_unstructured</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The address of the body responsible of the management</terms:description>
+        <rdfs:label xml:lang="en">org_address_unstructured</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_adminunit -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_adminunit">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_administrative_unit</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The local administrative unit where resides the body responsible of the management</terms:description>
+        <rdfs:label xml:lang="en">org_adminunit</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_designator -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_designator">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_designator</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Address unit designator where resides the body responsible of the management</terms:description>
+        <rdfs:label xml:lang="en">org_designator</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_email -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_email">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_email</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">E-mail of the body(ies) responsible for the site management</terms:description>
+        <rdfs:label xml:lang="en">org_email</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_locatorname -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_locatorname">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_locator_name</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Address locator name (e.g. street) where resides the body responsible of the management</terms:description>
+        <rdfs:label xml:lang="en">org_locatorname</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_name -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_name">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_name</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Name of the body(ies) responsible for the site management</terms:description>
+        <rdfs:label xml:lang="en">org_name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#org_postcode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#org_postcode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>organization_postcode</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Postcode of the address of the body responsible of the management</terms:description>
+        <rdfs:label xml:lang="en">org_postcode</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4496,6 +5379,20 @@
         <hasDataType>byte</hasDataType>
         <terms:description xml:lang="en">Oxygen saturation quality flag</terms:description>
         <rdfs:label xml:lang="en">osat_qc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#othercharact -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#othercharact">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>other_characters</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Additional description in the local language about the site</terms:description>
+        <rdfs:label xml:lang="en">othercharact</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4566,6 +5463,34 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">Indicates that bridge and overhead power cables exist</terms:description>
         <rdfs:label xml:lang="en">overhead_limits</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#overlapcode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#overlapcode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>overlap_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Relationship code</terms:description>
+        <rdfs:label xml:lang="en">overlapcode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#overlapperc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#overlapperc">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>overlap_percentage</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">The percentage of the described site that is overlapping with the other site</terms:description>
+        <rdfs:label xml:lang="en">overlapperc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4668,6 +5593,34 @@
         <hasDataType>int</hasDataType>
         <terms:description xml:lang="en">The number of passengers aboard</terms:description>
         <rdfs:label xml:lang="en">passengers</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#percentage -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#percentage">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>percentage</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Percentage of the surface of the site affected by the biogeographic region where the site is falling</terms:description>
+        <rdfs:label xml:lang="en">percentage</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#percentagecover -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#percentagecover">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>percentage_cover</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Percentage cover for an habitat class from the total habitats cover for the site</terms:description>
+        <rdfs:label xml:lang="en">percentagecover</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4833,6 +5786,48 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#pollutioncode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#pollutioncode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>pollution_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Code of the type of pollution</terms:description>
+        <rdfs:label xml:lang="en">pollutioncode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#population -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#population">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>population</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Size and density of the population of the species present on the site in relation to the populations present within national territory</terms:description>
+        <rdfs:label xml:lang="en">population</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#population_type -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#population_type">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>population_type</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Population status for the species</terms:description>
+        <rdfs:label xml:lang="en">population_type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality -->
 
 
@@ -4870,6 +5865,34 @@
         <hasCanonicalName>position_quality_flag</hasCanonicalName>
         <terms:description xml:lang="en">Quality Flag</terms:description>
         <rdfs:label xml:lang="en">position_qc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#postcode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#postcode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>postcode</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Postcode of the address of the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">postcode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#postname -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#postname">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>postname</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Postname of the address of the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">postname</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -4989,6 +6012,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>priority_form_habitat_type</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">For the habitat types that can have a non-priority as well as a priority form; value \&quot;1\&quot; indicates a priority form</terms:description>
+        <rdfs:label xml:lang="en">priority_form_habitat_type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#psal -->
 
 
@@ -5089,6 +6126,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#quality -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#quality">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>quality</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <rdfs:label xml:lang="en">Description of the site in terms of ecological quality</rdfs:label>
+        <rdfs:label xml:lang="en">quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#quarantine_deratt_cert -->
 
 
@@ -5173,6 +6224,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ref_spgroup -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ref_spgroup">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>reference_species_group</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species Group from the reference ETC lookup species list</terms:description>
+        <rdfs:label xml:lang="en">ref_spgroup</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#reference -->
 
 
@@ -5240,6 +6305,20 @@
         <hasDataType>byte</hasDataType>
         <terms:description xml:lang="en">Quality flag</terms:description>
         <rdfs:label xml:lang="en">relh_qc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#relsurface -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#relsurface">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>surface_relation</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Area of the site covered by the natural habitat type in relation to the total area covered by that natural habitat type within the national territory</terms:description>
+        <rdfs:label xml:lang="en">relsurface</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5312,6 +6391,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#representativity -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#representativity">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>representativity</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Degree of representativity of the habitat type on the site</terms:description>
+        <rdfs:label xml:lang="en">representativity</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil -->
 
 
@@ -5336,6 +6429,20 @@
         <hasDataType>double</hasDataType>
         <terms:description xml:lang="en">ROT</terms:description>
         <rdfs:label xml:lang="en">rot</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sac_legal_reference</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The legal statement by the national authority in which the site was ammended as SAC</terms:description>
+        <rdfs:label xml:lang="en">sac_legal_reference</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5410,6 +6517,20 @@
         <hasCanonicalName>sea_state</hasCanonicalName>
         <hasDataType>double</hasDataType>
         <rdfs:label xml:lang="en">seastate</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sensitive -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sensitive">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sensitive</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">States if a species is sensitive or not for its publication</terms:description>
+        <rdfs:label xml:lang="en">sensitive</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5684,6 +6805,48 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sitecode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sitecode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>site_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Unique code wich forms the key-item within the database</terms:description>
+        <rdfs:label xml:lang="en">sitecode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sitename -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sitename">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>site_name</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Site name in the local language</terms:description>
+        <rdfs:label xml:lang="en">sitename</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sitetype -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sitetype">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>site_type</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Type of classification for the site</terms:description>
+        <rdfs:label xml:lang="en">sitetype</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#slip -->
 
 
@@ -5782,6 +6945,34 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#spa_legal_reference -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#spa_legal_reference">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>spa_legal_reference</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">The legal statement by the national authority in which the site was ammended as SPA</terms:description>
+        <rdfs:label xml:lang="en">spa_legal_reference</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#spbcax1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#spbcax1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>spbcax1</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species listed in SPBCAX1 of the Directive</terms:description>
+        <rdfs:label xml:lang="en">spbcax1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#species -->
 
 
@@ -5838,6 +7029,48 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#speciescode -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#speciescode">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>species_code</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species code</terms:description>
+        <rdfs:label xml:lang="en">speciescode</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#speciesgroup -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#speciesgroup">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>species_group</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species group</terms:description>
+        <rdfs:label xml:lang="en">speciesgroup</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#speciesname -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#speciesname">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>species_name</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species name</terms:description>
+        <rdfs:label xml:lang="en">speciesname</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#speed -->
 
 
@@ -5849,6 +7082,20 @@
         <hasDataType>double</hasDataType>
         <terms:description xml:lang="en">Speed over ground</terms:description>
         <rdfs:label xml:lang="en">speed</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#spgroup -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#spgroup">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>species_group</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Species group</terms:description>
+        <rdfs:label xml:lang="en">spgroup</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6295,6 +7542,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#thoroughfare -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#thoroughfare">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>thoroughfare</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Transportation route where resides the individual or organization providing the information contained in the record</terms:description>
+        <rdfs:label xml:lang="en">thoroughfare</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#tide -->
 
 
@@ -6581,6 +7842,20 @@
         <hasDataType>float</hasDataType>
         <terms:description xml:lang="en">Eastward sea water velocity</terms:description>
         <rdfs:label xml:lang="en">uo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#upperbound -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#upperbound">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>upper_bound</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">Upper limits for the species population size</terms:description>
+        <rdfs:label xml:lang="en">upperbound</rdfs:label>
     </owl:NamedIndividual>
     
 

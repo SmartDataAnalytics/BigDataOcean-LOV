@@ -428,6 +428,46 @@ rdf:type rdf:type owl:AnnotationProperty .
    rdfs:label "a"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#abundance_category
+:abundance_category rdf:type owl:NamedIndividual ,
+                             :MaritimeObservations ,
+                             :Variable ;
+                    :hasCanonicalName "abundance_category" ;
+                    :hasDataType "string" ;
+                    <http://purl.org/dc/terms/description> "Species population abudance category"@en ;
+                    rdfs:label "abundance_category"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#address
+:address rdf:type owl:NamedIndividual ,
+                  :General ,
+                  :Variable ;
+         :hasCanonicalName "address" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Address where resides the individual or organization providing the information contained in the record"@en ;
+         rdfs:label "address"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#address_unstructured
+:address_unstructured rdf:type owl:NamedIndividual ,
+                               :General ,
+                               :Variable ;
+                      :hasCanonicalName "unstructured_address" ;
+                      :hasDataType "string" ;
+                      <http://purl.org/dc/terms/description> "The address of the individual or organization providing the information contained in the record without a sparation on the different elements that compose an address"@en ;
+                      rdfs:label "address_unstructured"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#adminunit
+:adminunit rdf:type owl:NamedIndividual ,
+                    :General ,
+                    :Variable ;
+           :hasCanonicalName "admin_unit" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "The local administrative unit where resides the individual or organization providing the information contained in the record"@en ;
+           rdfs:label "adminunit"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice
 :age_of_sea_ice rdf:type owl:NamedIndividual ,
                          :SeaIce ,
@@ -479,6 +519,86 @@ rdf:type rdf:type owl:AnnotationProperty .
                :hasDataType "timestamp" ;
                <http://purl.org/dc/terms/description> "ANCHORED (DATE/TIME)"@en ;
                rdfs:label "anchored date"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexii
+:annexii rdf:type owl:NamedIndividual ,
+                  :MaritimeObservations ,
+                  :Variable ;
+         :hasCanonicalName "annexii" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Species listed in Annex II of the Directive"@en ;
+         rdfs:label "annexii"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexii1
+:annexii1 rdf:type owl:NamedIndividual ,
+                   :MaritimeObservations ,
+                   :Variable ;
+          :hasCanonicalName "annexii1" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Species listed in Annex II1 of the Directive"@en ;
+          rdfs:label "annexii1"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexiii1
+:annexiii1 rdf:type owl:NamedIndividual ,
+                    :MaritimeObservations ,
+                    :Variable ;
+           :hasCanonicalName "annexiii1" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Species listed in Annex III1 of the Directive"@en ;
+           rdfs:label "annexiii1"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexiii2
+:annexiii2 rdf:type owl:NamedIndividual ,
+                    :MaritimeObservations ,
+                    :Variable ;
+           :hasCanonicalName "annexiii2" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Species listed in Annex III2 of the Directive"@en ;
+           rdfs:label "annexiii2"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexiv
+:annexiv rdf:type owl:NamedIndividual ,
+                  :MaritimeObservations ,
+                  :Variable ;
+         :hasCanonicalName "annexiv" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Species listed in Annex IV of the Directive"@en ;
+         rdfs:label "annexiv"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexv
+:annexv rdf:type owl:NamedIndividual ,
+                 :MaritimeObservations ,
+                 :Variable ;
+        :hasCanonicalName "annexv" ;
+        :hasDataType "string" ;
+        <http://purl.org/dc/terms/description> "Species listed in Annex V of the Directive"@en ;
+        rdfs:label "annexv"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#annexxii2
+:annexxii2 rdf:type owl:NamedIndividual ,
+                    :MaritimeObservations ,
+                    :Variable ;
+           :hasCanonicalName "annexii2" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Species listed in Annex II2 of the Directive"@en ;
+           rdfs:label "annexxii2"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#areaha
+:areaha rdf:type owl:NamedIndividual ,
+                 :Surface ,
+                 :Variable ;
+        :hasCanonicalName "surface_area_hectares" ;
+        :hasDataType "double" ;
+        <http://purl.org/dc/terms/description> "Surface area of a site in hectares. Although it is an obligatory field, the value -99 is given for sites for witch the areas is unkown. A value of 0 cab be correct if the site is a cave or cliff. In this case the field 2.3 is obligatory"@en ;
+        rdfs:label "areaha"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#arrived_date
@@ -685,6 +805,16 @@ rdf:type rdf:type owl:AnnotationProperty .
               rdfs:label "berthed date"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#biogeographicreg
+:biogeographicreg rdf:type owl:NamedIndividual ,
+                           :MaritimeObservations ,
+                           :Variable ;
+                  :hasCanonicalName "bio_geographic_region" ;
+                  :hasDataType "string" ;
+                  <http://purl.org/dc/terms/description> "Indicate in wich beogreograhic region the site is falling"@en ;
+                  rdfs:label "biogeographicreg"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#bottomT
 :bottomT rdf:type owl:NamedIndividual ,
                   :OceanDynamics ,
@@ -745,6 +875,16 @@ rdf:type rdf:type owl:AnnotationProperty .
       :hasDataType "int" ;
       <http://purl.org/dc/terms/description> "The number of cars aboard"@en ;
       rdfs:label "cars"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#caves
+:caves rdf:type owl:NamedIndividual ,
+                :MaritimeObservations ,
+                :Variable ;
+       :hasCanonicalName "caves" ;
+       :hasDataType "double" ;
+       <http://purl.org/dc/terms/description> "% Cover the site is covered by a habitat type of AnnexI"@en ;
+       rdfs:label "caves"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#cdom
@@ -986,6 +1126,26 @@ rdf:type rdf:type owl:AnnotationProperty .
                      rdfs:label "concentration_range"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#conservation
+:conservation rdf:type owl:NamedIndividual ,
+                       :MaritimeObservations ,
+                       :Variable ;
+              :hasCanonicalName "conservation" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Degree of conservation of the structure and functions of the natural habitat type, concerned and restoration possiblities"@en ;
+              rdfs:label "conservation"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#counting_unit
+:counting_unit rdf:type owl:NamedIndividual ,
+                        :MaritimeObservations ,
+                        :Variable ;
+               :hasCanonicalName "counting_unit" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Units of population, i = individuals, p = pairs or other units according to the standard list of population units and codes in accordance with Article 12 and 17 reporting"@en ;
+               rdfs:label "counting_unit"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#country
 :country rdf:type owl:NamedIndividual ,
                   :General ,
@@ -994,6 +1154,16 @@ rdf:type rdf:type owl:AnnotationProperty .
          :hasDataType "string" ;
          <http://purl.org/dc/terms/description> "Name of a country"@en ;
          rdfs:label "country"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#country_code
+:country_code rdf:type owl:NamedIndividual ,
+                       :General ,
+                       :Variable ;
+              :hasCanonicalName "country_code" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "The code of the country"@en ;
+              rdfs:label "country_code"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#course
@@ -1005,6 +1175,16 @@ rdf:type rdf:type owl:AnnotationProperty .
         :hasDataType "int" ;
         <http://purl.org/dc/terms/description> "Course over ground"@en ;
         rdfs:label "course"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#cover_ha
+:cover_ha rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "cover_hectares" ;
+          :hasDataType "double" ;
+          <http://purl.org/dc/terms/description> "Area cover in hectares"@en ;
+          rdfs:label "cover_ha"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#cranes_fixed
@@ -1118,6 +1298,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                 rdfs:label "data_mode_cora"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#dataquality
+:dataquality rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "data_quality" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Assessment of the quality of data provided for habitats"@en ;
+             rdfs:label "dataquality"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#date
 :date rdf:type owl:NamedIndividual ,
                :Variable ,
@@ -1125,6 +1315,26 @@ rdf:type rdf:type owl:AnnotationProperty .
       :hasCanonicalName "voyage_date" ;
       :hasDataType "timestamp" ;
       rdfs:label "date"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_compilation
+:date_compilation rdf:type owl:NamedIndividual ,
+                           :General ,
+                           :Variable ;
+                  :hasCanonicalName "compilation_date" ;
+                  :hasDataType "string" ;
+                  <http://purl.org/dc/terms/description> "The date information has been recorded in the Standard Data Form. The data field takes the form of the year (four digits) followed by the month in numeric form (two digits)"@en ;
+                  rdfs:label "date_compilation"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_conf_sci
+:date_conf_sci rdf:type owl:NamedIndividual ,
+                        :General ,
+                        :Variable ;
+               :hasCanonicalName "identification_confirmed_date" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Date site has been confirmed as a Site of Community importance (SCI)"@en ;
+               rdfs:label "date_conf_sci"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#date_created
@@ -1145,6 +1355,46 @@ rdf:type rdf:type owl:AnnotationProperty .
                  :hasDataType "timestamp" ;
                  <http://purl.org/dc/terms/description> "The date at which the vessel was banned"@en ;
                  rdfs:label "date of banning"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_prop_sci
+:date_prop_sci rdf:type owl:NamedIndividual ,
+                        :General ,
+                        :Variable ;
+               :hasCanonicalName "identification_proposed_date" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Date site proposed as eligible for identification as a Site of Community importance (SCI)"@en ;
+               rdfs:label "date_prop_sci"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_sac
+:date_sac rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "date_sac" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Date site designated as SAC"@en ;
+          rdfs:label "date_sac"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_spa
+:date_spa rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "spa_date" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Date site classified as SPA"@en ;
+          rdfs:label "date_spa"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#date_update
+:date_update rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "update_date" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "The date when the information reported for the site was last changed. The data field takes the form of the year (four digits) followed by the month in numeric form (two digits)"@en ;
+             rdfs:label "date_update"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference
@@ -1228,6 +1478,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                  rdfs:label "depth_staggered"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#description
+:description rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "description" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Name of the general habitat class in English"@en ;
+             rdfs:label "description"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#desig
 :desig rdf:type owl:NamedIndividual ,
                 :General ,
@@ -1256,6 +1516,46 @@ rdf:type rdf:type owl:AnnotationProperty .
             :hasDataType "string" ;
             <http://purl.org/dc/terms/description> "The designation type is the category or type of protected area as legally/officially designated or proposed"@en ;
             rdfs:label "desig_type"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#designatedsitename
+:designatedsitename rdf:type owl:NamedIndividual ,
+                             :General ,
+                             :Variable ;
+                    :hasCanonicalName "designated_site_name" ;
+                    :hasDataType "string" ;
+                    <http://purl.org/dc/terms/description> "Name of the sites related with the described site"@en ;
+                    rdfs:label "designatedsitename"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#designation
+:designation rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "desig_eng" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "The name of the designation of the protected area in English"@en ;
+             rdfs:label "designation"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#designationcode
+:designationcode rdf:type owl:NamedIndividual ,
+                          :General ,
+                          :Variable ;
+                 :hasCanonicalName "designation_code" ;
+                 :hasDataType "string" ;
+                 <http://purl.org/dc/terms/description> "Designation code at regional or national level"@en ;
+                 rdfs:label "designationcode"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#designator
+:designator rdf:type owl:NamedIndividual ,
+                     :General ,
+                     :Variable ;
+            :hasCanonicalName "desig_eng" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "The name of the designation of the protected area in English"@en ;
+            rdfs:label "designator"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#destination
@@ -1308,6 +1608,16 @@ rdf:type rdf:type owl:AnnotationProperty .
             rdfs:label "direction"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#directive
+:directive rdf:type owl:NamedIndividual ,
+                    :General ,
+                    :Variable ;
+           :hasCanonicalName "directive" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Name of the directive"@en ;
+           rdfs:label "directive"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#dirty_ballast
 :dirty_ballast rdf:type owl:NamedIndividual ,
                         :Ports ,
@@ -1338,6 +1648,16 @@ rdf:type rdf:type owl:AnnotationProperty .
           :hasCanonicalName "distance" ;
           :hasDataType "double" ;
           rdfs:label "distance"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#documentation
+:documentation rdf:type owl:NamedIndividual ,
+                        :General ,
+                        :Variable ;
+               :hasCanonicalName "documentation" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Addtional documentation existing as a reference for the site"@en ;
+               rdfs:label "documentation"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#dox1
@@ -1487,6 +1807,16 @@ rdf:type rdf:type owl:AnnotationProperty .
            rdfs:label "elevation"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#email
+:email rdf:type owl:NamedIndividual ,
+                :General ,
+                :Variable ;
+       :hasCanonicalName "email" ;
+       :hasDataType "string" ;
+       <http://purl.org/dc/terms/description> "The e-mail account of the individual or organization providing the information contained in the record"@en ;
+       rdfs:label "email"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#engine_diesel_consumption
 :engine_diesel_consumption rdf:type owl:NamedIndividual ,
                                     :Variable ,
@@ -1605,6 +1935,16 @@ rdf:type rdf:type owl:AnnotationProperty .
           :hasDataType "timestamp" ;
           <http://purl.org/dc/terms/description> "ETD Date"@en ;
           rdfs:label "etd date"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#explanations
+:explanations rdf:type owl:NamedIndividual ,
+                       :General ,
+                       :Variable ;
+              :hasCanonicalName "explanations" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Additional explanations given by the country to support the dates designations"@en ;
+              rdfs:label "explanations"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#fdelivery
@@ -1878,6 +2218,26 @@ rdf:type rdf:type owl:AnnotationProperty .
             rdfs:label "gis_m_area"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#global
+:global rdf:type owl:NamedIndividual ,
+                 :MaritimeObservations ,
+                 :Variable ;
+        :hasCanonicalName "global_assessment" ;
+        :hasDataType "string" ;
+        <http://purl.org/dc/terms/description> "Global assesment of the value of the site conservation of the natural habitat type concerned"@en ;
+        rdfs:label "global"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#global_assessment
+:global_assessment rdf:type owl:NamedIndividual ,
+                            :MaritimeObservations ,
+                            :Variable ;
+                   :hasCanonicalName "global_assessment" ;
+                   :hasDataType "string" ;
+                   <http://purl.org/dc/terms/description> "Global assesment of the value of the site conservation of the natural habitat type concerned"@en ;
+                   rdfs:label "global_assessment"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground
 :good_holding_ground rdf:type owl:NamedIndividual ,
                               :Ports ,
@@ -1982,6 +2342,26 @@ rdf:type rdf:type owl:AnnotationProperty .
          :hasDataType "byte" ;
          <http://purl.org/dc/terms/description> "Quality flag"@en ;
          rdfs:label "gspd_qc"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#habitat_priority
+:habitat_priority rdf:type owl:NamedIndividual ,
+                           :MaritimeObservations ,
+                           :Variable ;
+                  :hasCanonicalName "habitat_priority" ;
+                  :hasDataType "string" ;
+                  <http://purl.org/dc/terms/description> "When the priority of the habitat is present in the legislation, a \\\"*\\\" indicates a priority habitat"@en ;
+                  rdfs:label "habitat_priority"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#habitatcode
+:habitatcode rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "habitat_code" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Code of the general habitat class"@en ;
+             rdfs:label "habitatcode"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#harbor_size_code
@@ -2227,6 +2607,26 @@ rdf:type rdf:type owl:AnnotationProperty .
      rdfs:label "imo"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#impact_type
+:impact_type rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "impact_type" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Indicate whether the influence is positive (P) or negative (N)"@en ;
+             rdfs:label "impact_type"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#impactcode
+:impactcode rdf:type owl:NamedIndividual ,
+                     :General ,
+                     :Variable ;
+            :hasCanonicalName "impact_code" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "Human activity and natural process that may have an influence, either positive or negative, on the conservation and management of the site"@en ;
+            rdfs:label "impactcode"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus
 :inorganic_phosphorus rdf:type owl:NamedIndividual ,
                                :AtmosphericChemestry ,
@@ -2278,6 +2678,16 @@ rdf:type rdf:type owl:AnnotationProperty .
           rdfs:label "int_crit"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#intensity
+:intensity rdf:type owl:NamedIndividual ,
+                    :General ,
+                    :Variable ;
+           :hasCanonicalName "intensity" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Indicates the rank of the impact"@en ;
+           rdfs:label "intensity"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#interpolation_flag
 :interpolation_flag rdf:type owl:NamedIndividual ,
                              :OceanObservations ,
@@ -2286,6 +2696,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                     :hasDataType "string" ;
                     <http://purl.org/dc/terms/description> "interpolation flag (identification of extrapolated cells)"@en ;
                     rdfs:label "interpolation_flag"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#introduction_candidate
+:introduction_candidate rdf:type owl:NamedIndividual ,
+                                 :MaritimeObservations ,
+                                 :Variable ;
+                        :hasCanonicalName "introduction_candidate" ;
+                        :hasDataType "byte" ;
+                        <http://purl.org/dc/terms/description> "Habitat type referred to in Annex I to Directive 92/43/EEC considered as a candidate for introduction on the site"@en ;
+                        rdfs:label "introduction_candidate"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#inward_moves_consumptions_duration
@@ -2356,6 +2776,16 @@ rdf:type rdf:type owl:AnnotationProperty .
       :hasDataType "string" ;
       <http://purl.org/dc/terms/description> "ISO3 Code"@en ;
       rdfs:label "iso3"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#isolation
+:isolation rdf:type owl:NamedIndividual ,
+                    :MaritimeObservations ,
+                    :Variable ;
+           :hasCanonicalName "isolation" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "Degree of isolation of the population present on the site in relation to the natural range of the species"@en ;
+           rdfs:label "isolation"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat
@@ -2467,6 +2897,17 @@ rdf:type rdf:type owl:AnnotationProperty .
               :hasDataType "string" ;
               <http://purl.org/dc/terms/description> "The length group"@en ;
               rdfs:label "length_group"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#lengthkm
+:lengthkm rdf:type owl:NamedIndividual ,
+                   :OceanObservations ,
+                   :Variable ;
+          :canonicalUnit "km" ;
+          :hasCanonicalName "site_length" ;
+          :hasDataType "double" ;
+          <http://purl.org/dc/terms/description> "Site length is entered in kilometers"@en ;
+          rdfs:label "lengthkm"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#lifts_0_24_tons
@@ -2590,6 +3031,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                       rdfs:label "load_offload_wharves"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#locatorname
+:locatorname rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "locator_name" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Address locator name (e.g. street) where resides the individual or organization providing the information contained in the record"@en ;
+             rdfs:label "locatorname"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#lon
 :lon rdf:type owl:NamedIndividual ,
               :General ,
@@ -2648,6 +3099,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                    :hasDataType "double" ;
                    <http://purl.org/dc/terms/description> "Longitude in minutes"@en ;
                    rdfs:label "longitude_minutes"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#lowerbound
+:lowerbound rdf:type owl:NamedIndividual ,
+                     :MaritimeObservations ,
+                     :Variable ;
+            :hasCanonicalName "lower_bound" ;
+            :hasDataType "integer" ;
+            <http://purl.org/dc/terms/description> "Lower limits for the species population size"@en ;
+            rdfs:label "lowerbound"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#lubricant
@@ -2720,6 +3181,46 @@ rdf:type rdf:type owl:AnnotationProperty .
                 rdfs:label "main_port_name"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#manag_conserv_measures
+:manag_conserv_measures rdf:type owl:NamedIndividual ,
+                                 :General ,
+                                 :Variable ;
+                        :hasCanonicalName "management_conservation_measures" ;
+                        :hasDataType "string" ;
+                        <http://purl.org/dc/terms/description> "Conservation measures published by the management plan if exists"@en ;
+                        rdfs:label "manag_conserv_measures"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#manag_plan
+:manag_plan rdf:type owl:NamedIndividual ,
+                     :General ,
+                     :Variable ;
+            :hasCanonicalName "management_plan" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "Name of the actual management for the site"@en ;
+            rdfs:label "manag_plan"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#manag_plan_url
+:manag_plan_url rdf:type owl:NamedIndividual ,
+                         :General ,
+                         :Variable ;
+                :hasCanonicalName "management_plan_url" ;
+                :hasDataType "string" ;
+                <http://purl.org/dc/terms/description> "URL link of the actual management for the site"@en ;
+                rdfs:label "manag_plan_url"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#manag_status
+:manag_status rdf:type owl:NamedIndividual ,
+                       :General ,
+                       :Variable ;
+              :hasCanonicalName "management_status" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Status of the actual management plan"@en ;
+              rdfs:label "manag_status"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#mang_auth
 :mang_auth rdf:type owl:NamedIndividual ,
                     :General ,
@@ -2748,6 +3249,16 @@ rdf:type rdf:type owl:AnnotationProperty .
         :hasDataType "string" ;
         <http://purl.org/dc/terms/description> "This field describes whether a protected area falls totally or partially, within the marine environment"@en ;
         rdfs:label "marine"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#marine_area_percentage
+:marine_area_percentage rdf:type owl:NamedIndividual ,
+                                 :OceanObservations ,
+                                 :Variable ;
+                        :hasCanonicalName "marine_area_percentage" ;
+                        :hasDataType "double" ;
+                        <http://purl.org/dc/terms/description> "Percentage of the site considwered as marine"@en ;
+                        rdfs:label "marine_area_percentage"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#mask
@@ -2904,6 +3415,16 @@ rdf:type rdf:type owl:AnnotationProperty .
        rdfs:label "month"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#motivation
+:motivation rdf:type owl:NamedIndividual ,
+                     :General ,
+                     :Variable ;
+            :hasCanonicalName "motivation" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "Motivation for listing these other important species in the site"@en ;
+            rdfs:label "motivation"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#name
 :name rdf:type owl:NamedIndividual ,
                :General ,
@@ -2988,6 +3509,26 @@ rdf:type rdf:type owl:AnnotationProperty .
             rdfs:label "no_tk_area"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#non_presence_in_site
+:non_presence_in_site rdf:type owl:NamedIndividual ,
+                               :MaritimeObservations ,
+                               :Variable ;
+                      :hasCanonicalName "non_presence_in_site" ;
+                      :hasDataType "integer" ;
+                      <http://purl.org/dc/terms/description> "In case that a habitat type no longer exists in the site, a value \\\"1\\\" is entered"@en ;
+                      rdfs:label "non_presence_in_site"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#nonprecenseinsite
+:nonprecenseinsite rdf:type owl:NamedIndividual ,
+                            :MaritimeObservations ,
+                            :Variable ;
+                   :hasCanonicalName "non_presence_in_site" ;
+                   :hasDataType "integer" ;
+                   <http://purl.org/dc/terms/description> "In case that a habitat type no longer exists in the site, a value \\\"1\\\" is entered"@en ;
+                   rdfs:label "nonprecenseinsite"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#nor_date
 :nor_date rdf:type owl:NamedIndividual ,
                    :Variable ,
@@ -3048,6 +3589,16 @@ rdf:type rdf:type owl:AnnotationProperty .
             rdfs:label "occurrence"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#occurrence1
+:occurrence1 rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "occurrence" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Indicate whether the influence is positive (+) or negative (-)"@en ;
+             rdfs:label "occurrence"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#ocean_mixed_layer_thickness_defined_by_sigma_theta
 :ocean_mixed_layer_thickness_defined_by_sigma_theta rdf:type owl:NamedIndividual ,
                                                              :SeaIce ,
@@ -3078,6 +3629,86 @@ rdf:type rdf:type owl:AnnotationProperty .
                     :hasDataType "string" ;
                     <http://purl.org/dc/terms/description> "The greatest depth at chart datum"@en ;
                     rdfs:label "oil_terminal_depth"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_address
+:org_address rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "organization_address" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Address where resides the body responsible of the management"@en ;
+             rdfs:label "org_address"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_address_unstructured
+:org_address_unstructured rdf:type owl:NamedIndividual ,
+                                   :General ,
+                                   :Variable ;
+                          :hasCanonicalName "organization_address_unstructured" ;
+                          :hasDataType "string" ;
+                          <http://purl.org/dc/terms/description> "The address of the body responsible of the management"@en ;
+                          rdfs:label "org_address_unstructured"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_adminunit
+:org_adminunit rdf:type owl:NamedIndividual ,
+                        :General ,
+                        :Variable ;
+               :hasCanonicalName "organization_administrative_unit" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "The local administrative unit where resides the body responsible of the management"@en ;
+               rdfs:label "org_adminunit"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_designator
+:org_designator rdf:type owl:NamedIndividual ,
+                         :General ,
+                         :Variable ;
+                :hasCanonicalName "organization_designator" ;
+                :hasDataType "string" ;
+                <http://purl.org/dc/terms/description> "Address unit designator where resides the body responsible of the management"@en ;
+                rdfs:label "org_designator"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_email
+:org_email rdf:type owl:NamedIndividual ,
+                    :General ,
+                    :Variable ;
+           :hasCanonicalName "organization_email" ;
+           :hasDataType "string" ;
+           <http://purl.org/dc/terms/description> "E-mail of the body(ies) responsible for the site management"@en ;
+           rdfs:label "org_email"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_locatorname
+:org_locatorname rdf:type owl:NamedIndividual ,
+                          :General ,
+                          :Variable ;
+                 :hasCanonicalName "organization_locator_name" ;
+                 :hasDataType "string" ;
+                 <http://purl.org/dc/terms/description> "Address locator name (e.g. street) where resides the body responsible of the management"@en ;
+                 rdfs:label "org_locatorname"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_name
+:org_name rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "organization_name" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Name of the body(ies) responsible for the site management"@en ;
+          rdfs:label "org_name"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#org_postcode
+:org_postcode rdf:type owl:NamedIndividual ,
+                       :General ,
+                       :Variable ;
+              :hasCanonicalName "organization_postcode" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Postcode of the address of the body responsible of the management"@en ;
+              rdfs:label "org_postcode"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#orig_name
@@ -3120,6 +3751,16 @@ rdf:type rdf:type owl:AnnotationProperty .
          :hasDataType "byte" ;
          <http://purl.org/dc/terms/description> "Oxygen saturation quality flag"@en ;
          rdfs:label "osat_qc"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#othercharact
+:othercharact rdf:type owl:NamedIndividual ,
+                       :General ,
+                       :Variable ;
+              :hasCanonicalName "other_characters" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Additional description in the local language about the site"@en ;
+              rdfs:label "othercharact"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#out_movement_consumptions_duration
@@ -3170,6 +3811,26 @@ rdf:type rdf:type owl:AnnotationProperty .
                  :hasDataType "string" ;
                  <http://purl.org/dc/terms/description> "Indicates that bridge and overhead power cables exist"@en ;
                  rdfs:label "overhead_limits"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#overlapcode
+:overlapcode rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "overlap_code" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Relationship code"@en ;
+             rdfs:label "overlapcode"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#overlapperc
+:overlapperc rdf:type owl:NamedIndividual ,
+                      :General ,
+                      :Variable ;
+             :hasCanonicalName "overlap_percentage" ;
+             :hasDataType "double" ;
+             <http://purl.org/dc/terms/description> "The percentage of the described site that is overlapping with the other site"@en ;
+             rdfs:label "overlapperc"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#own_type
@@ -3244,6 +3905,26 @@ rdf:type rdf:type owl:AnnotationProperty .
             :hasDataType "int" ;
             <http://purl.org/dc/terms/description> "The number of passengers aboard"@en ;
             rdfs:label "passengers"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#percentage
+:percentage rdf:type owl:NamedIndividual ,
+                     :General ,
+                     :Variable ;
+            :hasCanonicalName "percentage" ;
+            :hasDataType "double" ;
+            <http://purl.org/dc/terms/description> "Percentage of the surface of the site affected by the biogeographic region where the site is falling"@en ;
+            rdfs:label "percentage"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#percentagecover
+:percentagecover rdf:type owl:NamedIndividual ,
+                          :General ,
+                          :Variable ;
+                 :hasCanonicalName "percentage_cover" ;
+                 :hasDataType "double" ;
+                 <http://purl.org/dc/terms/description> "Percentage cover for an habitat class from the total habitats cover for the site"@en ;
+                 rdfs:label "percentagecover"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#phph
@@ -3363,6 +4044,36 @@ rdf:type rdf:type owl:AnnotationProperty .
      rdfs:label "po4"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#pollutioncode
+:pollutioncode rdf:type owl:NamedIndividual ,
+                        :OceanObservations ,
+                        :Variable ;
+               :hasCanonicalName "pollution_code" ;
+               :hasDataType "string" ;
+               <http://purl.org/dc/terms/description> "Code of the type of pollution"@en ;
+               rdfs:label "pollutioncode"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#population
+:population rdf:type owl:NamedIndividual ,
+                     :MaritimeObservations ,
+                     :Variable ;
+            :hasCanonicalName "population" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "Size and density of the population of the species present on the site in relation to the populations present within national territory"@en ;
+            rdfs:label "population"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#population_type
+:population_type rdf:type owl:NamedIndividual ,
+                          :MaritimeObservations ,
+                          :Variable ;
+                 :hasCanonicalName "population_type" ;
+                 :hasDataType "string" ;
+                 <http://purl.org/dc/terms/description> "Population status for the species"@en ;
+                 rdfs:label "population_type"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#port_nationality
 :port_nationality rdf:type owl:NamedIndividual ,
                            :MaritimeObservations ,
@@ -3390,6 +4101,26 @@ rdf:type rdf:type owl:AnnotationProperty .
              :hasCanonicalName "position_quality_flag" ;
              <http://purl.org/dc/terms/description> "Quality Flag"@en ;
              rdfs:label "position_qc"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#postcode
+:postcode rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "postcode" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Postcode of the address of the individual or organization providing the information contained in the record"@en ;
+          rdfs:label "postcode"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#postname
+:postname rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "postname" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Postname of the address of the individual or organization providing the information contained in the record"@en ;
+          rdfs:label "postname"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#potemp
@@ -3475,6 +4206,16 @@ rdf:type rdf:type owl:AnnotationProperty .
          rdfs:label "pres_qc"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type
+:priority_form_habitat_type rdf:type owl:NamedIndividual ,
+                                     :MaritimeObservations ,
+                                     :Variable ;
+                            :hasCanonicalName "priority_form_habitat_type" ;
+                            :hasDataType "integer" ;
+                            <http://purl.org/dc/terms/description> "For the habitat types that can have a non-priority as well as a priority form; value \\\"1\\\" indicates a priority form"@en ;
+                            rdfs:label "priority_form_habitat_type"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#psal
 :psal rdf:type owl:NamedIndividual ,
                :OceanObservations ,
@@ -3547,6 +4288,16 @@ rdf:type rdf:type owl:AnnotationProperty .
              rdfs:label "publication"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#quality
+:quality rdf:type owl:NamedIndividual ,
+                  :General ,
+                  :Variable ;
+         :hasCanonicalName "quality" ;
+         :hasDataType "string" ;
+         rdfs:label "Description of the site in terms of ecological quality"@en ,
+                    "quality"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#quarantine_deratt_cert
 :quarantine_deratt_cert rdf:type owl:NamedIndividual ,
                                  :Ports ,
@@ -3607,6 +4358,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                     rdfs:label "reason for banning"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ref_spgroup
+:ref_spgroup rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "reference_species_group" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Species Group from the reference ETC lookup species list"@en ;
+             rdfs:label "ref_spgroup"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#reference
 :reference rdf:type owl:NamedIndividual ,
                     :General ,
@@ -3658,6 +4419,16 @@ rdf:type rdf:type owl:AnnotationProperty .
          rdfs:label "relh_qc"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#relsurface
+:relsurface rdf:type owl:NamedIndividual ,
+                     :Surface ,
+                     :Variable ;
+            :hasCanonicalName "surface_relation" ;
+            :hasDataType "string" ;
+            <http://purl.org/dc/terms/description> "Area of the site covered by the natural habitat type in relation to the total area covered by that natural habitat type within the national territory"@en ;
+            rdfs:label "relsurface"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#remfuelhigh
 :remfuelhigh rdf:type owl:NamedIndividual ,
                       :Variable ,
@@ -3706,6 +4477,16 @@ rdf:type rdf:type owl:AnnotationProperty .
              rdfs:label "repair_code"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#representativity
+:representativity rdf:type owl:NamedIndividual ,
+                           :MaritimeObservations ,
+                           :Variable ;
+                  :hasCanonicalName "representativity" ;
+                  :hasDataType "string" ;
+                  <http://purl.org/dc/terms/description> "Degree of representativity of the habitat type on the site"@en ;
+                  rdfs:label "representativity"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#rob_engine_oil
 :rob_engine_oil rdf:type owl:NamedIndividual ,
                          :Variable ,
@@ -3724,6 +4505,16 @@ rdf:type rdf:type owl:AnnotationProperty .
      :hasDataType "double" ;
      <http://purl.org/dc/terms/description> "ROT"@en ;
      rdfs:label "rot"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference
+:sac_legal_reference rdf:type owl:NamedIndividual ,
+                              :General ,
+                              :Variable ;
+                     :hasCanonicalName "sac_legal_reference" ;
+                     :hasDataType "string" ;
+                     <http://purl.org/dc/terms/description> "The legal statement by the national authority in which the site was ammended as SAC"@en ;
+                     rdfs:label "sac_legal_reference"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#salinity
@@ -3778,6 +4569,16 @@ rdf:type rdf:type owl:AnnotationProperty .
           :hasCanonicalName "sea_state" ;
           :hasDataType "double" ;
           rdfs:label "seastate"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sensitive
+:sensitive rdf:type owl:NamedIndividual ,
+                    :General ,
+                    :Variable ;
+           :hasCanonicalName "sensitive" ;
+           :hasDataType "integer" ;
+           <http://purl.org/dc/terms/description> "States if a species is sensitive or not for its publication"@en ;
+           rdfs:label "sensitive"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#services_elect
@@ -3974,6 +4775,36 @@ rdf:type rdf:type owl:AnnotationProperty .
                          rdfs:label "significant_wave_height"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sitecode
+:sitecode rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "site_code" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Unique code wich forms the key-item within the database"@en ;
+          rdfs:label "sitecode"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sitename
+:sitename rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "site_name" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Site name in the local language"@en ;
+          rdfs:label "sitename"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sitetype
+:sitetype rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "site_type" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Type of classification for the site"@en ;
+          rdfs:label "sitetype"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#slip
 :slip rdf:type owl:NamedIndividual ,
                :Variable ,
@@ -4044,6 +4875,26 @@ rdf:type rdf:type owl:AnnotationProperty .
         rdfs:label "data source type"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#spa_legal_reference
+:spa_legal_reference rdf:type owl:NamedIndividual ,
+                              :General ,
+                              :Variable ;
+                     :hasCanonicalName "spa_legal_reference" ;
+                     :hasDataType "string" ;
+                     <http://purl.org/dc/terms/description> "The legal statement by the national authority in which the site was ammended as SPA"@en ;
+                     rdfs:label "spa_legal_reference"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#spbcax1
+:spbcax1 rdf:type owl:NamedIndividual ,
+                  :MaritimeObservations ,
+                  :Variable ;
+         :hasCanonicalName "spbcax1" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Species listed in SPBCAX1 of the Directive"@en ;
+         rdfs:label "spbcax1"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#species
 :species rdf:type owl:NamedIndividual ,
                   :MaritimeObservations ,
@@ -4084,6 +4935,36 @@ rdf:type rdf:type owl:AnnotationProperty .
               rdfs:label "species_name"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#speciescode
+:speciescode rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "species_code" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Species code"@en ;
+             rdfs:label "speciescode"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#speciesgroup
+:speciesgroup rdf:type owl:NamedIndividual ,
+                       :MaritimeObservations ,
+                       :Variable ;
+              :hasCanonicalName "species_group" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Species group"@en ;
+              rdfs:label "speciesgroup"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#speciesname
+:speciesname rdf:type owl:NamedIndividual ,
+                      :MaritimeObservations ,
+                      :Variable ;
+             :hasCanonicalName "species_name" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Species name"@en ;
+             rdfs:label "speciesname"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#speed
 :speed rdf:type owl:NamedIndividual ,
                 :Variable ,
@@ -4093,6 +4974,16 @@ rdf:type rdf:type owl:AnnotationProperty .
        :hasDataType "double" ;
        <http://purl.org/dc/terms/description> "Speed over ground"@en ;
        rdfs:label "speed"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#spgroup
+:spgroup rdf:type owl:NamedIndividual ,
+                  :MaritimeObservations ,
+                  :Variable ;
+         :hasCanonicalName "species_group" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Species group"@en ;
+         rdfs:label "spgroup"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#ssh
@@ -4413,6 +5304,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                  rdfs:label "thickness_range"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#thoroughfare
+:thoroughfare rdf:type owl:NamedIndividual ,
+                       :General ,
+                       :Variable ;
+              :hasCanonicalName "thoroughfare" ;
+              :hasDataType "string" ;
+              <http://purl.org/dc/terms/description> "Transportation route where resides the individual or organization providing the information contained in the record"@en ;
+              rdfs:label "thoroughfare"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#tide
 :tide rdf:type owl:NamedIndividual ,
                :OceanDynamics ,
@@ -4621,6 +5522,16 @@ rdf:type rdf:type owl:AnnotationProperty .
     :hasDataType "float" ;
     <http://purl.org/dc/terms/description> "Eastward sea water velocity"@en ;
     rdfs:label "uo"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#upperbound
+:upperbound rdf:type owl:NamedIndividual ,
+                     :MaritimeObservations ,
+                     :Variable ;
+            :hasCanonicalName "upper_bound" ;
+            :hasDataType "integer" ;
+            <http://purl.org/dc/terms/description> "Upper limits for the species population size"@en ;
+            rdfs:label "upperbound"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#us_representative
