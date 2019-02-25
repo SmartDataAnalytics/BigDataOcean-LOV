@@ -272,6 +272,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                               owl:sameAs :speed .
 
 
+###  http://mmisw.org/ont/cf/parameter/projection_x_coordinate
+<http://mmisw.org/ont/cf/parameter/projection_x_coordinate> rdf:type owl:NamedIndividual ;
+                                                            owl:sameAs :xc .
+
+
+###  http://mmisw.org/ont/cf/parameter/projection_y_coordinate
+<http://mmisw.org/ont/cf/parameter/projection_y_coordinate> rdf:type owl:NamedIndividual ;
+                                                            owl:sameAs :yc .
+
+
 ###  http://mmisw.org/ont/cf/parameter/relative_humidity
 <http://mmisw.org/ont/cf/parameter/relative_humidity> rdf:type owl:NamedIndividual ;
                                                       owl:sameAs :humidity ,
@@ -2501,6 +2511,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                    rdfs:label "ice_concentration"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge
+:ice_edge rdf:type owl:NamedIndividual ,
+                   :SeaIce ,
+                   :Variable ;
+          :hasCanonicalName "sea_ice_edge" ;
+          :hasDataType "integer" ;
+          <http://purl.org/dc/terms/description> "Sea ice edge"@en ;
+          rdfs:label "ice_edge"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#ice_thickness
 :ice_thickness rdf:type owl:NamedIndividual ,
                         :SeaIce ,
@@ -4216,6 +4236,16 @@ rdf:type rdf:type owl:AnnotationProperty .
                             rdfs:label "priority_form_habitat_type"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#product_quality
+:product_quality rdf:type owl:NamedIndividual ,
+                          :MaritimeObservations ,
+                          :Variable ;
+                 :hasCanonicalName "product_quality" ;
+                 :hasDataType "integer" ;
+                 <http://purl.org/dc/terms/description> "Product quality"@en ;
+                 rdfs:label "product_quality"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#psal
 :psal rdf:type owl:NamedIndividual ,
                :OceanObservations ,
@@ -4547,6 +4577,27 @@ rdf:type rdf:type owl:AnnotationProperty .
                :hasDataType "string" ;
                <http://purl.org/dc/terms/description> "Condition of the sea and the swell"@en ;
                rdfs:label "sea condition"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1
+:sea_level_1 rdf:type owl:NamedIndividual ,
+                      :Surface ,
+                      :Variable ;
+             :canonicalUnit "m" ;
+             :hasCanonicalName "sea_level" ;
+             :hasDataType "double" ;
+             <http://purl.org/dc/terms/description> "Sea level"@en ;
+             rdfs:label "sea_level_1"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag
+:sea_level_1_quality_flag rdf:type owl:NamedIndividual ,
+                                   :Surface ,
+                                   :Variable ;
+                          :hasCanonicalName "sea_level_quality_flag" ;
+                          :hasDataType "string" ;
+                          <http://purl.org/dc/terms/description> "Sea level quality flag"@en ;
+                          rdfs:label "sea_level_1_quality_flag"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor
@@ -5007,6 +5058,109 @@ rdf:type rdf:type owl:AnnotationProperty .
       rdfs:label "ssh"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss1
+:sss1 rdf:type owl:NamedIndividual ,
+               :Surface ,
+               :Variable ;
+      :canonicalUnit "psu" ;
+      :hasCanonicalName "sea_surface_salinity_model_1" ;
+      :hasDataType "double" ;
+      <http://purl.org/dc/terms/description> "Monthly mean of Sea Surface Salinity using roughness model 1"@en ;
+      rdfs:label "sss1"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs
+:sss1_obs rdf:type owl:NamedIndividual ,
+                   :Surface ,
+                   :Variable ;
+          :hasCanonicalName "sea_surface_salinity_model_1_number_of_observations" ;
+          :hasDataType "double" ;
+          <http://purl.org/dc/terms/description> "Valid observation number used to calculate sss1"@en ;
+          rdfs:label "sss1_obs"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi
+:sss1_qi rdf:type owl:NamedIndividual ,
+                  :Surface ,
+                  :Variable ;
+         :hasCanonicalName "sea_surface_salinity_model_1_quality_index" ;
+         :hasDataType "double" ;
+         <http://purl.org/dc/terms/description> "Monthly mean of quality index for sss1: lower=better"@en ;
+         rdfs:label "sss1_qi"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss2
+:sss2 rdf:type owl:NamedIndividual ,
+               :Surface ,
+               :Variable ;
+      :canonicalUnit "psu" ;
+      :hasCanonicalName "sea_surface_salinity_model_2" ;
+      :hasDataType "double" ;
+      <http://purl.org/dc/terms/description> "Monthly mean of Sea Surface Salinity using roughness model 2"@en ;
+      rdfs:label "sss2"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs
+:sss2_obs rdf:type owl:NamedIndividual ,
+                   :Surface ,
+                   :Variable ;
+          :hasCanonicalName "sea_surface_salinity_model_2_number_of_observations" ;
+          :hasDataType "double" ;
+          <http://purl.org/dc/terms/description> "Valid observation number used to calculate sss2"@en ;
+          rdfs:label "sss2_obs"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi
+:sss2_qi rdf:type owl:NamedIndividual ,
+                  :Surface ,
+                  :Variable ;
+         :hasCanonicalName "sea_surface_salinity_model_2_quality_index" ;
+         :hasDataType "double" ;
+         <http://purl.org/dc/terms/description> "Monthly mean of quality index for sss2: lower=better"@en ;
+         rdfs:label "sss2_qi"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss3
+:sss3 rdf:type owl:NamedIndividual ,
+               :Surface ,
+               :Variable ;
+      :canonicalUnit "psu" ;
+      :hasCanonicalName "sea_surface_salinity_model_3" ;
+      :hasDataType "double" ;
+      <http://purl.org/dc/terms/description> "Monthly mean of Sea Surface Salinity using roughness model 3"@en ;
+      rdfs:label "sss3"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs
+:sss3_obs rdf:type owl:NamedIndividual ,
+                   :Surface ,
+                   :Variable ;
+          :hasCanonicalName "sea_surface_salinity_model_3_number_of_observations" ;
+          :hasDataType "double" ;
+          <http://purl.org/dc/terms/description> "Valid observation number used to calculate sss3"@en ;
+          rdfs:label "sss3_obs"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi
+:sss3_qi rdf:type owl:NamedIndividual ,
+                  :Surface ,
+                  :Variable ;
+         :hasCanonicalName "sea_surface_salinity_model_3_quality_index" ;
+         :hasDataType "double" ;
+         <http://purl.org/dc/terms/description> "Monthly mean of quality index for sss3: lower=better"@en ;
+         rdfs:label "sss3_qi"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#station
+:station rdf:type owl:NamedIndividual ,
+                  :Variable ,
+                  :Vessels ;
+         :hasCanonicalName "station" ;
+         :hasDataType "string" ;
+         <http://purl.org/dc/terms/description> "Vessel station"@en ;
+         rdfs:label "station"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#status
 :status rdf:type owl:NamedIndividual ,
                  :Variable ,
@@ -5369,6 +5523,18 @@ rdf:type rdf:type owl:AnnotationProperty .
            :hasDataType "timestamp" ;
            <http://purl.org/dc/terms/description> "Time"@en ;
            rdfs:label "timestamp"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc
+:timestamp_utc rdf:type owl:NamedIndividual ,
+                        :General ,
+                        :Variable ;
+               owl:sameAs <https://mmisw.org/ont/cf/parameter/time> ;
+               :canonicalUnit "s" ;
+               :hasCanonicalName "time" ;
+               :hasDataType "timestamp" ;
+               <http://purl.org/dc/terms/description> "Time"@en ;
+               rdfs:label "timestamp_utc"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#to_port
@@ -6404,6 +6570,17 @@ rdf:type rdf:type owl:AnnotationProperty .
           rdfs:label "x_wind10"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#xc
+:xc rdf:type owl:NamedIndividual ,
+             :OceanObservations ,
+             :Variable ;
+    :canonicalUnit "m" ;
+    :hasCanonicalName "x_coordinate" ;
+    :hasDataType "double" ;
+    <http://purl.org/dc/terms/description> "X-coordinate in Cartesian system"@en ;
+    rdfs:label "xc"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10
 :y_wind10 rdf:type owl:NamedIndividual ,
                    :AtmosphereDynamics ,
@@ -6414,6 +6591,17 @@ rdf:type rdf:type owl:AnnotationProperty .
           :hasDataType "float" ;
           <http://purl.org/dc/terms/description> "Wind speed along North-South direction at 10 meters above Sea Level"@en ;
           rdfs:label "y_wind10"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#yc
+:yc rdf:type owl:NamedIndividual ,
+             :OceanObservations ,
+             :Variable ;
+    :canonicalUnit "m" ;
+    :hasCanonicalName "y_coordinate" ;
+    :hasDataType "double" ;
+    <http://purl.org/dc/terms/description> "Y-coordinate in Cartesian system"@en ;
+    rdfs:label "yc"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#year

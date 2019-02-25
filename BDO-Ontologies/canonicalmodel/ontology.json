@@ -109,6 +109,18 @@
     "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#speed"
   } ]
 }, {
+  "@id" : "http://mmisw.org/ont/cf/parameter/projection_x_coordinate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#xc"
+  } ]
+}, {
+  "@id" : "http://mmisw.org/ont/cf/parameter/projection_y_coordinate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#yc"
+  } ]
+}, {
   "@id" : "http://mmisw.org/ont/cf/parameter/relative_humidity",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
@@ -4117,6 +4129,23 @@
     "@id" : "https://mmisw.org/ont/cf/parameter/sea_ice_area_fraction"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Sea ice edge"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_ice_edge"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ice_edge"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#ice_thickness",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -7053,6 +7082,23 @@
     "@value" : "priority_form_habitat_type"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#product_quality",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Product quality"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "product_quality"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "product_quality"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#psal",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -7617,6 +7663,43 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "sea condition"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Sea level"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "m"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_level"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sea_level_1"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Sea level quality flag"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_level_quality_flag"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sea_level_1_quality_flag"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor",
@@ -8407,6 +8490,185 @@
     "@value" : "ssh"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Monthly mean of Sea Surface Salinity using roughness model 1"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "psu"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_1"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss1"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Valid observation number used to calculate sss1"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_1_number_of_observations"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss1_obs"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Monthly mean of quality index for sss1: lower=better"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_1_quality_index"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss1_qi"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Monthly mean of Sea Surface Salinity using roughness model 2"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "psu"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_2"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss2"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Valid observation number used to calculate sss2"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_2_number_of_observations"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss2_obs"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Monthly mean of quality index for sss2: lower=better"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_2_quality_index"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss2_qi"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Monthly mean of Sea Surface Salinity using roughness model 3"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "psu"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_3"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss3"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Valid observation number used to calculate sss3"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_3_number_of_observations"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss3_obs"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Monthly mean of quality index for sss3: lower=better"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_salinity_model_3_quality_index"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sss3_qi"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#station",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable", "http://www.bigdataocean.eu/standards/canonicalmodel#Vessels" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Vessel station"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "station"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "station"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#status",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable", "http://www.bigdataocean.eu/standards/canonicalmodel#Vessels" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -9036,6 +9298,29 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "timestamp"
+  } ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "https://mmisw.org/ont/cf/parameter/time"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Time"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "s"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "time"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "timestamp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "timestamp_utc"
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://mmisw.org/ont/cf/parameter/time"
@@ -10866,6 +11151,26 @@
     "@id" : "https://mmisw.org/ont/cf/parameter/x_wind"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#xc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "X-coordinate in Cartesian system"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "m"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "x_coordinate"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "xc"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -10887,6 +11192,26 @@
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://mmisw.org/ont/cf/parameter/y_wind"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#yc",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Y-coordinate in Cartesian system"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "m"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "y_coordinate"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "yc"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#year",

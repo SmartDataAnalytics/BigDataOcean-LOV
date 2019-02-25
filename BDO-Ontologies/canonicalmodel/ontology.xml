@@ -482,6 +482,24 @@
     
 
 
+    <!-- http://mmisw.org/ont/cf/parameter/projection_x_coordinate -->
+
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/projection_x_coordinate">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#xc"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://mmisw.org/ont/cf/parameter/projection_y_coordinate -->
+
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/projection_y_coordinate">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#yc"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mmisw.org/ont/cf/parameter/relative_humidity -->
 
 
@@ -3635,6 +3653,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_ice_edge</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">Sea ice edge</terms:description>
+        <rdfs:label xml:lang="en">ice_edge</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ice_thickness -->
 
 
@@ -6026,6 +6058,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#product_quality -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#product_quality">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>product_quality</hasCanonicalName>
+        <hasDataType>integer</hasDataType>
+        <terms:description xml:lang="en">Product quality</terms:description>
+        <rdfs:label xml:lang="en">product_quality</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#psal -->
 
 
@@ -6487,6 +6533,35 @@
         <hasDataType>string</hasDataType>
         <terms:description xml:lang="en">Condition of the sea and the swell</terms:description>
         <rdfs:label xml:lang="en">sea condition</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>m</canonicalUnit>
+        <hasCanonicalName>sea_level</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Sea level</terms:description>
+        <rdfs:label xml:lang="en">sea_level_1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_level_quality_flag</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Sea level quality flag</terms:description>
+        <rdfs:label xml:lang="en">sea_level_1_quality_flag</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7129,6 +7204,149 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss1 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>psu</canonicalUnit>
+        <hasCanonicalName>sea_surface_salinity_model_1</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Monthly mean of Sea Surface Salinity using roughness model 1</terms:description>
+        <rdfs:label xml:lang="en">sss1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_surface_salinity_model_1_number_of_observations</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Valid observation number used to calculate sss1</terms:description>
+        <rdfs:label xml:lang="en">sss1_obs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_surface_salinity_model_1_quality_index</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Monthly mean of quality index for sss1: lower=better</terms:description>
+        <rdfs:label xml:lang="en">sss1_qi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss2 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss2">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>psu</canonicalUnit>
+        <hasCanonicalName>sea_surface_salinity_model_2</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Monthly mean of Sea Surface Salinity using roughness model 2</terms:description>
+        <rdfs:label xml:lang="en">sss2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_surface_salinity_model_2_number_of_observations</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Valid observation number used to calculate sss2</terms:description>
+        <rdfs:label xml:lang="en">sss2_obs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_surface_salinity_model_2_quality_index</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Monthly mean of quality index for sss2: lower=better</terms:description>
+        <rdfs:label xml:lang="en">sss2_qi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss3 -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss3">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>psu</canonicalUnit>
+        <hasCanonicalName>sea_surface_salinity_model_3</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Monthly mean of Sea Surface Salinity using roughness model 3</terms:description>
+        <rdfs:label xml:lang="en">sss3</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_surface_salinity_model_3_number_of_observations</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Valid observation number used to calculate sss3</terms:description>
+        <rdfs:label xml:lang="en">sss3_obs</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName>sea_surface_salinity_model_3_quality_index</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Monthly mean of quality index for sss3: lower=better</terms:description>
+        <rdfs:label xml:lang="en">sss3_qi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#station -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#station">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName>station</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Vessel station</terms:description>
+        <rdfs:label xml:lang="en">station</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#status -->
 
 
@@ -7629,6 +7847,22 @@
         <hasDataType>timestamp</hasDataType>
         <terms:description xml:lang="en">Time</terms:description>
         <rdfs:label xml:lang="en">timestamp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <owl:sameAs rdf:resource="https://mmisw.org/ont/cf/parameter/time"/>
+        <canonicalUnit>s</canonicalUnit>
+        <hasCanonicalName>time</hasCanonicalName>
+        <hasDataType>timestamp</hasDataType>
+        <terms:description xml:lang="en">Time</terms:description>
+        <rdfs:label xml:lang="en">timestamp_utc</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9054,6 +9288,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#xc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#xc">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>m</canonicalUnit>
+        <hasCanonicalName>x_coordinate</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">X-coordinate in Cartesian system</terms:description>
+        <rdfs:label xml:lang="en">xc</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10 -->
 
 
@@ -9066,6 +9315,21 @@
         <hasDataType>float</hasDataType>
         <terms:description xml:lang="en">Wind speed along North-South direction at 10 meters above Sea Level</terms:description>
         <rdfs:label xml:lang="en">y_wind10</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#yc -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#yc">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>m</canonicalUnit>
+        <hasCanonicalName>y_coordinate</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Y-coordinate in Cartesian system</terms:description>
+        <rdfs:label xml:lang="en">yc</rdfs:label>
     </owl:NamedIndividual>
     
 

@@ -238,6 +238,14 @@
 <http://mmisw.org/ont/cf/parameter/platform_speed_wrt_ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/platform_speed_wrt_ground> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#speed> .
 # 
+# http://mmisw.org/ont/cf/parameter/projection_x_coordinate
+<http://mmisw.org/ont/cf/parameter/projection_x_coordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/projection_x_coordinate> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#xc> .
+# 
+# http://mmisw.org/ont/cf/parameter/projection_y_coordinate
+<http://mmisw.org/ont/cf/parameter/projection_y_coordinate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/projection_y_coordinate> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#yc> .
+# 
 # http://mmisw.org/ont/cf/parameter/relative_humidity
 <http://mmisw.org/ont/cf/parameter/relative_humidity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/relative_humidity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#humidity> .
@@ -2236,6 +2244,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#ice_concentration> <http://purl.org/dc/terms/description> "FMI ice chart sea ice concentration"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ice_concentration> <http://www.w3.org/2000/01/rdf-schema#label> "ice_concentration"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_ice_edge" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "integer" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://purl.org/dc/terms/description> "Sea ice edge"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ice_edge> <http://www.w3.org/2000/01/rdf-schema#label> "ice_edge"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#ice_thickness
 <http://www.bigdataocean.eu/standards/canonicalmodel#ice_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ice_thickness> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
@@ -3782,6 +3799,15 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type> <http://purl.org/dc/terms/description> "For the habitat types that can have a non-priority as well as a priority form; value \\\"1\\\" indicates a priority form"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type> <http://www.w3.org/2000/01/rdf-schema#label> "priority_form_habitat_type"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#product_quality
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "product_quality" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "integer" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://purl.org/dc/terms/description> "Product quality"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#product_quality> <http://www.w3.org/2000/01/rdf-schema#label> "product_quality"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#psal
 <http://www.bigdataocean.eu/standards/canonicalmodel#psal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#psal> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
@@ -4081,6 +4107,25 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://purl.org/dc/terms/description> "Condition of the sea and the swell"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_condition> <http://www.w3.org/2000/01/rdf-schema#label> "sea condition"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_level" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://purl.org/dc/terms/description> "Sea level"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1> <http://www.w3.org/2000/01/rdf-schema#label> "sea_level_1"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_level_quality_flag" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://purl.org/dc/terms/description> "Sea level quality flag"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.w3.org/2000/01/rdf-schema#label> "sea_level_1_quality_flag"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4495,6 +4540,99 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://purl.org/dc/terms/description> "sea surface elevation"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.w3.org/2000/01/rdf-schema#label> "ssh"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss1
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "psu" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://purl.org/dc/terms/description> "Monthly mean of Sea Surface Salinity using roughness model 1"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.w3.org/2000/01/rdf-schema#label> "sss1"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_1_number_of_observations" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://purl.org/dc/terms/description> "Valid observation number used to calculate sss1"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_obs> <http://www.w3.org/2000/01/rdf-schema#label> "sss1_obs"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_1_quality_index" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://purl.org/dc/terms/description> "Monthly mean of quality index for sss1: lower=better"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss1_qi> <http://www.w3.org/2000/01/rdf-schema#label> "sss1_qi"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss2
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "psu" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_2" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://purl.org/dc/terms/description> "Monthly mean of Sea Surface Salinity using roughness model 2"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2> <http://www.w3.org/2000/01/rdf-schema#label> "sss2"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_2_number_of_observations" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://purl.org/dc/terms/description> "Valid observation number used to calculate sss2"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_obs> <http://www.w3.org/2000/01/rdf-schema#label> "sss2_obs"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_2_quality_index" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://purl.org/dc/terms/description> "Monthly mean of quality index for sss2: lower=better"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss2_qi> <http://www.w3.org/2000/01/rdf-schema#label> "sss2_qi"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss3
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "psu" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_3" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://purl.org/dc/terms/description> "Monthly mean of Sea Surface Salinity using roughness model 3"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3> <http://www.w3.org/2000/01/rdf-schema#label> "sss3"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_3_number_of_observations" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://purl.org/dc/terms/description> "Valid observation number used to calculate sss3"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_obs> <http://www.w3.org/2000/01/rdf-schema#label> "sss3_obs"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_salinity_model_3_quality_index" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://purl.org/dc/terms/description> "Monthly mean of quality index for sss3: lower=better"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sss3_qi> <http://www.w3.org/2000/01/rdf-schema#label> "sss3_qi"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#station
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "station" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://purl.org/dc/terms/description> "Vessel station"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#station> <http://www.w3.org/2000/01/rdf-schema#label> "station"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#status
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#status> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
@@ -4823,6 +4961,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#timestamp> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#timestamp> <http://purl.org/dc/terms/description> "Time"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#timestamp> <http://www.w3.org/2000/01/rdf-schema#label> "timestamp"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.w3.org/2002/07/owl#sameAs> <https://mmisw.org/ont/cf/parameter/time> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "s" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "time" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "timestamp" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://purl.org/dc/terms/description> "Time"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#timestamp_utc> <http://www.w3.org/2000/01/rdf-schema#label> "timestamp_utc"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#to_port
 <http://www.bigdataocean.eu/standards/canonicalmodel#to_port> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -5760,6 +5909,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#x_wind10> <http://purl.org/dc/terms/description> "Wind speed along East-West direction at 10 meters above Sea Level"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#x_wind10> <http://www.w3.org/2000/01/rdf-schema#label> "x_wind10"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#xc
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "x_coordinate" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://purl.org/dc/terms/description> "X-coordinate in Cartesian system"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#xc> <http://www.w3.org/2000/01/rdf-schema#label> "xc"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10
 <http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics> .
@@ -5770,6 +5929,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "float" .
 <http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10> <http://purl.org/dc/terms/description> "Wind speed along North-South direction at 10 meters above Sea Level"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#y_wind10> <http://www.w3.org/2000/01/rdf-schema#label> "y_wind10"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#yc
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "m" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "y_coordinate" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://purl.org/dc/terms/description> "Y-coordinate in Cartesian system"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#yc> <http://www.w3.org/2000/01/rdf-schema#label> "yc"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#year
 <http://www.bigdataocean.eu/standards/canonicalmodel#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
