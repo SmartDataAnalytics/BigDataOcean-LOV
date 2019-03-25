@@ -1376,6 +1376,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#date_update> <http://purl.org/dc/terms/title> "Update date"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#date_update> <http://www.w3.org/2000/01/rdf-schema#label> "date_update"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#day
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "day" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "integer" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://purl.org/dc/terms/description> "Day of month"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://purl.org/dc/terms/title> "Day of month"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#day> <http://www.w3.org/2000/01/rdf-schema#label> "day"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference
 <http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanDynamics> .
@@ -2453,6 +2463,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#heading> <http://purl.org/dc/terms/title> "Platform heading"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#heading> <http://www.w3.org/2000/01/rdf-schema#label> "heading"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#hour
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "hour" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "integer" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://purl.org/dc/terms/description> "Hour of day"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://purl.org/dc/terms/title> "Hour of day"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#hour> <http://www.w3.org/2000/01/rdf-schema#label> "hour"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#hours
 <http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#hours> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
@@ -3395,6 +3415,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://purl.org/dc/terms/title> "Minimum waterdepth"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#minimum_waterdepth> <http://www.w3.org/2000/01/rdf-schema#label> "minimum_waterdepth"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#minute
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "minute" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "integer" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://purl.org/dc/terms/description> "Minute of hour or day"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://purl.org/dc/terms/title> "Minute of hour or day"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#minute> <http://www.w3.org/2000/01/rdf-schema#label> "minute"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#mlotst
 <http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#mlotst> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#SeaIce> .
@@ -3561,6 +3591,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#nor_date> <http://purl.org/dc/terms/description> "NOR Date"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#nor_date> <http://purl.org/dc/terms/title> "Notice of readiness date"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#nor_date> <http://www.w3.org/2000/01/rdf-schema#label> "nor date"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#north_current
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "cm s-1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "north_current" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://purl.org/dc/terms/description> "NSCT - North component of current (+ve North) (cm/sec)"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://purl.org/dc/terms/title> "North current"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#north_current> <http://www.w3.org/2000/01/rdf-schema#label> "north_current"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#notes
 <http://www.bigdataocean.eu/standards/canonicalmodel#notes> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4941,6 +4982,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> <http://purl.org/dc/terms/description> "data source type"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> <http://purl.org/dc/terms/title> "Data source type"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#source> <http://www.w3.org/2000/01/rdf-schema#label> "data source type"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#south_current
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "cm s-1" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "south_current" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://purl.org/dc/terms/description> "EWCT - East component of current (+ve East) (cm/sec)"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://purl.org/dc/terms/title> "South Current"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#south_current> <http://www.w3.org/2000/01/rdf-schema#label> "south_current"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#spa_legal_reference
 <http://www.bigdataocean.eu/standards/canonicalmodel#spa_legal_reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

@@ -1539,6 +1539,17 @@ rdf:type rdf:type owl:AnnotationProperty .
              rdfs:label "date_update"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#day
+:day rdf:type owl:NamedIndividual ,
+              :General ,
+              :Variable ;
+     :hasCanonicalName "day" ;
+     :hasDataType "integer" ;
+     <http://purl.org/dc/terms/description> "Day of month"@en ;
+     <http://purl.org/dc/terms/title> "Day of month"@en ;
+     rdfs:label "day"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference
 :dc_reference rdf:type owl:NamedIndividual ,
                        :OceanDynamics ,
@@ -2720,6 +2731,17 @@ rdf:type rdf:type owl:AnnotationProperty .
          rdfs:label "heading"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#hour
+:hour rdf:type owl:NamedIndividual ,
+               :General ,
+               :Variable ;
+      :hasCanonicalName "hour" ;
+      :hasDataType "integer" ;
+      <http://purl.org/dc/terms/description> "Hour of day"@en ;
+      <http://purl.org/dc/terms/title> "Hour of day"@en ;
+      rdfs:label "hour"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#hours
 :hours rdf:type owl:NamedIndividual ,
                 :Variable ,
@@ -3753,6 +3775,17 @@ rdf:type rdf:type owl:AnnotationProperty .
                     rdfs:label "minimum_waterdepth"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#minute
+:minute rdf:type owl:NamedIndividual ,
+                 :General ,
+                 :Variable ;
+        :hasCanonicalName "minute" ;
+        :hasDataType "integer" ;
+        <http://purl.org/dc/terms/description> "Minute of hour or day"@en ;
+        <http://purl.org/dc/terms/title> "Minute of hour or day"@en ;
+        rdfs:label "minute"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#mlotst
 :mlotst rdf:type owl:NamedIndividual ,
                  :SeaIce ,
@@ -3934,6 +3967,18 @@ rdf:type rdf:type owl:AnnotationProperty .
           <http://purl.org/dc/terms/description> "NOR Date"@en ;
           <http://purl.org/dc/terms/title> "Notice of readiness date"@en ;
           rdfs:label "nor date"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#north_current
+:north_current rdf:type owl:NamedIndividual ,
+                        :OceanObservations ,
+                        :Variable ;
+               :canonicalUnit "cm s-1" ;
+               :hasCanonicalName "north_current" ;
+               :hasDataType "double" ;
+               <http://purl.org/dc/terms/description> "NSCT - North component of current (+ve North) (cm/sec)"@en ;
+               <http://purl.org/dc/terms/title> "North current"@en ;
+               rdfs:label "north_current"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#notes
@@ -5447,6 +5492,18 @@ rdf:type rdf:type owl:AnnotationProperty .
         <http://purl.org/dc/terms/description> "data source type"@en ;
         <http://purl.org/dc/terms/title> "Data source type"@en ;
         rdfs:label "data source type"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#south_current
+:south_current rdf:type owl:NamedIndividual ,
+                        :OceanObservations ,
+                        :Variable ;
+               :canonicalUnit "cm s-1" ;
+               :hasCanonicalName "south_current" ;
+               :hasDataType "double" ;
+               <http://purl.org/dc/terms/description> "EWCT - East component of current (+ve East) (cm/sec)"@en ;
+               <http://purl.org/dc/terms/title> "South Current"@en ;
+               rdfs:label "south_current"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#spa_legal_reference

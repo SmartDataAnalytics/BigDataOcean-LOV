@@ -2,31 +2,31 @@
 <rdf:RDF xmlns="http://www.bigdataocean.eu/standards/canonicalmodel#"
      xml:base="http://www.bigdataocean.eu/standards/canonicalmodel"
      xmlns:cc="http://creativecommons.org/ns#"
-     xmlns:bdo="http://www.bigdataocean.eu/standards/canonicalmodel#"
+     xmlns:void="http://rdfs.org/ns/void#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:voaf="http://purl.org/vocommons/voaf#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:bdo="http://www.bigdataocean.eu/standards/canonicalmodel#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
-     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
-     xmlns:foaf="http://xmlns.com/foaf/spec/"
-     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:dcterms="http://purl.org/dc/terms/"
      xmlns:vann="http://purl.org/vocab/vann/"
-     xmlns:voaf="http://purl.org/vocommons/voaf#"
-     xmlns:void="http://rdfs.org/ns/void#"
-     xmlns:dcterms="http://purl.org/dc/terms/">
+     xmlns:foaf="http://xmlns.com/foaf/spec/">
     <owl:Ontology rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#">
-        <cc:licence rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
-        <dcterms:creator>Ana-Cristina Trillos-Ujueta</dcterms:creator>
-        <dcterms:creator>Jaime-Manuel Trillos-Ujueta</dcterms:creator>
-        <dcterms:description xml:lang="en">A vocabulary which represents the variables defined in datasets used by the project Big Data Ocean (BDO).</dcterms:description>
         <dcterms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-08-15T13:00:00</dcterms:issued>
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <dcterms:creator>Ana-Cristina Trillos-Ujueta</dcterms:creator>
         <dcterms:publisher rdf:resource="http://dbpedia.org/resource/University_of_Bonn"/>
-        <dcterms:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by/3.0/"/>
         <dcterms:title xml:lang="en">Canonical Model: Standard Variables for Big Data Ocean</dcterms:title>
-        <vann:preferredNamespacePrefix>bdo</vann:preferredNamespacePrefix>
         <vann:preferredNamespaceUri>http://www.bigdataocean.eu/standards/canonicalmodel#</vann:preferredNamespaceUri>
         <rdfs:comment xml:lang="en">Version 1: Vocabulary creation</rdfs:comment>
-        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <dcterms:description xml:lang="en">A vocabulary which represents the variables defined in datasets used by the project Big Data Ocean (BDO).</dcterms:description>
+        <vann:preferredNamespacePrefix>bdo</vann:preferredNamespacePrefix>
+        <dcterms:creator>Jaime-Manuel Trillos-Ujueta</dcterms:creator>
+        <dcterms:rights rdf:resource="http://creativecommons.org/licenses/by-nc-sa/3.0/"/>
     </owl:Ontology>
     
 
@@ -2087,6 +2087,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#day -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#day">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">day</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integer</hasDataType>
+        <dcterms:description xml:lang="en">Day of month</dcterms:description>
+        <dcterms:title xml:lang="en">Day of month</dcterms:title>
+        <rdfs:label xml:lang="en">day</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dc_reference">
@@ -3580,6 +3594,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#hour -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#hour">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hour</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integer</hasDataType>
+        <dcterms:description xml:lang="en">Hour of day</dcterms:description>
+        <dcterms:title xml:lang="en">Hour of day</dcterms:title>
+        <rdfs:label xml:lang="en">hour</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#hours -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#hours">
@@ -4886,6 +4914,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#minute -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#minute">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">minute</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integer</hasDataType>
+        <dcterms:description xml:lang="en">Minute of hour or day</dcterms:description>
+        <dcterms:title xml:lang="en">Minute of hour or day</dcterms:title>
+        <rdfs:label xml:lang="en">minute</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#mlotst -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#mlotst">
@@ -5113,6 +5155,21 @@
         <dcterms:description xml:lang="en">NOR Date</dcterms:description>
         <dcterms:title xml:lang="en">Notice of readiness date</dcterms:title>
         <rdfs:label xml:lang="en">nor date</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#north_current -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#north_current">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cm s-1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">north_current</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">NSCT - North component of current (+ve North) (cm/sec)</dcterms:description>
+        <dcterms:title xml:lang="en">North current</dcterms:title>
+        <rdfs:label xml:lang="en">north_current</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7025,6 +7082,21 @@
         <dcterms:description xml:lang="en">data source type</dcterms:description>
         <dcterms:title xml:lang="en">Data source type</dcterms:title>
         <rdfs:label xml:lang="en">data source type</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#south_current -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#south_current">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cm s-1</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">south_current</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">EWCT - East component of current (+ve East) (cm/sec)</dcterms:description>
+        <dcterms:title xml:lang="en">South Current</dcterms:title>
+        <rdfs:label xml:lang="en">south_current</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -9658,5 +9730,5 @@
 
 
 
-<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
 
