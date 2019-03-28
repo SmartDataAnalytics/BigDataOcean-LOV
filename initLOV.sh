@@ -16,11 +16,11 @@ docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lov/setup/BDO_setup;
 # docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lovScripts/target/lovscripts-cli/lovscripts/bin/;
 #    while true; do ./mongo2rdf && ./create-index && ./index-lov; 
 #    cd /BDO/; cd ..; 
-#    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3;
+#    /apache-jena-fuseki-3.9.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3;
 #    sleep 86400; done'
 
 docker exec -it bigdataoceanlov_lov_1 bash -c 'cd /BDO/lovScripts/target/lovscripts-cli/lovscripts/bin/;
     ./mongo2rdf && ./create-index && ./index-lov; 
     cd /BDO/; cd ..; 
-    /apache-jena-fuseki-3.4.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3'
+    /apache-jena-fuseki-3.9.0/bin/s-put http://fuseki:3030/bigdataocean/data default BDO/lov/public/lov.n3'
 
