@@ -8376,6 +8376,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">platform_id_hash</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Hashed Platform Identifier</dcterms:description>
+        <dcterms:title xml:lang="en">Hashed Platform Identifier</dcterms:title>
+        <rdfs:label xml:lang="en">vessel_hash</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality">

@@ -6517,6 +6517,17 @@ rdf:type rdf:type owl:AnnotationProperty .
                           rdfs:label "vertical_sampling_scheme"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash
+:vessel_hash rdf:type owl:NamedIndividual ,
+                      :Variable ,
+                      :Vessels ;
+             :hasCanonicalName "platform_id_hash" ;
+             :hasDataType "string" ;
+             <http://purl.org/dc/terms/description> "Hashed Platform Identifier"@en ;
+             <http://purl.org/dc/terms/title> "Hashed Platform Identifier"@en ;
+             rdfs:label "vessel_hash"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality
 :vessel_nationality rdf:type owl:NamedIndividual ,
                              :MaritimeObservations ,

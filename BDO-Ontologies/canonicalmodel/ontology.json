@@ -12373,6 +12373,27 @@
     "@value" : "vertical_sampling_scheme"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable", "http://www.bigdataocean.eu/standards/canonicalmodel#Vessels" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Hashed Platform Identifier"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Hashed Platform Identifier"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "platform_id_hash"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "vessel_hash"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {

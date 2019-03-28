@@ -5917,6 +5917,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#vertical_sampling_scheme> <http://purl.org/dc/terms/title> "Vertical sampling scheme"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vertical_sampling_scheme> <http://www.w3.org/2000/01/rdf-schema#label> "vertical_sampling_scheme"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Vessels> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "platform_id_hash" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://purl.org/dc/terms/description> "Hashed Platform Identifier"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://purl.org/dc/terms/title> "Hashed Platform Identifier"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash> <http://www.w3.org/2000/01/rdf-schema#label> "vessel_hash"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality
 <http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .

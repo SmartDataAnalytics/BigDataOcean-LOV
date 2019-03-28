@@ -8988,6 +8988,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#vessel_hash">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Vessels"/>
+        <hasCanonicalName>platform_id_hash</hasCanonicalName>
+        <hasDataType>string</hasDataType>
+        <terms:description xml:lang="en">Hashed Platform Identifier</terms:description>
+        <terms:title xml:lang="en">Hashed Platform Identifier</terms:title>
+        <rdfs:label xml:lang="en">vessel_hash</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#vessel_nationality -->
 
 
