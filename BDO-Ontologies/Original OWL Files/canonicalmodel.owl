@@ -371,6 +371,14 @@
     
 
 
+    <!-- http://mmisw.org/ont/cf/parameter/global_average_sea_level_change -->
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/global_average_sea_level_change">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#gmsl"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mmisw.org/ont/cf/parameter/land_binary_mask -->
 
     <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/land_binary_mask">
@@ -1205,6 +1213,51 @@
         <dcterms:description xml:lang="en">The current situation of banning</dcterms:description>
         <dcterms:title xml:lang="en">Ban situation</dcterms:title>
         <rdfs:label xml:lang="en">ban situation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#band_1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#band_1">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude_band_1_anomalies</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Latitude band (90N-23.6N, 30% of global area annual anomalies computed from land and ocean data</dcterms:description>
+        <dcterms:title xml:lang="en">Latitude band 1 annual anomalies</dcterms:title>
+        <rdfs:label xml:lang="en">band 1</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#band_2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#band_2">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude_band_2_anomalies</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Latitude band (23.6N-23.6S, 40% of global area annual anomalies computed from land and ocean data</dcterms:description>
+        <dcterms:title xml:lang="en">Latitude band 2 annual anomalies</dcterms:title>
+        <rdfs:label xml:lang="en">band 2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#band_3 -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#band_3">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">latitude_band_3_anomalies</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Latitude band (23.6S-90S, 30% of global area annual anomalies computed from land and ocean data</dcterms:description>
+        <dcterms:title xml:lang="en">Latitude band 3 annual anomalies</dcterms:title>
+        <rdfs:label xml:lang="en">band 3</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3291,6 +3344,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#gmsl -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#gmsl">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">percentage</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">global_average_sea_level_change</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Global average absolute sea level change</dcterms:description>
+        <dcterms:title xml:lang="en">Global average sea level change</dcterms:title>
+        <rdfs:label xml:lang="en">gmsl</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground">
@@ -3853,6 +3921,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#implementation -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#implementation">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">implementation</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Implementation action for the ecological area</dcterms:description>
+        <dcterms:title xml:lang="en">Implementation action</dcterms:title>
+        <rdfs:label xml:lang="en">implementation</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus">
@@ -4092,6 +4174,36 @@
         <dcterms:description xml:lang="en">IUCN Management Category</dcterms:description>
         <dcterms:title xml:lang="en">IUCN category</dcterms:title>
         <rdfs:label xml:lang="en">iucn_cat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#land -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#land">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land_data</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Global annual anomalies computed from land data</dcterms:description>
+        <dcterms:title xml:lang="en">Land data</dcterms:title>
+        <rdfs:label xml:lang="en">land</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">land_and_ocean_data</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Global annual anomalies computed from land and ocean data</dcterms:description>
+        <dcterms:title xml:lang="en">Land and ocean data</dcterms:title>
+        <rdfs:label xml:lang="en">land and ocean</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -5001,6 +5113,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#n_hem -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#n_hem">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">northern_hemisphere_anomalies</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Northern hemisphere annual anomalies computed from land and ocean data</dcterms:description>
+        <dcterms:title xml:lang="en">Northern hemisphere annual anomalies</dcterms:title>
+        <rdfs:label xml:lang="en">n hem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#name -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#name">
@@ -5214,6 +5341,20 @@
         <dcterms:description xml:lang="en">Mole Concentration of Dissolved Oxygen in Sea Water</dcterms:description>
         <dcterms:title xml:lang="en">Dissolved oxygen concentration</dcterms:title>
         <rdfs:label xml:lang="en">o2</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#objectid -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#objectid">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">object_id</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">integer</hasDataType>
+        <dcterms:description xml:lang="en">The identifier of the record</dcterms:description>
+        <dcterms:title xml:lang="en">The identifier of the record</dcterms:title>
+        <rdfs:label xml:lang="en">objectid</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6366,6 +6507,20 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">relative_pressure</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Relative sea water pressure</dcterms:description>
+        <dcterms:title xml:lang="en">Relative sea water pressure</dcterms:title>
+        <rdfs:label xml:lang="en">relative_pressure</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#relh -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#relh">
@@ -6538,6 +6693,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#s_hem -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#s_hem">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">southern_hemisphere_anomalies</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Southern hemisphere annual anomalies computed from land and ocean data</dcterms:description>
+        <dcterms:title xml:lang="en">Southern hemisphere annual anomalies</dcterms:title>
+        <rdfs:label xml:lang="en">s hem</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference">
@@ -6621,6 +6791,48 @@
         <dcterms:description xml:lang="en">Sea level quality flag</dcterms:description>
         <dcterms:title xml:lang="en">Sea level quality flag</dcterms:title>
         <rdfs:label xml:lang="en">sea_level_1_quality_flag</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Surface"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_level_tide</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Sea level tide</dcterms:description>
+        <dcterms:title xml:lang="en">Sea level tide</dcterms:title>
+        <rdfs:label xml:lang="en">sea_level_tide</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sea_name -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sea_name">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_name</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Name of the sea</dcterms:description>
+        <dcterms:title xml:lang="en">Name of the sea</dcterms:title>
+        <rdfs:label xml:lang="en">sea_name</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#sea_type -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#sea_type">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#General"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_type</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">string</hasDataType>
+        <dcterms:description xml:lang="en">Type of the sea</dcterms:description>
+        <dcterms:title xml:lang="en">Type of the sea</dcterms:title>
+        <rdfs:label xml:lang="en">sea_type</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -7282,6 +7494,20 @@
         <dcterms:description xml:lang="en">sea surface elevation</dcterms:description>
         <dcterms:title xml:lang="en">Sea surface elevation</dcterms:title>
         <rdfs:label xml:lang="en">ssh</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sea_surface_elevation_residual</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">sea surface elevation residual</dcterms:description>
+        <dcterms:title xml:lang="en">Sea surface elevation residual</dcterms:title>
+        <rdfs:label xml:lang="en">ssh_residual</rdfs:label>
     </owl:NamedIndividual>
     
 

@@ -43,6 +43,12 @@
     "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#uo"
   } ]
 }, {
+  "@id" : "http://mmisw.org/ont/cf/parameter/global_average_sea_level_change",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#gmsl"
+  } ]
+}, {
   "@id" : "http://mmisw.org/ont/cf/parameter/land_binary_mask",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
@@ -1294,6 +1300,78 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "ban situation"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#band_1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Latitude band (90N-23.6N, 30% of global area annual anomalies computed from land and ocean data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Latitude band 1 annual anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "latitude_band_1_anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "band 1"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#band_2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Latitude band (23.6N-23.6S, 40% of global area annual anomalies computed from land and ocean data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Latitude band 2 annual anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "latitude_band_2_anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "band 2"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#band_3",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Latitude band (23.6S-90S, 30% of global area annual anomalies computed from land and ocean data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Latitude band 3 annual anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "latitude_band_3_anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "band 3"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority",
@@ -4510,6 +4588,30 @@
     "@value" : "global_assessment"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#gmsl",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Global average absolute sea level change"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Global average sea level change"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "percentage"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "global_average_sea_level_change"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "gmsl"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Ports", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -5405,6 +5507,27 @@
     "@value" : "impactcode"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#implementation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Implementation action for the ecological area"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Implementation action"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "implementation"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "implementation"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -5775,6 +5898,54 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "iucn_cat"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#land",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Global annual anomalies computed from land data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Land data"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "land_data"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "land"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Global annual anomalies computed from land and ocean data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Land and ocean data"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "land_and_ocean_data"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "land and ocean"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight",
@@ -7173,6 +7344,30 @@
     "@value" : "motivation"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#n_hem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Northern hemisphere annual anomalies computed from land and ocean data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Northern hemisphere annual anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "northern_hemisphere_anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "n hem"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#name",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -7506,6 +7701,27 @@
   } ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
     "@id" : "https://mmisw.org/ont/cf/parameter/mole_concentration_of_dissolved_molecular_oxygen_in_sea_water"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#objectid",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The identifier of the record"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "The identifier of the record"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "object_id"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "objectid"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#occurrence",
@@ -9271,6 +9487,27 @@
     "@value" : "region_index"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Relative sea water pressure"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Relative sea water pressure"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "relative_pressure"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "relative_pressure"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#relh",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -9535,6 +9772,30 @@
     "@value" : "rot"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#s_hem",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Southern hemisphere annual anomalies computed from land and ocean data"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Southern hemisphere annual anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "southern_hemisphere_anomalies"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "s hem"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -9668,6 +9929,69 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "sea_level_1_quality_flag"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#Surface", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Sea level tide"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Sea level tide"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_level_tide"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sea_level_tide"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_name",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Name of the sea"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Name of the sea"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_name"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sea_name"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_type",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#General", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Type of the sea"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Type of the sea"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_type"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "sea_type"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor",
@@ -10685,6 +11009,27 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "ssh"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "sea surface elevation residual"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Sea surface elevation residual"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sea_surface_elevation_residual"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "ssh_residual"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#sss1",

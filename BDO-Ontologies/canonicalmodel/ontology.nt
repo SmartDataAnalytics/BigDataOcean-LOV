@@ -204,6 +204,10 @@
 <http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#u> .
 <http://mmisw.org/ont/cf/parameter/eastward_sea_water_velocity> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#uo> .
 # 
+# http://mmisw.org/ont/cf/parameter/global_average_sea_level_change
+<http://mmisw.org/ont/cf/parameter/global_average_sea_level_change> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/global_average_sea_level_change> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> .
+# 
 # http://mmisw.org/ont/cf/parameter/land_binary_mask
 <http://mmisw.org/ont/cf/parameter/land_binary_mask> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/land_binary_mask> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#mask> .
@@ -741,6 +745,39 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://purl.org/dc/terms/description> "The current situation of banning"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://purl.org/dc/terms/title> "Ban situation"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ban_situation> <http://www.w3.org/2000/01/rdf-schema#label> "ban situation"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#band_1
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "latitude_band_1_anomalies" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://purl.org/dc/terms/description> "Latitude band (90N-23.6N, 30% of global area annual anomalies computed from land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://purl.org/dc/terms/title> "Latitude band 1 annual anomalies"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_1> <http://www.w3.org/2000/01/rdf-schema#label> "band 1"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#band_2
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "latitude_band_2_anomalies" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://purl.org/dc/terms/description> "Latitude band (23.6N-23.6S, 40% of global area annual anomalies computed from land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://purl.org/dc/terms/title> "Latitude band 2 annual anomalies"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_2> <http://www.w3.org/2000/01/rdf-schema#label> "band 2"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#band_3
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "latitude_band_3_anomalies" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://purl.org/dc/terms/description> "Latitude band (23.6S-90S, 30% of global area annual anomalies computed from land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://purl.org/dc/terms/title> "Latitude band 3 annual anomalies"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#band_3> <http://www.w3.org/2000/01/rdf-schema#label> "band 3"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority
 <http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -2244,6 +2281,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#global_assessment> <http://purl.org/dc/terms/title> "Global assessment"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#global_assessment> <http://www.w3.org/2000/01/rdf-schema#label> "global_assessment"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#gmsl
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "percentage" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "global_average_sea_level_change" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://purl.org/dc/terms/description> "Global average absolute sea level change"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://purl.org/dc/terms/title> "Global average sea level change"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#gmsl> <http://www.w3.org/2000/01/rdf-schema#label> "gmsl"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground
 <http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Ports> .
@@ -2650,6 +2698,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#impactcode> <http://purl.org/dc/terms/title> "Impact code"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#impactcode> <http://www.w3.org/2000/01/rdf-schema#label> "impactcode"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#implementation
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "implementation" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://purl.org/dc/terms/description> "Implementation action for the ecological area"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://purl.org/dc/terms/title> "Implementation action"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#implementation> <http://www.w3.org/2000/01/rdf-schema#label> "implementation"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus
 <http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphericChemestry> .
@@ -2824,6 +2882,28 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://purl.org/dc/terms/description> "IUCN Management Category"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://purl.org/dc/terms/title> "IUCN category"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#iucn_cat> <http://www.w3.org/2000/01/rdf-schema#label> "iucn_cat"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#land
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "land_data" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://purl.org/dc/terms/description> "Global annual anomalies computed from land data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://purl.org/dc/terms/title> "Land data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land> <http://www.w3.org/2000/01/rdf-schema#label> "land"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "land_and_ocean_data" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://purl.org/dc/terms/description> "Global annual anomalies computed from land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://purl.org/dc/terms/title> "Land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean> <http://www.w3.org/2000/01/rdf-schema#label> "land and ocean"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight
 <http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -3478,6 +3558,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#motivation> <http://purl.org/dc/terms/title> "Motivation"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#motivation> <http://www.w3.org/2000/01/rdf-schema#label> "motivation"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#n_hem
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "northern_hemisphere_anomalies" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://purl.org/dc/terms/description> "Northern hemisphere annual anomalies computed from land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://purl.org/dc/terms/title> "Northern hemisphere annual anomalies"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#n_hem> <http://www.w3.org/2000/01/rdf-schema#label> "n hem"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#name
 <http://www.bigdataocean.eu/standards/canonicalmodel#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -3634,6 +3725,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://purl.org/dc/terms/description> "Mole Concentration of Dissolved Oxygen in Sea Water"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://purl.org/dc/terms/title> "Dissolved oxygen concentration"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#o2> <http://www.w3.org/2000/01/rdf-schema#label> "o2"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#objectid
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "object_id" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "integer" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://purl.org/dc/terms/description> "The identifier of the record"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://purl.org/dc/terms/title> "The identifier of the record"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#objectid> <http://www.w3.org/2000/01/rdf-schema#label> "objectid"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#occurrence
 <http://www.bigdataocean.eu/standards/canonicalmodel#occurrence> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4463,6 +4564,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#region_index> <http://purl.org/dc/terms/title> "Region index"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#region_index> <http://www.w3.org/2000/01/rdf-schema#label> "region_index"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "relative_pressure" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://purl.org/dc/terms/description> "Relative sea water pressure"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://purl.org/dc/terms/title> "Relative sea water pressure"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure> <http://www.w3.org/2000/01/rdf-schema#label> "relative_pressure"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#relh
 <http://www.bigdataocean.eu/standards/canonicalmodel#relh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#relh> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Hydrology> .
@@ -4587,6 +4698,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#rot> <http://purl.org/dc/terms/title> "ROT"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#rot> <http://www.w3.org/2000/01/rdf-schema#label> "rot"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#s_hem
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "southern_hemisphere_anomalies" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://purl.org/dc/terms/description> "Southern hemisphere annual anomalies computed from land and ocean data"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://purl.org/dc/terms/title> "Southern hemisphere annual anomalies"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#s_hem> <http://www.w3.org/2000/01/rdf-schema#label> "s hem"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference
 <http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
@@ -4649,6 +4771,36 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://purl.org/dc/terms/description> "Sea level quality flag"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://purl.org/dc/terms/title> "Sea level quality flag"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_1_quality_flag> <http://www.w3.org/2000/01/rdf-schema#label> "sea_level_1_quality_flag"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Surface> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_level_tide" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://purl.org/dc/terms/description> "Sea level tide"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://purl.org/dc/terms/title> "Sea level tide"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide> <http://www.w3.org/2000/01/rdf-schema#label> "sea_level_tide"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sea_name
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_name" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://purl.org/dc/terms/description> "Name of the sea"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://purl.org/dc/terms/title> "Name of the sea"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_name> <http://www.w3.org/2000/01/rdf-schema#label> "sea_name"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#sea_type
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#General> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_type" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "string" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://purl.org/dc/terms/description> "Type of the sea"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://purl.org/dc/terms/title> "Type of the sea"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#sea_type> <http://www.w3.org/2000/01/rdf-schema#label> "sea_type"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor
 <http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -5126,6 +5278,16 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://purl.org/dc/terms/description> "sea surface elevation"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://purl.org/dc/terms/title> "Sea surface elevation"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#ssh1> <http://www.w3.org/2000/01/rdf-schema#label> "ssh"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sea_surface_elevation_residual" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://purl.org/dc/terms/description> "sea surface elevation residual"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://purl.org/dc/terms/title> "Sea surface elevation residual"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual> <http://www.w3.org/2000/01/rdf-schema#label> "ssh_residual"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#sss1
 <http://www.bigdataocean.eu/standards/canonicalmodel#sss1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

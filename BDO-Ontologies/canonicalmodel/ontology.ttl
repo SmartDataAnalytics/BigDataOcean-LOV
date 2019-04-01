@@ -231,6 +231,11 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                                            :uo .
 
 
+###  http://mmisw.org/ont/cf/parameter/global_average_sea_level_change
+<http://mmisw.org/ont/cf/parameter/global_average_sea_level_change> rdf:type owl:NamedIndividual ;
+                                                                    owl:sameAs :gmsl .
+
+
 ###  http://mmisw.org/ont/cf/parameter/land_binary_mask
 <http://mmisw.org/ont/cf/parameter/land_binary_mask> rdf:type owl:NamedIndividual ;
                                                      owl:sameAs :mask .
@@ -842,6 +847,42 @@ rdf:type rdf:type owl:AnnotationProperty .
                <http://purl.org/dc/terms/description> "The current situation of banning"@en ;
                <http://purl.org/dc/terms/title> "Ban situation"@en ;
                rdfs:label "ban situation"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#band_1
+:band_1 rdf:type owl:NamedIndividual ,
+                 :OceanObservations ,
+                 :Variable ;
+        :canonicalUnit "degrees C" ;
+        :hasCanonicalName "latitude_band_1_anomalies" ;
+        :hasDataType "double" ;
+        <http://purl.org/dc/terms/description> "Latitude band (90N-23.6N, 30% of global area annual anomalies computed from land and ocean data"@en ;
+        <http://purl.org/dc/terms/title> "Latitude band 1 annual anomalies"@en ;
+        rdfs:label "band 1"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#band_2
+:band_2 rdf:type owl:NamedIndividual ,
+                 :OceanObservations ,
+                 :Variable ;
+        :canonicalUnit "degrees C" ;
+        :hasCanonicalName "latitude_band_2_anomalies" ;
+        :hasDataType "double" ;
+        <http://purl.org/dc/terms/description> "Latitude band (23.6N-23.6S, 40% of global area annual anomalies computed from land and ocean data"@en ;
+        <http://purl.org/dc/terms/title> "Latitude band 2 annual anomalies"@en ;
+        rdfs:label "band 2"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#band_3
+:band_3 rdf:type owl:NamedIndividual ,
+                 :OceanObservations ,
+                 :Variable ;
+        :canonicalUnit "degrees C" ;
+        :hasCanonicalName "latitude_band_3_anomalies" ;
+        :hasDataType "double" ;
+        <http://purl.org/dc/terms/description> "Latitude band (23.6S-90S, 30% of global area annual anomalies computed from land and ocean data"@en ;
+        <http://purl.org/dc/terms/title> "Latitude band 3 annual anomalies"@en ;
+        rdfs:label "band 3"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#banning_authority
@@ -2491,6 +2532,18 @@ rdf:type rdf:type owl:AnnotationProperty .
                    rdfs:label "global_assessment"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#gmsl
+:gmsl rdf:type owl:NamedIndividual ,
+               :Surface ,
+               :Variable ;
+      :canonicalUnit "percentage" ;
+      :hasCanonicalName "global_average_sea_level_change" ;
+      :hasDataType "double" ;
+      <http://purl.org/dc/terms/description> "Global average absolute sea level change"@en ;
+      <http://purl.org/dc/terms/title> "Global average sea level change"@en ;
+      rdfs:label "gmsl"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#good_holding_ground
 :good_holding_ground rdf:type owl:NamedIndividual ,
                               :Ports ,
@@ -2936,6 +2989,17 @@ rdf:type rdf:type owl:AnnotationProperty .
             rdfs:label "impactcode"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#implementation
+:implementation rdf:type owl:NamedIndividual ,
+                         :General ,
+                         :Variable ;
+                :hasCanonicalName "implementation" ;
+                :hasDataType "string" ;
+                <http://purl.org/dc/terms/description> "Implementation action for the ecological area"@en ;
+                <http://purl.org/dc/terms/title> "Implementation action"@en ;
+                rdfs:label "implementation"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#inorganic_phosphorus
 :inorganic_phosphorus rdf:type owl:NamedIndividual ,
                                :AtmosphericChemestry ,
@@ -3126,6 +3190,30 @@ rdf:type rdf:type owl:AnnotationProperty .
           <http://purl.org/dc/terms/description> "IUCN Management Category"@en ;
           <http://purl.org/dc/terms/title> "IUCN category"@en ;
           rdfs:label "iucn_cat"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#land
+:land rdf:type owl:NamedIndividual ,
+               :Surface ,
+               :Variable ;
+      :canonicalUnit "degrees C" ;
+      :hasCanonicalName "land_data" ;
+      :hasDataType "double" ;
+      <http://purl.org/dc/terms/description> "Global annual anomalies computed from land data"@en ;
+      <http://purl.org/dc/terms/title> "Land data"@en ;
+      rdfs:label "land"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#land_and_ocean
+:land_and_ocean rdf:type owl:NamedIndividual ,
+                         :Surface ,
+                         :Variable ;
+                :canonicalUnit "degrees C" ;
+                :hasCanonicalName "land_and_ocean_data" ;
+                :hasDataType "double" ;
+                <http://purl.org/dc/terms/description> "Global annual anomalies computed from land and ocean data"@en ;
+                <http://purl.org/dc/terms/title> "Land and ocean data"@en ;
+                rdfs:label "land and ocean"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#landed_weight
@@ -3844,6 +3932,18 @@ rdf:type rdf:type owl:AnnotationProperty .
             rdfs:label "motivation"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#n_hem
+:n_hem rdf:type owl:NamedIndividual ,
+                :OceanObservations ,
+                :Variable ;
+       :canonicalUnit "degrees C" ;
+       :hasCanonicalName "northern_hemisphere_anomalies" ;
+       :hasDataType "double" ;
+       <http://purl.org/dc/terms/description> "Northern hemisphere annual anomalies computed from land and ocean data"@en ;
+       <http://purl.org/dc/terms/title> "Northern hemisphere annual anomalies"@en ;
+       rdfs:label "n hem"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#name
 :name rdf:type owl:NamedIndividual ,
                :General ,
@@ -4014,6 +4114,17 @@ rdf:type rdf:type owl:AnnotationProperty .
     <http://purl.org/dc/terms/description> "Mole Concentration of Dissolved Oxygen in Sea Water"@en ;
     <http://purl.org/dc/terms/title> "Dissolved oxygen concentration"@en ;
     rdfs:label "o2"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#objectid
+:objectid rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "object_id" ;
+          :hasDataType "integer" ;
+          <http://purl.org/dc/terms/description> "The identifier of the record"@en ;
+          <http://purl.org/dc/terms/title> "The identifier of the record"@en ;
+          rdfs:label "objectid"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#occurrence
@@ -4924,6 +5035,17 @@ rdf:type rdf:type owl:AnnotationProperty .
               rdfs:label "region_index"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#relative_pressure
+:relative_pressure rdf:type owl:NamedIndividual ,
+                            :Hydrology ,
+                            :Variable ;
+                   :hasCanonicalName "relative_pressure" ;
+                   :hasDataType "double" ;
+                   <http://purl.org/dc/terms/description> "Relative sea water pressure"@en ;
+                   <http://purl.org/dc/terms/title> "Relative sea water pressure"@en ;
+                   rdfs:label "relative_pressure"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#relh
 :relh rdf:type owl:NamedIndividual ,
                :Hydrology ,
@@ -5060,6 +5182,18 @@ rdf:type rdf:type owl:AnnotationProperty .
      rdfs:label "rot"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#s_hem
+:s_hem rdf:type owl:NamedIndividual ,
+                :OceanObservations ,
+                :Variable ;
+       :canonicalUnit "degrees C" ;
+       :hasCanonicalName "southern_hemisphere_anomalies" ;
+       :hasDataType "double" ;
+       <http://purl.org/dc/terms/description> "Southern hemisphere annual anomalies computed from land and ocean data"@en ;
+       <http://purl.org/dc/terms/title> "Southern hemisphere annual anomalies"@en ;
+       rdfs:label "s hem"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#sac_legal_reference
 :sac_legal_reference rdf:type owl:NamedIndividual ,
                               :General ,
@@ -5127,6 +5261,39 @@ rdf:type rdf:type owl:AnnotationProperty .
                           <http://purl.org/dc/terms/description> "Sea level quality flag"@en ;
                           <http://purl.org/dc/terms/title> "Sea level quality flag"@en ;
                           rdfs:label "sea_level_1_quality_flag"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_level_tide
+:sea_level_tide rdf:type owl:NamedIndividual ,
+                         :Surface ,
+                         :Variable ;
+                :hasCanonicalName "sea_level_tide" ;
+                :hasDataType "double" ;
+                <http://purl.org/dc/terms/description> "Sea level tide"@en ;
+                <http://purl.org/dc/terms/title> "Sea level tide"@en ;
+                rdfs:label "sea_level_tide"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_name
+:sea_name rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "sea_name" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Name of the sea"@en ;
+          <http://purl.org/dc/terms/title> "Name of the sea"@en ;
+          rdfs:label "sea_name"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_type
+:sea_type rdf:type owl:NamedIndividual ,
+                   :General ,
+                   :Variable ;
+          :hasCanonicalName "sea_type" ;
+          :hasDataType "string" ;
+          <http://purl.org/dc/terms/description> "Type of the sea"@en ;
+          <http://purl.org/dc/terms/title> "Type of the sea"@en ;
+          rdfs:label "sea_type"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#sea_water_potential_temperature_at_sea_floor
@@ -5650,6 +5817,17 @@ rdf:type rdf:type owl:AnnotationProperty .
       <http://purl.org/dc/terms/description> "sea surface elevation"@en ;
       <http://purl.org/dc/terms/title> "Sea surface elevation"@en ;
       rdfs:label "ssh"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#ssh_residual
+:ssh_residual rdf:type owl:NamedIndividual ,
+                       :OceanObservations ,
+                       :Variable ;
+              :hasCanonicalName "sea_surface_elevation_residual" ;
+              :hasDataType "double" ;
+              <http://purl.org/dc/terms/description> "sea surface elevation residual"@en ;
+              <http://purl.org/dc/terms/title> "Sea surface elevation residual"@en ;
+              rdfs:label "ssh_residual"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#sss1
