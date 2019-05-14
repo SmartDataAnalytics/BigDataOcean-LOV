@@ -205,6 +205,11 @@ rdf:type rdf:type owl:AnnotationProperty .
                                                    owl:sameAs :age_of_sea_ice .
 
 
+###  http://mmisw.org/ont/cf/parameter/air_pressure
+<http://mmisw.org/ont/cf/parameter/air_pressure> rdf:type owl:NamedIndividual ;
+                                                 owl:sameAs :press .
+
+
 ###  http://mmisw.org/ont/cf/parameter/beaufort_wind_force
 <http://mmisw.org/ont/cf/parameter/beaufort_wind_force> rdf:type owl:NamedIndividual ;
                                                         owl:sameAs :wind_force .
@@ -1778,6 +1783,30 @@ rdf:type rdf:type owl:AnnotationProperty .
              <http://purl.org/dc/terms/description> "Ship destination"@en ;
              <http://purl.org/dc/terms/title> "Destination port"@en ;
              rdfs:label "destination"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#dew_point
+:dew_point rdf:type owl:NamedIndividual ,
+                    :OceanObservations ,
+                    :Variable ;
+           :canonicalUnit "degrees C" ;
+           :hasCanonicalName "dew_point" ;
+           :hasDataType "double" ;
+           <http://purl.org/dc/terms/description> "The dew point is the temperature to which air must be cooled to become saturated with water vapor"@en ;
+           <http://purl.org/dc/terms/title> "Dew point"@en ;
+           rdfs:label "dew point"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint
+:dewpoint rdf:type owl:NamedIndividual ,
+                   :OceanObservations ,
+                   :Variable ;
+          :canonicalUnit "degrees C" ;
+          :hasCanonicalName "dew_point" ;
+          :hasDataType "double" ;
+          <http://purl.org/dc/terms/description> "The dew point is the temperature to which air must be cooled to become saturated with water vapor"@en ;
+          <http://purl.org/dc/terms/title> "Dew point"@en ;
+          rdfs:label "dewpoint"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#diesel
@@ -4822,6 +4851,18 @@ rdf:type rdf:type owl:AnnotationProperty .
          rdfs:label "pres_qc"@en .
 
 
+###  http://www.bigdataocean.eu/standards/canonicalmodel#press
+:press rdf:type owl:NamedIndividual ,
+                :AtmosphereDynamics ,
+                :Variable ;
+       :canonicalUnit "Pa" ;
+       :hasCanonicalName "air_pressure" ;
+       :hasDataType "double" ;
+       <http://purl.org/dc/terms/description> "Air pressure"@en ;
+       <http://purl.org/dc/terms/title> "Air pressure"@en ;
+       rdfs:label "press"@en .
+
+
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type
 :priority_form_habitat_type rdf:type owl:NamedIndividual ,
                                      :MaritimeObservations ,
@@ -6896,6 +6937,18 @@ rdf:type rdf:type owl:AnnotationProperty .
     <http://purl.org/dc/terms/description> "Northward sea water velocity"@en ;
     <http://purl.org/dc/terms/title> "Northward sea water velocity"@en ;
     rdfs:label "vo"@en .
+
+
+###  http://www.bigdataocean.eu/standards/canonicalmodel#volt
+:volt rdf:type owl:NamedIndividual ,
+               :OceanObservations ,
+               :Variable ;
+      :canonicalUnit "volt" ;
+      :hasCanonicalName "sensor_voltage" ;
+      :hasDataType "double" ;
+      <http://purl.org/dc/terms/description> "Sensor voltage"@en ;
+      <http://purl.org/dc/terms/title> "Sensor voltage"@en ;
+      rdfs:label "volt"@en .
 
 
 ###  http://www.bigdataocean.eu/standards/canonicalmodel#voyage_no

@@ -364,6 +364,15 @@
     
 
 
+    <!-- http://mmisw.org/ont/cf/parameter/air_pressure -->
+
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/air_pressure">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#press"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mmisw.org/ont/cf/parameter/beaufort_wind_force -->
 
 
@@ -2587,6 +2596,38 @@
         <terms:description xml:lang="en">Ship destination</terms:description>
         <terms:title xml:lang="en">Destination port</terms:title>
         <rdfs:label xml:lang="en">destination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dew_point -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dew_point">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>degrees C</canonicalUnit>
+        <hasCanonicalName>dew_point</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">The dew point is the temperature to which air must be cooled to become saturated with water vapor</terms:description>
+        <terms:title xml:lang="en">Dew point</terms:title>
+        <rdfs:label xml:lang="en">dew point</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>degrees C</canonicalUnit>
+        <hasCanonicalName>dew_point</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">The dew point is the temperature to which air must be cooled to become saturated with water vapor</terms:description>
+        <terms:title xml:lang="en">Dew point</terms:title>
+        <rdfs:label xml:lang="en">dewpoint</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6701,6 +6742,22 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#press -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#press">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>Pa</canonicalUnit>
+        <hasCanonicalName>air_pressure</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Air pressure</terms:description>
+        <terms:title xml:lang="en">Air pressure</terms:title>
+        <rdfs:label xml:lang="en">press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type -->
 
 
@@ -9497,6 +9554,22 @@
         <terms:description xml:lang="en">Northward sea water velocity</terms:description>
         <terms:title xml:lang="en">Northward sea water velocity</terms:title>
         <rdfs:label xml:lang="en">vo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#volt -->
+
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#volt">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit>volt</canonicalUnit>
+        <hasCanonicalName>sensor_voltage</hasCanonicalName>
+        <hasDataType>double</hasDataType>
+        <terms:description xml:lang="en">Sensor voltage</terms:description>
+        <terms:title xml:lang="en">Sensor voltage</terms:title>
+        <rdfs:label xml:lang="en">volt</rdfs:label>
     </owl:NamedIndividual>
     
 

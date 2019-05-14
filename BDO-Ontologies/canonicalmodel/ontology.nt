@@ -183,6 +183,10 @@
 <http://mmisw.org/ont/cf/parameter/age_of_sea_ice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/age_of_sea_ice> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice> .
 # 
+# http://mmisw.org/ont/cf/parameter/air_pressure
+<http://mmisw.org/ont/cf/parameter/air_pressure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://mmisw.org/ont/cf/parameter/air_pressure> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#press> .
+# 
 # http://mmisw.org/ont/cf/parameter/beaufort_wind_force
 <http://mmisw.org/ont/cf/parameter/beaufort_wind_force> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://mmisw.org/ont/cf/parameter/beaufort_wind_force> <http://www.w3.org/2002/07/owl#sameAs> <http://www.bigdataocean.eu/standards/canonicalmodel#wind_force> .
@@ -1594,6 +1598,28 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#destination> <http://purl.org/dc/terms/description> "Ship destination"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#destination> <http://purl.org/dc/terms/title> "Destination port"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#destination> <http://www.w3.org/2000/01/rdf-schema#label> "destination"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#dew_point
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "dew_point" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://purl.org/dc/terms/description> "The dew point is the temperature to which air must be cooled to become saturated with water vapor"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://purl.org/dc/terms/title> "Dew point"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dew_point> <http://www.w3.org/2000/01/rdf-schema#label> "dew point"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "degrees C" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "dew_point" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://purl.org/dc/terms/description> "The dew point is the temperature to which air must be cooled to become saturated with water vapor"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://purl.org/dc/terms/title> "Dew point"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint> <http://www.w3.org/2000/01/rdf-schema#label> "dewpoint"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#diesel
 <http://www.bigdataocean.eu/standards/canonicalmodel#diesel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
@@ -4370,6 +4396,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#pres_qc> <http://purl.org/dc/terms/title> "Sea water pressure quality flag"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#pres_qc> <http://www.w3.org/2000/01/rdf-schema#label> "pres_qc"@en .
 # 
+# http://www.bigdataocean.eu/standards/canonicalmodel#press
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "Pa" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "air_pressure" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://purl.org/dc/terms/description> "Air pressure"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://purl.org/dc/terms/title> "Air pressure"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#press> <http://www.w3.org/2000/01/rdf-schema#label> "press"@en .
+# 
 # http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type
 <http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
 <http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations> .
@@ -6264,6 +6301,17 @@
 <http://www.bigdataocean.eu/standards/canonicalmodel#vo> <http://purl.org/dc/terms/description> "Northward sea water velocity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vo> <http://purl.org/dc/terms/title> "Northward sea water velocity"@en .
 <http://www.bigdataocean.eu/standards/canonicalmodel#vo> <http://www.w3.org/2000/01/rdf-schema#label> "vo"@en .
+# 
+# http://www.bigdataocean.eu/standards/canonicalmodel#volt
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.bigdataocean.eu/standards/canonicalmodel#Variable> .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit> "volt" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName> "sensor_voltage" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType> "double" .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://purl.org/dc/terms/description> "Sensor voltage"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://purl.org/dc/terms/title> "Sensor voltage"@en .
+<http://www.bigdataocean.eu/standards/canonicalmodel#volt> <http://www.w3.org/2000/01/rdf-schema#label> "volt"@en .
 # 
 # http://www.bigdataocean.eu/standards/canonicalmodel#voyage_no
 <http://www.bigdataocean.eu/standards/canonicalmodel#voyage_no> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .

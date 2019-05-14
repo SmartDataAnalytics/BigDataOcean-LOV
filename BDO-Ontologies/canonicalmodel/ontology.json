@@ -11,6 +11,12 @@
     "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#age_of_sea_ice"
   } ]
 }, {
+  "@id" : "http://mmisw.org/ont/cf/parameter/air_pressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.w3.org/2002/07/owl#sameAs" : [ {
+    "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#press"
+  } ]
+}, {
   "@id" : "http://mmisw.org/ont/cf/parameter/beaufort_wind_force",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
   "http://www.w3.org/2002/07/owl#sameAs" : [ {
@@ -3123,6 +3129,54 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "destination"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#dew_point",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The dew point is the temperature to which air must be cooled to become saturated with water vapor"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Dew point"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "dew_point"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dew point"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "The dew point is the temperature to which air must be cooled to become saturated with water vapor"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Dew point"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "degrees C"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "dew_point"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "dewpoint"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#diesel",
@@ -9077,6 +9131,30 @@
     "@value" : "pres_qc"
   } ]
 }, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#press",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Air pressure"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Air pressure"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "Pa"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "air_pressure"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "press"
+  } ]
+}, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type",
   "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#MaritimeObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
   "http://purl.org/dc/terms/description" : [ {
@@ -13121,6 +13199,30 @@
   "http://www.w3.org/2000/01/rdf-schema#label" : [ {
     "@language" : "en",
     "@value" : "vo"
+  } ]
+}, {
+  "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#volt",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations", "http://www.bigdataocean.eu/standards/canonicalmodel#Variable" ],
+  "http://purl.org/dc/terms/description" : [ {
+    "@language" : "en",
+    "@value" : "Sensor voltage"
+  } ],
+  "http://purl.org/dc/terms/title" : [ {
+    "@language" : "en",
+    "@value" : "Sensor voltage"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#canonicalUnit" : [ {
+    "@value" : "volt"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasCanonicalName" : [ {
+    "@value" : "sensor_voltage"
+  } ],
+  "http://www.bigdataocean.eu/standards/canonicalmodel#hasDataType" : [ {
+    "@value" : "double"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "volt"
   } ]
 }, {
   "@id" : "http://www.bigdataocean.eu/standards/canonicalmodel#voyage_no",

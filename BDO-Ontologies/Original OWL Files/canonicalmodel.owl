@@ -330,6 +330,14 @@
     
 
 
+    <!-- http://mmisw.org/ont/cf/parameter/air_pressure -->
+
+    <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/air_pressure">
+        <owl:sameAs rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#press"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://mmisw.org/ont/cf/parameter/beaufort_wind_force -->
 
     <owl:NamedIndividual rdf:about="http://mmisw.org/ont/cf/parameter/beaufort_wind_force">
@@ -2390,6 +2398,36 @@
         <dcterms:description xml:lang="en">Ship destination</dcterms:description>
         <dcterms:title xml:lang="en">Destination port</dcterms:title>
         <rdfs:label xml:lang="en">destination</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dew_point -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dew_point">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dew_point</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">The dew point is the temperature to which air must be cooled to become saturated with water vapor</dcterms:description>
+        <dcterms:title xml:lang="en">Dew point</dcterms:title>
+        <rdfs:label xml:lang="en">dew point</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#dewpoint">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">degrees C</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">dew_point</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">The dew point is the temperature to which air must be cooled to become saturated with water vapor</dcterms:description>
+        <dcterms:title xml:lang="en">Dew point</dcterms:title>
+        <rdfs:label xml:lang="en">dewpoint</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -6237,6 +6275,21 @@
     
 
 
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#press -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#press">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#AtmosphereDynamics"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pa</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">air_pressure</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Air pressure</dcterms:description>
+        <dcterms:title xml:lang="en">Air pressure</dcterms:title>
+        <rdfs:label xml:lang="en">press</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type -->
 
     <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#priority_form_habitat_type">
@@ -8852,6 +8905,21 @@
         <dcterms:description xml:lang="en">Northward sea water velocity</dcterms:description>
         <dcterms:title xml:lang="en">Northward sea water velocity</dcterms:title>
         <rdfs:label xml:lang="en">vo</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.bigdataocean.eu/standards/canonicalmodel#volt -->
+
+    <owl:NamedIndividual rdf:about="http://www.bigdataocean.eu/standards/canonicalmodel#volt">
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#OceanObservations"/>
+        <rdf:type rdf:resource="http://www.bigdataocean.eu/standards/canonicalmodel#Variable"/>
+        <canonicalUnit rdf:datatype="http://www.w3.org/2001/XMLSchema#string">volt</canonicalUnit>
+        <hasCanonicalName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensor_voltage</hasCanonicalName>
+        <hasDataType rdf:datatype="http://www.w3.org/2001/XMLSchema#string">double</hasDataType>
+        <dcterms:description xml:lang="en">Sensor voltage</dcterms:description>
+        <dcterms:title xml:lang="en">Sensor voltage</dcterms:title>
+        <rdfs:label xml:lang="en">volt</rdfs:label>
     </owl:NamedIndividual>
     
 
